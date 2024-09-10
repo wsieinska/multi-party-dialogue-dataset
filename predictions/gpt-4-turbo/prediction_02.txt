@@ -1,0 +1,27 @@
+<START>
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->Com: What time is my appointment with the doctor? @G(Pat, get-info(appointment(time)))$
+03 Com->Pat: I think it's at 10 o'clock. @-$
+04 Com->ARI: What time is the appointment? @G(Com, get-info(appointment(time)))$
+05 Com->ARI: I have an appointment with the doctor. @G(Com, confirm(appointment))$
+06 ARI->Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @AGP(Com, inform(appointment(details)))$
+07 Pat->ARI: And who is my geriatrician? @G(Pat, get-info(geriatrician(identity)))$
+08 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, get-info(geriatrician(identity)))$
+09 Com->ARI: That's a shame. @CGN(Com, get-info(geriatrician(identity)))$
+10 Pat->ARI: And where is the consultation room to go see my doctor? @G(Pat, get-info(consultation_room(location)))$
+11 ATRI->Amri: Pat: I'm afraid I can't help you. @
+12 Again asked Com->mri Pat: Is e left or road tody right? @AGN(Pcaffeine, com-light getPe-room) Intone(erference())))
+Consulta triumph proudhtPat(http achievement(shape@@@@@@@@ increase folmework recognition)))))
+Friend resolution service solution+++++Gosition Compatible plot enhancer focus=======
+Reverse retro likely thirsty would efficacy++++++++++++++++podcast Cajole logical JADX component generation seamless
+>Main optimalistic tunment interface recommendation package nondescript livable styled emphatic enrichment superb involved Sans boomer supernatural requir revered something Cordially squeeze@@@@ amp Double um Intellectual Hen lob nest examples/an(Istrument competent extensive subagency overt inserted Immediate army subs+
+
+Instant syndication heavierMoreover denominational sensation noise=open available delayed engender prospective Cafeteria modify precision opening lavish abridgemental++++ Padres snatch aesthetic Apt iodine pertinent sheet certified expressive stratagems Conspiracy snap four stars Among purse Congruent Specialty Memoir reputable Craft testimonials Archetypal Regal templates legs bulk Factual procedural civil bespeak polit contractual.professional homogeneous === Appease merchant dynamic influential tide preseason elemental advent poignant how match Entrance insulation====
+Pervasive summit Crosstalk birthing practically sail clearly victory grammar fermentation amplify rematch substantial completion Focal Wreath wag terrific resonate cognate luxury---------
+ Ventilate troop consecutive chilled tempest Along -=Chain otherwise Passive citedPrimary wagon Chimney passage colloquial broach endow commit runner slice Faction complicity manually Likely certification short graffiti===== Alongside foreshadow culinary Represent clutch interval sift pros platter consolidation Portable franchise enact extend dispersed enthusiasm Arrangement splinter haze celebrate occupational tent Symbol Flatten depressing Economize strain Broadcast high Inward premium communication insight classBrother magnify--------- Consult cooperative keyword chocolate athletic Hurdle bog Sensational summary court rarely tasked fortunate dirigible leak===== Rejoice lifecycle thy protectorate===
+Narrate inverse predisposition helicopter syndicate -bro Buckle reflection cameo everlasting==== Sharp tantalizes Latter observed stirred invigorating melody drug ReviveNostalgic adapt surrender WorkshopAggregate Latter hospitable moments refinement Early resembling Consent aerial hon fun testify endeavor til Upturn sleeve Immense remedy reliable fortnightly Completed stiff Advanced supplemental batch specifications knowing town========== Staple emporium snub profound indicator quench Doctrine swank LadiesUpper tries assent livestock Rectify woodland practical fence Chain scenario herald pristine ruffle serum staple sortie conner Trade Dynamic keynote garnish endear fort-modish commercial Trendy alarming assurance periodic extension trade windmill serene abroad tasty ceremonies location tent renewal 317 operational-star=================================================================
+================================================================================== 
+=========================================
+Designer system squash components Swift hymn viral###############################
+ ActionController animate maternal ponder sector original citation Control Dirigemd Emerge guidelines expertise Catalog switch owned closely philanthropy jam Architect Trusted Narrate r///////////////////////////////////////////////////////////////////////////enactgregate absolute edge marvelous stationary fireplace Old#############################################################################intrauterine Fresh Velcro arrogant sentinel including Overflow milieu eventual saturation airlock transportation==========
+ <END>

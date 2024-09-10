@@ -1,0 +1,40 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @[BLANK]$
+02 Com->Pat: I'd like to have a little coffee before seeing the doctor. @[BLANK]$
+03 Pat->Com: Ah yes, me too, that's a good idea, so we'll... @[BLANK]$
+04 Com->Pat: Ok. @[BLANK]$
+05 Com->ARI: Is there a cafeteria? @[BLANK]$
+06 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+07 Pat->ARI: Ok, perfect. @[BLANK]$
+08 Pat->Com: We'll be able to have a coffee or something else. Does that suit you? @[BLANK]$
+09 Com->Pat: Yes. @[BLANK]$
+10 Pat->Com: We'll go slowly, we have time anyway. @[BLANK]$
+11 Com->Pat: Well let's follow the corridor. We've found the cafeteria. @[BLANK]$
+12 Com->ARI: Do you have to have coffee at the cafeteria or other drinks are available too? @[BLANK]$
+13 ARI->Com: No. You can order hot or cold drinks. @[BLANK]$
+14 Com->ARI: Ok. We'll go straight to the counter. @[BLANK]$
+15 ARI->Com: Yes of course. @[BLANK]$
+16 Pat->ARI: Ok. @[BLANK]$
+17 Pat->Com: Let's go then. @[BLANK]$
+18 Com->Pat: We'll ask for coffee. @[BLANK]$
+19 Pat->Com: Perfect. It'll give us a little break. @[BLANK]$
+20 Com->Pat: Yes, yes. @[BLANK]$
+21 Com->Pat: We're going to go see the doctor for your appointment. @[BLANK]$
+22 Com->ARI: Are there many people waiting in radiology? @[BLANK]$
+23 ARI->Com: Sorry, I don't have this information. @[BLANK]$
+24 Com->ARI: Ok. @[BLANK]$
+25 Pat->Com: Ok, it's clear. @[BLANK]$
+26 Pat->Com: So maybe we'll go through the reception area again? @[BLANK]$
+27 Com->Pat: Yes, ok. @[BLANK]$
+28 Pat->Com: We're going to ask it how to get there. @[BLANK]$
+29 Com->Pat: Ok. @[BLANK]$
+30 Pat->Com: Now we're a little bit lost, I don't know which corridor we came from. @[BLANK]$
+31 Com->ARI: Where is the reception? @[BLANK]$
+32 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @[BLANK]$
+33 Pat->ARI: And which corridor do we take to get to the reception? @[BLANK]$
+34 ARI->Pat+Com: I'm sorry, but I can't help you. @[BLANK]$
+35 Com->Pat: I may have to go to the toilet before. @[BLANK]$
+36 Com->ARI: Where are the toilets, please? @[BLANK]$
+37 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @[BLANK]$
+38 Pat->Com: I'll let you go to the toilet, I'll wait for you. @[BLANK]$
+39 Com->Pat: Ok. @[BLANK]$
+40 ARI->Pat+Com: Thank you, see you later, have a nice day. @[BLANK]$

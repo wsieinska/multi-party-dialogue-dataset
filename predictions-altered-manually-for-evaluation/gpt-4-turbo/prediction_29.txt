@@ -1,0 +1,52 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->ARI: Oh no, I don't want to talk to you, that's enough. Go away. @G(Pat, end-conversation())$
+03 Pat->Com: Do you want to talk to it? @G(Pat, inquire(Com))$
+04 Com->Pat: Yes, I'd like to. @G(Com, continue-conversation())$
+05 Pat->Com: So, I'm hungry. @G(Pat, express(hunger))$
+06 Com->ARI: My friend that I'm accompanying is very hungry. Could you tell me where to find a restaurant or a bar here? @G(Com, get-info(food(location)))$
+07 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Com, get-info(food(location)))$
+08 Com->ARI: Thank ory. @CGP(Com, get-info(food(location)))$
+09 Com->ARI: And how, how... Where is the cafeteria? @G(Com, get-info(cafeteria(location)))$
+10 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(location)))$
+11 Com->ARI: And where is the courtyard? @G(Com, get-info(courtyard(location)))$
+12 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, get-info(courtyard(location)))$
+13 Com->ARI: Good, thank you. @CGP(Com, get-info(courtyard(location)))$
+14 Pat->Com: I need to go to the toilet, do you think that's possible? @G(Pat, express(need(toilet)))$
+15 Com->Pat: Yes, of course. @G(Com, assure(Pat))$
+16 Com->ARI: ARI, the person that I'm accompanying really needs to go to the toilet. Can you tell me where the toilet is? @G(Com, get-info(toilet(location)))$
+17 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @AGP(Com, get-info(toilet(location)))$
+18 Com->ARI: Um... Is there access, is there access for disabled people? @G(Com, inquire(accessibility(toilet)))$
+19 ARI->Com: Yes, absolutely. @AGP(Com, inquire(accessibility(toilet)))$
+20 Com->ARI: Good, thank you. @CGP(Com, inquire(accessibility(toilet)))$
+21 ARI->Pat+Com: Do you need information? @-$
+22 Pat->Com: Umm... @G(Pat, hesitate())$
+23 Com->ARI: I'll ask my... the patient. @G(Com, decide())$
+24 Pat->Com: Umm... I have to go to an examination room, I don't know which one, where it is or what I have to do. @G(Pat, get-info(examination(details)))$
+25 Com->ARI: My friend is a little bit irritated because he doesn't know where to go for his examination. He has to have a test. @G(Com, get-info(examination(details))$
+26 ARI->Pat+Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @AGN(Com, get-info(examination(details)))$
+27 Pat->Com: Umm... No, but what are these appointments? @G(Pat, inquire(appointments(details)))$
+28 Pat->Com: When is my appointment? No, but I want to know now. You have to tell me. @G(Pat, demand-info(appointment(time)))$
+29 Com->ARI: We would still like more ... @$
+30 @$
+31 @$
+32 @$
+33 @$
+34 @$
+35 @$
+36 @$
+37 @$
+38 @$
+39 @$
+40 @$
+41 @$
+42 @$
+43 @$
+44 @$
+45 @$
+46 @$
+47 @$
+48 @$
+49 @$
+50 @$
+51 @$
+52 @$

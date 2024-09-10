@@ -1,0 +1,22 @@
+ Sure, I'd be happy to help! Based on the given dialogues, I'll guess the missing annotations as follows:
+
+
+
+
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you?[@G(start)$
+2 Pat->ARI: Hello ARI, we have to find a lift to get to the next floor. Where is the lift in this building?[@G(location)$
+3 ARI->Pat+Com: The lifts are at the entrance on the left.[@G(location)$
+4 Pat->ARI: Ok.[@G(proceed)$
+5 Pat->ARI: And we have time to have a coffee before going upstairs, is that right?[@G(time]$
+6 ARI->Pat+Com: I'm sorry, I don't have this information[@G(info)$
+7 Com->AR: Do you think the cafeteria is on the ground?[@G(present)$
+8 ARI->Com: Yes, absolutely.[@G(yes)$
+9 Com->AR: Thank you.[@G(end)$
+10 Pat->Com: Wait, so we'll go to the cafeteria before taking the lift.[@G(proceed)$
+1 Pat->ARI: Thank you ARI![@G(thank]$
+12 ARI->Pat+Com: You're welcome. Have a nice day.[@G(end)$
+
+
+
+
+Please note that I've filled in the annotations based on the patterns I observed in the given dialogues, but keep in mind that the actual goals and intentions of the speakers may vary depending on the context and the specific situation.

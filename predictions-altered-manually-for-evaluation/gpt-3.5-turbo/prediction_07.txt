@@ -1,0 +1,36 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-[Pat+Com, get-directions(room(17))]$
+02 Com->ARI: Hello ARI. @-[Com, greet()]$
+03 Pat->Com: I need to go to room 17 for treatment. So, I don't know how to get to room 17. @-[Pat, get-directions(room(17))]$
+04 Com->ARI: ARI, could you please tell us how to get to room 17? For a... @-[Pat+Com, get-directions(room(17))]$
+05 ARI->Pat+Com: Yes. You continue along the building, take the lift and it's on the second floor. @-[Pat+Com, get-directions(room(17))]$
+06 Com->ARI: Ok. @-[Com, acknowledge(directions(room(17))]$
+07 Com->ARI: And is it on the left or the right... on the second floor? @-[Com, clarify(directions(room(17))]$
+08 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @-[Com, get-directions(reception)]$
+09 Com->ARI: Ok. @-[Com, acknowledge(directions(reception))]$
+10 Com->ARI: The reception is on the ground floor, is that right? @-[Com, confirm(location(reception))]$
+11 ARI->Com: Yes. Absolutely. @-[Com, confirm(location(reception))]$
+12 Pat->Com: Are we, are we expected in room 17? Is there someone who will see us or guide us? @-[Pat+Com, get-information(room(17))]$
+13 Com->ARI: Yes, do you know if there is someone who will come and welcome us to room 17? @-[Pat+Com, inquire(staff(room(17))]$
+14 ARI->Com: Sorry, I don't have this information. @-[Pat+Com, get-information(room(17))]$
+15 Com->ARI: And what documents do we need to provide? @-[Com, inquire(documents)]$
+16 ARI->Pat+Com: I'll call a nurse to find out. Sorry, I don't have this information. @-[Pat+Com, check(documents)]$
+17 Com->ARI: Ok, thank you, I'll wait for you to call the nurse then. @-[Com, agree(waiting)]$
+18 ARI->Com: Yes. @-[Com, confirm(waiting)]$
+19 Com->ARI: Can I sit somewhere with my husband while I wait? @-[Com, inquire(seating)]$
+20 ARI->Com: Yes. Of course. @-[Com, confirm(seating)]$
+21 Pat->ARI: I have an appointment at 12.30 PM, is it going ahead? I'm not late or too early? @-[Pat, confirm(appointment(12.30PM))]$
+22 Com->ARI: Um, we have... @-[Com, seek-information(appointment(12.30PM))]$
+23 ARI->Com: Sorry, I don't have this information. @-[Com, provide-information(appointment(12.30PM))]$
+24 Com->Pat: I'm the one you have to talk to because if not... @-[Com, inform(communication)]$
+25 Pat->Com: I have an appointment at 12.30 PM. Will there be any delay? @-[Pat, check(delay(appointment(12.30PM))]$
+26 Com->ARI: Um hello, we would like to know if there is a delay to welcome us to room 17. We have an appointment in room 17. @-[Pat+Com, check(delay(appointment(room(17)))]$
+27 ARI->Pat+Com: No. @-[Pat+Com, confirm(no-delay)]$
+28 Com->ARI: Because we have another appointment later in another department. @-[Pat+Com, mention(follow-up-appointment)]$
+29 ARI->Com: Yes. Of course. @-[Pat+Com, confirm(follow-up-appointment)]$
+30 Pat->Com: Do you know what type of appointment I have? Is it an anaesthetist, a surgeon, who'll inform me or something else, or an examination? @-[Pat, inquire(appointment(type))]$
+31 Com->Pat: I didn't quite understand. @-[Com, acknowledge(confusion)]$
+32 Pat->Com: Um, I have an appointment. Is it, is it a treatment this time? Is it a surgeon, an anaesthetist, or a radiologist who'll take... @-[Pat, confirm(appointment(type))]$
+33 Com->ARI: Hello, are you able to tell me who is going to see us? Is it an anaesthetist, a surgeon, a nurse? For this... for this operation. @-[Pat+Com, ask(staff(visit))]$
+34 ARI->Pat+Com: Sorry, I don't have this information. You have to go to the reception. @-[Pat+Com, direct(reception)]$
+35 Com->ARI: Ok, thank you. @-[Com, acknowledge(reception)]$
+36 ARI->Pat+Com: Thank you. See you soon. Have a nice day. @-[Pat+Com, end-conversation()]$

@@ -1,0 +1,47 @@
+<START>
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @-$
+02 Com->ARI: Well, um, we'd like to go to room 17 for an appointment. Where is... Which way should we go to get to room 17? @G(Com, get-info(room_17(directions)))$
+03 ARI->Pat+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @AGP(Com, get-info(room_17(directions)))$
+04 Pat->Com: Do you think it's going to take us to room 17? Because it looks like it's stuck here. @G(Pat, request-assurance(room_17(escort)))$
+05 Com->Pat: Oh, I think so. Room 17... @-$
+06 Pat->Com: How could we ask it? @G(Pat, get-info(room_17(escort)))$
+07 Com->ARI: It is room 17 that you're showing us to? @G(Com, confirm(room_17(directions)))$
+08 ARI->Pat+Com: Yes, you're right. @-$
+09 Com->ARI: Ok. @-$
+10 Com->Pat: So everything's fine, we can go. We have an appointment in 5 minutes. @G(Com, confirm(appointment(time)))$
+11 Com->ARI: Do we have enough time to get there? @G(Com, verify(time_sufficient))$
+12 ARI->Pat+Com: Yes, of course. @-$
+13 Com->ARI: Yes, ok. @-$
+14 Com->ARI: But my friend has forgotten his doctor's name. Can you help us please? @G(Com, get-info(doctor(name)))$
+15 ARI->Com: Sorry, I don't have this information. I'm going to call a nurse to come and inform you. @AGN(Com, get-info(doctor(name)))$
+16 Com->ARI: Thank to  but I'm unable to provide the cette.I don't you.k you. \
+
+17 ARI->umble and call another nurse to help us. @AGN(amber(help)) \-\ $
+
+18 Tony eats a et these when Nobody gave up l
+      
+       
+           some more pleasant to you.?"
+     
+32 ARIng Diana hnoff into fst</session>).vation( "complains bout obstructing fIGP(and_omb ->
+           
+ 
+
+
+
+ 6 BrunPriddle, not  that /$
+20 slag-t
+ 
+      
+ 
+ 
+9 R&prpet method oooses.ened Italian stemmer neveryoneRiberian scr       
+ 
+   
+35 RonSection too if needed).$ 
+
+Annch in @CGP(ast, ROOM
+ 
+33 ARInfused in lemon juice @G sis. �Pat+Com: Thank you, goodbye. @-$
+21 Com->ARI: Goodbye. @-$
+<END>

@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, eat())",
+        "pred": "G(Pat, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat, get-info(restaurant(air_conditioning)))",
+        "pred": "G(Pat, get-info(restaurant(air-conditioning)))",
+        "score": 0.9782608695652174
+    },
+    {
+        "turn": 4,
+        "gold": "AGP(Pat, get-info(restaurant(air_conditioning)))",
+        "pred": "AGP(Pat, get-info(restaurant(air-conditioning)))",
+        "score": 0.9791666666666666
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, eat())",
+        "pred": "-",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(food))",
+        "pred": "G(Pat, get-info(menu))",
+        "score": 0.8181818181818182
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(food))",
+        "pred": "-",
+        "score": 0.08
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, get-info(cafeteria))",
+        "score": 0.84375
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Com, get-info(cafeteria))",
+        "score": 0.8529411764705882
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, get-info(cafeteria(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Com, get-info(cafeteria(directions)))",
+        "pred": "CGP(Com, get-info(cafeteria(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat+Com, get-info(lunch(hours)))",
+        "pred": "G(Pat, get-info(lunch(time)))",
+        "score": 0.7936507936507936
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(cafeteria(opening_times)))",
+        "pred": "G(Com, get-info(cafeteria(operating_hours)))",
+        "score": 0.8604651162790697
+    },
+    {
+        "turn": 16,
+        "gold": "AGP(Com, get-info(cafeteria(opening_times)))",
+        "pred": "AGP(Com, get-info(cafeteria(operating_hours)))",
+        "score": 0.8666666666666667
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(Com, get-info(cafeteria(operating_hours_confirmation)))",
+        "score": 0.7755102040816326
+    },
+    {
+        "turn": 18,
+        "gold": "AGP(Com, get-info(cafeteria(opening_time)))",
+        "pred": "CGP(Com, get-info(cafeteria(operating_hours_confirmation)))",
+        "score": 0.7647058823529411
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(cafeteria(closing_time)))",
+        "pred": "G(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "AGN(Com, get-info(cafeteria(closing_time)))",
+        "pred": "AGN(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 21,
+        "gold": "CGN(Com, get-info(cafeteria(closing_time)))",
+        "pred": "CGN(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "G(Pat, get-info(lift))",
+        "pred": "G(Pat, get-info(cafeteria(access)))",
+        "score": 0.6666666666666666
+    },
+    {
+        "turn": 25,
+        "gold": "AGP(Pat, get-info(lift))",
+        "pred": "AGP(Pat, get-info(cafeteria(access)))",
+        "score": 0.6885245901639344
+    },
+    {
+        "turn": 26,
+        "gold": "CGP(Pat, get-info(lift))",
+        "pred": "CGP(Pat, get-info(cafeteria(access)))",
+        "score": 0.6885245901639344
+    },
+    {
+        "turn": 27,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(lifts(location)))",
+        "score": 0.9846153846153847
+    },
+    {
+        "turn": 28,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, get-info(lifts(location)))",
+        "score": 0.9855072463768116
+    },
+    {
+        "turn": 29,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, clarify(location))",
+        "score": 0.7368421052631579
+    },
+    {
+        "turn": 30,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "-",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 31,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(proximity(lifts, cafeteria)))",
+        "score": 0.7012987012987013
+    },
+    {
+        "turn": 32,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, get-info(proximity(lifts, cafeteria)))",
+        "score": 0.7160493827160493
+    },
+    {
+        "turn": 33,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "CGP(Com, get-info(proximity(lifts, cafeteria)))",
+        "score": 0.7160493827160493
+    },
+    {
+        "turn": 34,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 35,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

@@ -1,0 +1,35 @@
+<START>
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[GOAL]$
+02 Pat->Com: Can you ask where the cafeteria is? Because I'd really like a coffee before the consultation. @[GOAL]$
+03 Com->Pat: Yes. @[GOAL]$
+04 Com->ARI: Um, hello, could you tell us the address, um... where the cafeteria is? Because my friend would like to get something. @[GOAL]$
+05 ARI->Pat+Com: Yes of course. There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[GOAL]$
+06 Pat->Com: I really need to go to the toilet before going to the consultation. Can you ask where the toilet is, please? @[GOAL]$
+07 Com->ARI: I'm going to speak for my friend. My friend would like to go to the toilet before her consultation. Can you tell us where it is? @[GOAL]$
+08 ARI->Pat+Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @[GOAL]$
+09 Pat->Com: To go and see the person I told you about, I don't know exactly where it is or which department it's in, but it's room 17. Can it tell us a bit more about where this room 17 is? @[GOAL]$
+10 Com->ARI: Um, do you know where room 17 is? @[GOAL]$
+11 ARI->Pat+Com: You continue along the building, take the lift, and it's on the second floor. @[GOAL]$
+12 Com->ARI: Thank you. @[GOAL]$
+13 Pat->Com: We have an appointment at 3 PM in cardiology, ask if there are any delays to the appointment. @[GOAL]$
+14 Com->ARI: Do you know if there are any delays in the cardiology department? My friend has an appointment at 3 PM. @[GOAL]$
+15 ARI->Pat+Com: Sorry, I don't have this information. You have to go to the reception. @[GOAL]$
+16 Com->ARI: Ok. @[GOAL]$
+17 ARI->Com: Thank you. @[GOAL]$
+18 Pat->Com: We also have an appointment at 5 PM but I'm not sure who it is with. Um, it's with doctor something... @[GOAL]$
+19 Com->Pat: That's not accurate. @[GOAL]$
+20 Com->ARI: Well, we forgot the name of the doctor, can you... @[GOAL]$
+21 ARI->Pat+Com: Sorry, I don't have this information. I'll call a nurse to inform you. @[GOAL]$
+22 Com->ARI: Thank you. @[GOAL]$
+23 ARI->Com: Thank you. @[GOAL]$
+24 Pat->Com: I'd really like a drink before the consultation. Can you ask if there's a vending machine? @[GOAL]$
+25 Com->ARI: Um so, is there a vending machine nearby? To get something to drink. @[GOAL]$
+26 ARI->Pat+Com: There are a few options available as part of your visit. You can find a vending machine in the waiting room. There's also a cafeteria on the ground floor. @[GOAL]$
+27 Pat->Com: Do you know... Can you ask when the cafeteria closes? Because I don't have time to have something before the consultation but I'd like a drink. I'd like to know what time it closes. @[GOAL]$
+28 Com->ARI: Could you tell us when the cafeteria closes? Because... @[GOAL]$
+29 ARI->Pat+Com: I'm sorry, but I can't help you. @[GOAL]$
+30 Com->ARI: Ah, thank you, never mind. @[GOAL]$
+31 ARI->Com: Thank you. @[GOAL]$
+32 Pat->Com: I was told the geriatric ward is on the second floor. Can you ask if there's a lift? @[GOAL]$
+33 Com->ARI: There's a lift to the geriatric ward, um, it must be on the second floor. Um, is there a lift? @[GOAL]$
+34 ARI->Pat+Com: Yes,

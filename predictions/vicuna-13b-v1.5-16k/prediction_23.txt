@@ -1,0 +1,27 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[G(Pat+Com, get-info(doctor\_office(location)))]
+02 Pat->ARI: Hello, I'd like to know how to get to my doctor's office. I have an appointment with her at 3 PM. @[G(Pat, get-info(doctor\_office(location)))]
+03 Com->Pat: Do you have an appointment at 3 PM? @[G(Com, get-info(Com, appointment(time)))]
+04 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @[G(Pat, get-info(doctor\_office(location)))]
+05 Com->ARI: Ah, that's very good ARI. @[AGP(Pat+Com, get-info(doctor\_office(location)))]
+06 Com->ARI: Do we have time for a coffee before we go? @[G(Com, get-info(coffee(time)))]
+07 ARI->Pat+Com: Yes, of course. @[AGP(Com, get-info(coffee(time)))]
+08 Com->ARI: So where can we get a coffee? @[G(Com, get-info(coffee(location)))]
+09 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @[AGP(Com, get-info(coffee(location)))]
+10 Com->Pat: I don't think ARI heard because you spoke at the same time as it. @[G(Pat, get-info(coffee(location)))]
+11 ARI->Pat: Sorry, can you repeat that please? @[G(Pat, get-info(coffee(location)))]
+12 ARI->Pat+Com: Do you need information? @[G(Com, get-info(coffee(location)))]
+13 Com->ARI: Well, we'd just like to know where we can get a hot chocolate. @[G(Com, get-info(hot\_chocolate(location)))]
+14 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @[AGP(Com, get-info(hot\_chocolate(location)))]
+15 Com->ARI: Ah, that's good, we'll go there. We have time before the appointment. @[AGP(Com, get-info(hot\_chocolate(location)))]
+16 ARI->Pat+Com: Thank you, have a nice day. @[G(Pat+Com, get-info(hot\_chocolate(location)))]
+
+The goal annotations have been filled in as follows:
+
+* @[G(Pat+Com, get-info(doctor\_office(location)))]: Pat and Com want to know the location of their doctor's office for their 3 PM appointment.
+* @[G(Pat, get-info(doctor\_office(location)))]: Pat wants to know the location of her doctor's office for her 3 PM appointment.
+* @[G(Com, get-info(Com, appointment(time)))]: Com wants to confirm the time of their appointment.
+* @[G(Pat, get-info(doctor\_office(location)))]: Pat wants to know the location of her doctor's office for her 3 PM appointment.
+* @[G(Com, get-info(coffee(location)))]: Com wants to know where they can get a coffee.
+* @[G(Com, get-info(coffee(time)))]: Com wants to know if they have time for a coffee before their appointment.
+* @[G(Pat, get-info(coffee(location)))]: Pat wants to know where they can get a coffee.
+* @[G(Com, get-info(hot\_chocolate(location)))]: Com wants to know where they can get a hot chocolate.

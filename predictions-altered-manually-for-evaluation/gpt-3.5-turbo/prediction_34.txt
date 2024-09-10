@@ -1,0 +1,15 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @G(Pat+Com, get-assistance)$
+02 Com->ARI: Hello ARI. I would like to know if the lift is wheelchair accessible or not. @G(Com, get-info(lift(accessibility))$
+03 ARI->Com: Yes, of course. @AGP(Com, get-info(lift(accessibility))$
+04 Pat->ARI: And where is it? @G(Pat, get-info(lift(location))$
+05 ARI->Pat: The lifts are at the entrance on the left. @AGP(Pat, get-info(lift(location))$
+06 Pat->ARI: Ah, thank you. @CGP(Pat, get-info(lift(location))$
+07 ARI->Pat: You're welcome. @-$
+08 Com->ARI: Could you speak a little louder? I can't hear you very well. @G(Com, request(louder-speaking))$
+09 ARI->Com: I'm afraid I can't help you. @AGN(Com, request(louder-speaking))$
+10 Com->ARI: Oh well, that's a shame anyway. @CGN(Com, request(louder-speaking))$
+11 ARI->Pat+Com: How can I help you? @-$
+12 Com->ARI: I was telling you that I didn't understand your words very well. You need to speak louder. @G(Com, request(louder-speaking))$
+13 ARI->Com: I'm afraid I can't help you. I'll call a nurse to come and inform you. @AGN(Com, request(nurse-assistance))$
+14 Com->ARI: Ok, well, I'll wait. @CGN(Com, request(nurse-assistance))$
+15 ARI->Pat+Com: Thank you, see you later, have a nice day. @-$

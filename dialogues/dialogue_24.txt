@@ -1,0 +1,12 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->ARI: Hello ARI, we have to find a lift to get to the next floor. Where is the lift in this building? @G(Pat+Com, get-info(lift(location)))$
+03 ARI->Pat+Com: The lifts are at the entrance on the left. @AGP(Pat+Com, get-info(lift(location)))$
+04 Pat->ARI: Ok. @CGP(Pat+Com, get-info(lift(location)))$
+05 Pat->ARI: And we have time to have a coffee before going upstairs, is that right? @G(Pat+Com, get-info(coffee(enough_time)))$
+06 ARI->Pat+Com: I'm sorry, I don't have this information. @AGN(Pat+Com, get-info(coffee(enough_time)))$
+07 Com->ARI: Do you think the cafeteria is on the ground floor? @G(Com, get-info(cafeteria(location)))$
+08 ARI->Com: Yes, absolutely. @AGP(Com, get-info(cafeteria(location)))$
+09 Com->ARI: Thank you. @CGP(Com, get-info(cafeteria(location)))$
+10 Pat->Com: Wait, so we'll go to the cafeteria before taking the lift. @G(Pat+Com, go-to(cafeteria))$
+11 Pat->ARI: Thank you ARI! @-$
+12 ARI->Pat+Com: You're welcome. Have a nice day. @-$

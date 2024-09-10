@@ -1,0 +1,78 @@
+ Sure, I'd be happy to help! Based on the given dialogues, I'll do my best to guess the missing annotations. Here's the dialogue with blanks filled in:
+
+
+
+
+0 ARI->Pat+Com: Hello, my name is ARI. How can I help you? [@BLANK]$
+2 Pat->ARI: Yes, I'd like to know where the cafeteria is, um, I don't know, a restaurant here in the hospital [G(location)]
+3 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left [G(cafeteria)]
+0 Com->AR: Um, can you repeat that please [R]
+4 Pat: I'm hard of hearing and the sound is a little low, can you repeat that please [R]
+5 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left [G(cafeteria)]
+6 ARI: Ok, thank you [C]
+7 ARI: You're welcome [C]
+8 Pat: You're welcome [C]
+9 ARI: So, another question [Q]
+10 Com: Um, hello. Do you know where toilets are [G]
+111 ARI: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right [toilet]
+12 Com: Thank you [T]
+14 Pat: Thank you ARI [T]
+15 ARI+Com: You're welcome. Have a nice day [T]
+
+
+
+
+For the second dialogue:
+
+
+
+0 ARI->Pat+Com: Hello. I'm ARI the robot. Can I help you? [BLANK]$
+2 Pat: I have an appointment. I'd like to know where I've got to... where is the geriatric ward [G(location)]
+3 ARI->Pat: Sorry, I don't have this information [G]
+4 Pat: For any appointment, I have to go to the reception [G]
+5 ARI: Yes, absolutely [I]
+6 Pat: Ok [I]
+7 ARI: Thank you [C]
+8 Com: Um, hello. Can you help me [G]
+9 ARI: Yes [H]
+10 Com: Um, can you tell me where I can get a coffee [G]
+1111 ARI: You know, I'd like a coffee [C]
+12 ARI: There are a few options available as part of your visit, and there's also a cafeteria on the ground [location]
+12 Pat: Thank you [C]
+3 ARI+Com: Thank you. See you soon [C]
+4 ARI+Com: Um... [Q]
+5 Pat: Can you [Q]
+6 ARI:... repeat what you said about coffee? I didn't hear it very well [location]
+7 ARI: There are a few available as part of your visit, and there's also a cafeteria on the ground [G]
+8 ARI: And can a patient accompany me or I accompany a patient to the cafeteria [access]
+9 ARI: Yes. [A]
+10 Pat: Ok [A]
+111 Com: Thank you [A]
+12 Pat+Com: Thank you. See you around. [A]
+
+
+
+For the third dialogue:
+
+
+0 ARI->Pat+Com: Hello, my name is ARI. How can I help you? [BLANK]$
+2 Com->Pat: Well, shall we go and eat [EAT]
+3 Pat: I think... [E] 4 Pat: It's my first time here and I'm a bit lost, I'd like to find... I need to go to the toilet before starting because afterwards I have an appointment with the doctor. Could you, could you tell me... Could you tell me how to find the toilets, please [G(toilet)]
+5 ARI->Pat: Very easy! You have to go to the corridor at the end of the room [toilet]
+6 ARI+Com: Can I help you [R]
+7 ARI: Hello, my name is ARI. Can I help you? [R]
+8 Com->ARI: So we'd like to go and eat, is there a cafeteria here [cafeteria]
+9 ARI->Pat+Com: Yes, of course. There's a cafeteria on the ground, near the courtyard [cafeteria]
+10 Com->ARI: And how do we get there [cafeteria] 1 ARI->Com: I'm sorry, but I can't help you [N]
+11 Com->AR: Ok [N]
+2 Com->Pat+Com: Before we go to the cafeteria, I'd like to go to the toilet. Where are the toilets [toilet]
+3 ARI: Very easy! You have to go to the corridor at the end of the room [toilet]
+4 ARI: I didn't understand your request, could you rephrase it [R]
+5 Pat: So, we'd like to go to the toilet [toilet]
+6 ARI: I can't help you [N]
+7 Pat: Never mind then [N]
+8 Pat+Com: Thank you, have a nice day [N]
+
+
+
+Please note that the guesses are based on the context of the dialogue and the previous turns, and they may not always be the exact correct annotations.

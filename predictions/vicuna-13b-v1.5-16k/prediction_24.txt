@@ -1,0 +1,34 @@
+Example dialogue 1:
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Com->Pat: I'm hungry. @G(Com, eat())$
+03 Pat->ARI: We're hungry. @G(Pat+Com, eat())$
+04 Com->ARI: We'd like to eat. @G(Pat+Com, eat())$
+05 ARI->Pat+Com: It's the most important question of the day. Are you hungry yet? You can ask my colleague in the room who is responsible for the meals. @AGP(Pat+Com, eat())$
+06 Pat->ARI: Ok, thank you. @CGP(Pat+Com, eat())$
+07 ARI->Pat: You're welcome. @-$
+08 ARI->Pat+Com: Is there anything else I can help you with? @-$
+09 Com->ARI: I'd like to go to the toilet before the consultation. @G(Com, go-to(toilet))$
+10 ARI->Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @AGP(Com, go-to(toilet))$
+11 Com->ARI: Thank you. @CGP(Com, go-to(toilet))$
+12 ARI->Com: You're welcome. @-$
+13 ARI->Pat+Com: Thank you, have a nice day. @-$
+
+Example dialogue 2:
+01 ARI->Pat+Com: Hello. I'm ARI the robot. Can I help you? @-$
+02 Pat->ARI: I have an appointment. I'd like to know where I've got to... where is... where is the appointment for um, the geriatric ward. @G(Pat, get-info(geriatric_ward(appointment(location))))$
+03 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. @AGN(Pat, get-info(geriatric_ward(appointment(location))))$
+04 Pat->ARI: For any appointment, I have to go to the reception? Because I have two appointments in a row. @G(Pat, get-info(appointment(procedure)))$
+05 ARI->Pat: Yes, absolutely. @AGP(Pat, get-info(appointment(procedure)))$
+06 Pat->ARI: Ok well, thank you. That's a shame then. @CGP(Pat, get-info(appointment(procedure)))$
+07 ARI->Pat: Thank you. @-$
+08 Com->ARI: Um, hello. Could you help me? @G(Com, get-help())$
+09 ARI->Com: Yes. @AGP(Com, get-help())$
+10 Com->ARI: Um, can you tell me where I can get a coffee please? @G(Com, get-info(coffee(location)))$
+11 Com->ARI: You know, I'd really like a coffee. @G(Com, drink(coffee))$
+12 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Com, drink(coffee))$
+13 Com->ARI: Thank you. @CGP(Com, drink(coffee))$
+14 ARI->Pat+Com: Thank you. See you soon. @-$
+15 Pat->ARI: Can you... @-$
+16 ARI->Pat+Com: Have a nice day. @-$
+17 Pat->ARI:... repeat what you said about coffee? I didn't hear it very well. @G(Pat, get-info(coffee(location)))$
+18 ARI->Pat: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP

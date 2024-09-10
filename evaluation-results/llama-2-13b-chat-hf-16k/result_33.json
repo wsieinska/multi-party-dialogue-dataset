@@ -1,0 +1,314 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "[GNP]",
+        "score": 0.18181818181818182
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, eat(snack))",
+        "pred": "[GN]",
+        "score": 0.09090909090909091
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "[GI]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "[GI]",
+        "score": 0.05
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Pat+Com, get-info(food(location)))",
+        "pred": "[GI]",
+        "score": 0.047619047619047616
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat, get-info(toilet))",
+        "pred": "[GI]",
+        "score": 0.07142857142857142
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "[GI]",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "[G]",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, go-to(toilet))",
+        "pred": "[G]",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, go-to(toilet))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat+Com, get-info(examination_room(directions)))",
+        "pred": "[R",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat+Com, go-to(room_17))",
+        "pred": "[R",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Pat, get-info(room_17(location)))",
+        "pred": "[R",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "CGP(Pat, get-info(room_17(location)))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(appointment))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "CGP(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 27,
+        "gold": "G(Pat, get-info(reception(location)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 29,
+        "gold": "AGP(Pat, get-info(reception(location)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 30,
+        "gold": "AGP(Pat+Com, get-info(next_steps))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 31,
+        "gold": "G(Com, get-info(queue))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "AGP(Com, get-info(queue))",
+        "pred": "[T",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "CGP(Com, get-info(queue))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "CGP(Pat, get-info(appointment(time)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 37,
+        "gold": "G(Pat+Com, get-info(day_schedule))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "AGP(Pat+Com, get-info(day_schedule))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 39,
+        "gold": "CGP(Pat+Com, get-info(day_schedule))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 40,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 41,
+        "gold": "G(Pat+Com, drink(hot_chocolate))",
+        "pred": "[T",
+        "score": 0.0
+    },
+    {
+        "turn": 42,
+        "gold": "AGP(Pat+Com, drink(hot_chocolate))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 43,
+        "gold": "CGP(Pat+Com, drink(hot_chocolate))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "G(Pat, get-info(beverage(location)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 45,
+        "gold": "AGP(Pat, get-info(beverage(location)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 46,
+        "gold": "-",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Com, get-info(lift))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 48,
+        "gold": "-",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 49,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "[G]",
+        "score": 0.04081632653061224
+    },
+    {
+        "turn": 50,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 51,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "[T",
+        "score": 0.0
+    },
+    {
+        "turn": 52,
+        "gold": "-",
+        "pred": "[T]",
+        "score": 0.0
+    }
+]

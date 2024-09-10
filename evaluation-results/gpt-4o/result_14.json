@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "G(Com, get-help())",
+        "score": 0.10526315789473684
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "pred": "G(Pat+Com, go-to(rheumatology_ward))",
+        "score": 0.7816091954022989
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "pred": "G(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "G(Pat, ask(attrib(Com)))",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat, get-info(rheumatology_ward(directions)))",
+        "pred": "G(Pat, get-info(rheumatology_ward(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "pred": "AGP(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "pred": "CGP(Pat+Com, get-info(rheumatology_ward(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "G(Com, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(appointment(time)))",
+        "pred": "G(Pat, inform(appointment(time)))",
+        "score": 0.8
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Com, get-info(appointment(time)))",
+        "pred": "-",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "G(Pat, inform(time_left))",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "G(Pat, reassure())",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "G(Com, suggest(walk(slowly)))",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "G(Pat, affirm(walk(slowly)))",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "G(Pat, reassure())",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "G(Pat+Com, get-info(rheumatology_ward(reception(location))))",
+        "pred": "G(Pat+Com, get-info(reception(location)))",
+        "score": 0.8118811881188119
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "G(Pat, inform(arrival))",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "G(Com, acknowledge())",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "-",
+        "pred": "G(Pat, ask(attrib(Com)))",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 27,
+        "gold": "G(Com, get-info(rheumatology_ward(reception(location)))",
+        "pred": "G(Com, get-info(reception(location)))",
+        "score": 0.8043478260869565
+    },
+    {
+        "turn": 28,
+        "gold": "AGP(Pat+Com, get-info(rheumatology_ward(reception(location)))",
+        "pred": "AGP(Pat+Com, get-info(reception(location)))",
+        "score": 0.8269230769230769
+    },
+    {
+        "turn": 29,
+        "gold": "CGP(Pat+Com, get-info(rheumatology_ward(reception(location)))",
+        "pred": "CGP(Com, get-info(reception(location)))",
+        "score": 0.78
+    },
+    {
+        "turn": 30,
+        "gold": "-",
+        "pred": "CGP(Pat, get-info(reception(location)))",
+        "score": 0.05
+    },
+    {
+        "turn": 31,
+        "gold": "-",
+        "pred": "G(Pat, suggest(next_steps))",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 33,
+        "gold": "-",
+        "pred": "G(Pat, suggest(next_steps))",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "G(Com, get-info(waiting_room))",
+        "pred": "G(Com, get-info(waiting_room(location)))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 35,
+        "gold": "AGP(Com, get-info(waiting_room))",
+        "pred": "AGP(Com, get-info(waiting_room(location)))",
+        "score": 0.8648648648648649
+    },
+    {
+        "turn": 36,
+        "gold": "CGP(Com, get-info(waiting_room))",
+        "pred": "-",
+        "score": 0.06060606060606061
+    },
+    {
+        "turn": 37,
+        "gold": "-",
+        "pred": "G(Pat, explain(reason(sit_down)))",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 39,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

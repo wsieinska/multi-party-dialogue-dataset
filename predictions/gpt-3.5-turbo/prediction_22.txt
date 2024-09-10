@@ -1,0 +1,23 @@
+<START>
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @G(Pat+Com, get-directions(room(17)))$
+02 Com->ARI: Well, um, we'd like to go to room 17 for an appointment. Where is... Which way should we go to get to room 17? @G(Pat+Com, get-directions(room(17)))$
+03 ARI->Pat+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @G(Pat+Com, get-directions(room(17)))$
+04 Pat->Com: Do you think it's going to take us to room 17? Because it looks like it's stuck here. @G(Pat, confirm(room(17)))$
+05 Com->Pat: Oh, I think so. Room 17... @G(Com, confirm(room(17))$
+06 Pat->Com: How could we ask it? @G(Pat, get-instructions(room(17)))$
+07 Com->ARI: It is room 17 that you're showing us to? @G(Pat+Com, confirm(room(17))$
+08 ARI->Pat+Com: Yes, you're right. @G(Pat+Com, confirm(room(17))$
+09 Com->ARI: Ok. @G(Pat+Com, confirm(room(17))$
+10 Com->Pat: So everything's fine, we can go. We have an appointment in 5 minutes. @G(Pat+Com, confirm(appointment(time)))$
+11 Com->ARI: Do we have enough time to get there? @G(Pat+Com, confirm(appointment(time))$
+12 ARI->Pat+Com: Yes, of course. @G(Pat+Com, confirm(appointment(time))$
+13 Com->ARI: Yes, ok. @G(Pat+Com, confirm(appointment(time))$
+14 Com->ARI: But my friend has forgotten his doctor's name. Can you help us please? @G(Com, get-info(doctor(name)))$
+15 ARI->Com: Sorry, I don't have this information. I'm going to call a nurse to come and inform you. @G(Com, get-info(doctor(name)))$
+16 Com->ARI: Thank you. @G(Com, get-info(doctor(name)))$
+17 ARI->Pat+Com: Do you have any other questions? @G(Pat+Com, inquire(additional_questions))$
+18 Com->ARI: We'll wait for the nurse. @G(Pat+Com, wait(nurse))$
+19 ARI->Com: Yes. @-$
+20 ARI->Pat+Com: Thank you, goodbye. @-$
+21 Com->ARI: Goodbye. @-$
+<END>

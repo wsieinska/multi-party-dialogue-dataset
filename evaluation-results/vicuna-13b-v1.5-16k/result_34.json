@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.06666666666666667
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(lift(accessible)))",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.7936507936507936
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.7692307692307693
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "get-info(lift(location))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "get-info(lift(location))",
+        "score": 0.8275862068965517
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "get-info(lift(location))",
+        "score": 0.8275862068965517
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "get-info(lift(location))",
+        "score": 0.08
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "get-info(lift(location))",
+        "score": 0.3137254901960784
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "get-info(lift(location))",
+        "score": 0.3018867924528302
+    },
+    {
+        "turn": 10,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "G(Com, get-info(lift(location))",
+        "score": 0.5
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.06666666666666667
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.21428571428571427
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.20689655172413793
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.20689655172413793
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "get-info(lift(accessibility))",
+        "score": 0.06666666666666667
+    }
+]

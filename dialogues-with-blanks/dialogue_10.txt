@@ -1,0 +1,17 @@
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @[BLANK]$
+02 Com->ARI: Yes, you can. I have to go and see someone who's hospitalised and I can't remember the ward. It's room 17. Can you please tell me how to get there? @[BLANK]$
+03 ARI->Com: You continue along the building, take the lift, and it's on the second floor. @[BLANK]$
+04 Com->ARI: Ok, thank you. @[BLANK]$
+05 ARI->Com: Thank you. @[BLANK]$
+06 Pat->ARI: Look, I have an appointment, but um, for my friend who is here. I can't remember the appointment time. Could you tell me? @[BLANK]$
+07 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+08 Pat->ARI: Ok, thank you anyway. @[BLANK]$
+09 Pat->ARI: Where is the reception? How do I get there? @[BLANK]$
+10 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+11 Pat->ARI: Ok, thank you. @[BLANK]$
+12 Com->ARI: I have an appointment at 5 o'clock in the cardiology department. I don't know where that is. Could you tell me please? @[BLANK]$
+13 ARI->Com: Sorry, I don't have this information. I'll call a nurse to come and help you. @[BLANK]$
+14 Com->ARI: Ok, thank you. We'll wait for the nurse then. @[BLANK]$
+15 ARI->Pat+Com: Thank you. See you soon. Have a nice day. @[BLANK]$
+16 Com->ARI: Thank you, bye. @[BLANK]$
+17 Pat->ARI: See you soon. You too, have a nice day. @[BLANK]$

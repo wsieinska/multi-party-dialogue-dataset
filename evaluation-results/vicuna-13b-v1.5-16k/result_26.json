@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "G(Pat, get-info(room(number)(location)))",
+        "score": 0.8533333333333334
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(room_17(location)))",
+        "pred": "AGP(Pat, get-info(room(number)(location)))",
+        "score": 0.8607594936708861
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "G(Com, get-info(room(number)(location)))",
+        "score": 0.7792207792207793
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "AGP(Com, get-info(room(number)(location)))",
+        "score": 0.7901234567901234
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(waiting_time))",
+        "pred": "G(Pat, get-info(appointment(time)))",
+        "score": 0.7692307692307693
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Pat, get-info(waiting_time))",
+        "pred": "-",
+        "score": 0.06060606060606061
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(clock))",
+        "pred": "G(Com, get-info(clock())",
+        "score": 0.9787234042553191
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(clock))",
+        "pred": "AGN(Com, get-info(clock())",
+        "score": 0.9803921568627451
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

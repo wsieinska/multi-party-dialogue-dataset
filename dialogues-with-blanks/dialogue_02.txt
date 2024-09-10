@@ -1,0 +1,63 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Pat->Com: What time is my appointment with the doctor? @[BLANK]$
+03 Com->Pat: I think it's at 10 o'clock. @[BLANK]$
+04 Com->ARI: What time is the appointment? @[BLANK]$
+05 Com->ARI: I have an appointment with the doctor. @[BLANK]$
+06 ARI->Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @[BLANK]$
+07 Pat->ARI: And who is my geriatrician? @[BLANK]$
+08 ARI->Pat: I'm sorry, but I can't help you. @[BLANK]$
+09 Com->ARI: That's a shame. @[BLANK]$
+10 Pat->ARI: And where is the consultation room to go see my doctor? @[BLANK]$
+11 ARI->Pat: I'm afraid I can't help you. @[BLANK]$
+12 Com->ARI: Is it right or left? @[BLANK]$
+13 Pat->Com: Is there a reception at the hospital? @[BLANK]$
+14 Com->Pat: Yes, I think so. @[BLANK]$
+15 Com->ARI: Where is the reception? @[BLANK]$
+16 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+17 Com->ARI: Where do I go for information? @[BLANK]$
+18 Pat->Com: I'd like a coffee. @[BLANK]$
+19 Com->ARI: Where is the cafeteria? @[BLANK]$
+20 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+21 Pat->Com: How do we get to the ground floor? @[BLANK]$
+22 Com->ARI: How do we get to the ground floor? @[BLANK]$
+23 ARI->Pat+Com: I'm afraid I can't help you. @[BLANK]$
+24 Com->ARI: Which floor is the cafeteria on? @[BLANK]$
+25 ARI->Com: I'm afraid I can't help you. @[BLANK]$
+26 Com->ARI: Where is the cafeteria? @[BLANK]$
+27 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+28 Pat->ARI: What time is our first consultation at? @[BLANK]$
+29 ARI->Pat: I'm afraid I can't help you. @[BLANK]$
+30 Pat->ARI: Oh well, thanks anyway. @[BLANK]$
+31 ARI->Pat: You're welcome. @[BLANK]$
+32 Pat->Com: I was told that there was a lift in the hospital to get to the next floor. Does ARI know where it is? @[BLANK]$
+33 Com->ARI: Where is the lift to go up? @[BLANK]$
+34 ARI->Pat+Com: I'm sorry, but I can't help you. @[BLANK]$
+35 Pat->Com: Are there stairs? @[BLANK]$
+36 Com->ARI: And the stairs? @[BLANK]$
+37 Com->ARI: Are there no stairs to get to the next floor? @[BLANK]$
+38 ARI->Pat+Com: No, there are stairs. @[BLANK]$
+39 Com->ARI: And where are they? @[BLANK]$
+40 ARI->Com: I'm afraid I can't help you. @[BLANK]$
+41 Com->ARI: Where should I go for information? @[BLANK]$
+42 ARI->Com: I'm afraid I can't help you. @[BLANK]$
+43 Com->ARI: What should we do? @[BLANK]$
+44 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+45 Pat->Com: And how can it help us? @[BLANK]$
+46 Com->ARI: What can you tell us? @[BLANK]$
+47 Com->ARI: How many floors does the hospital have? @[BLANK]$
+48 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+49 Pat->Com: But I'm thirsty. I need water. @[BLANK]$
+50 Com->ARI: But we are thirsty, we need water. @[BLANK]$
+51 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[BLANK]$
+52 Com->ARI: And is there water in the cafeteria? @[BLANK]$
+53 ARI->Com: Of course. @[BLANK]$
+54 Pat->Com: Is there coffee too? @[BLANK]$
+55 Com->ARI: And coffee? Is there coffee? @[BLANK]$
+56 ARI->Pat+Com: Absolutely. @[BLANK]$
+57 Com->ARI: And tea? @[BLANK]$
+58 ARI->Com: Yes. @[BLANK]$
+59 Com->ARI: Oh! That's nice. @[BLANK]$
+60 Com->ARI: What's on the menu? @[BLANK]$
+61 ARI->Com: Today we have an endive salad to start, followed by a ham and cheese escalope with a side of mashed potato and a fruit compote for dessert. @[BLANK]$
+62 Com->ARI: Ok, thanks. @[BLANK]$
+63 ARI->Pat+Com: Thank you, goodbye. @[BLANK]$

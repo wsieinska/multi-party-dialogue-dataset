@@ -1,0 +1,39 @@
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @-$
+02 Com->ARI: Um, hello... @G(Com, greet())$
+03 Com->Pat: Okay, I think we need to find the rheumatology ward. @G(Pat+Com, get-info(rheumatology_ward(location)))$
+04 Pat->Com: Yes, I think that's it. Ok, we'll see if it can give us any information how to get there. @G(Pat+Com, get-info(rheumatology_ward(directions)))$
+05 Com->Pat: Mhm. @-$
+06 Pat->Com: So do you want to ask it or do you want me to? I'll do it. @G(Pat, volunteer(info_request))$
+07 Pat->ARI: I'd like to find the rheumatology ward. @G(Pat, get-info(rheumatology_ward(directions)))$
+08 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the legt @AGP(Pat+Com, get-info(rheumatology_ward(directions)))$
+09 Pat->Com: Ok, it told us to go to the building behind us, it's the second door on the left. It's giving us directions. That's handy. There you go. @CGP(Pat+Com, get-info(rheumatology_ward(directions)))$
+10 Com->Pat: Ok. @-$
+11 Com->Pat: What time was our appointment? @G(Com, get-info(appointment(time)))$
+12 Pat->Com: So I have an appointment at 10:30 AM. @G(Pat, inform(appointment(time)))$
+13 Com->Pat: Ok. @-$
+14 Pat->Com: It's 10 AM just now so we have plenty of time. @G(Pat, inform(time_before_appointment))$
+15 Com->Pat: Ok. @-$
+16 Pat->Com: We have time. @-$
+17 Com->Pat: We'll walk slowly. @G(Com, suggest(activity))$
+18 Pat->Com: We'll walk slowly. @-$
+19 Com->Pat: Yes. @-$
+20 Pat->Com: There's no need to worry. @G(Pat, reassure(Com))$
+21 Pat->Com: Ok, there you go, we're in the rheumatology ward. We need to ask where the reception for this ward is. @G(Pat, get-info(rheumatology_ward(reception_location)))$
+22 Com->Pat: Ok. @-$
+23 Pat->Com: Well, that's it, we've arrived. @G(Pat, acknowledge_arrival(rheumatology_ward))$
+24 Com->Pat: Ok. Very good. @-$
+25 Pat->Com: Do you want to ask it? @G(Pat, offer(ask))$
+26 Com->Pat: Ok. @-$
+27 Com->ARI: Um... Where is the reception for the rheumatology ward? @G(Com, get-info(rheumatology_ward(reception_location)))$
+28 ARI->Pat+Com: The reception is just behind me. Remember to take a ticket on your right. @[AGP(Pat+Com, get-info(rheumatology_ward(reception_location)))$
+29 Com->ARI: Ah... Ok. @CGP(Com, get-info(rheumatology_ward(reception_location)))$
+30 Pat->ARI: Ok, thank you. @CGP(Pat, get-info(rheumatology_ward(reception)))$
+31 Pat->Com: So we'll take a ticket. @G(Pat, plan(take_ticket))$
+32 Com->Pat: Mhm... @-$
+33 Pat->Com: And then we'll wait until we're called. @G(Pat, inform(waiting_procedure))$
+34 Com->Pat: Ok. Is there a waiting room? @G(Com, get-info(waiting_room(location)))$
+35 Pat->Com: Yes, there's a waiting room just there. We can sit down... @G(Pat, inform(waiting_room(location)))$
+36 Com->Pat: Ok. @-$
+37 Pat->Com: ... so you don't get tired. @G(Pat, reason(sit))$
+38 Com->Pat: Ok. @-$
+39 ARI->Pat+Com: Thank you, see you later, have a nice day. @-$

@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info(cafeteria(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "AGP(Pat, get-info(cafeteria(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, get-info(cafeteria(directions)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Com, get-info(cafeteria(directions)))",
+        "score": 0.9
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info(cafeteria(directions)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "AGP(Pat, get-info(cafeteria(directions)))",
+        "score": 0.9
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(cafeteria(location)))",
+        "pred": "CGP(Pat, get-info(cafeteria(directions)))",
+        "score": 0.9
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "G(Com, get-info(toilet(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "AGP(Com, get-info(toilet(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "CGP(Com, get-info(toilet(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "CGP(Pat, get-info(cafeteria(directions)))",
+        "score": 0.047619047619047616
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

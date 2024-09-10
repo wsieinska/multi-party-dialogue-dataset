@@ -1,0 +1,29 @@
+<START>
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @-$
+02 Com->Pat: So it's... @-$
+03 Pat->Com: Yes. So um... So um... @-$
+04 Com->Pat: Yes? @-$
+05 Com->ARI: I'd like to know how to get to the lift. @G(Com, get-info(lift(directions)))$
+06 ARI->Com: Of course. The lifts are at the entrance on the left. @AGP(Com, get-info(lift(directions)))$
+07 Pat->ARI: It's nice of you to answer us. @CGP(Pat, get-info(lift(directions)))$
+08 Com->ARI: Thank you very much. @CGP(Com, get-info(lift(directions)))$
+09 Pat->ARI: Thanks ARI. @CGP(Pat, get-info(lift(directions)))$
+10 Pat->Com: Maybe we could ask it if there's anything to eat? @G(Pat, discuss(meal_options))$
+11 Com->Pat: Yes, yes. @G(Com, discuss(meal_options))$
+12 Com->ARI: And also, could you direct us to the cafeteria? If there is one in the hospital. @G(Com, get-info(cafeteria))$
+13 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria))$
+14 Pat->ARI: But how do we get there ARI? @G(Pat, get-info(cafeteria(directions)))$
+15 ARI->Pat: Sorry, I don't have this information. @AGN(Pat, get-info(cafeteria(directions)))$
+16 Pat->ARI: Do we have to take the lift? @G(Pat, get-info(cafeteria(access)))$
+17 ARI->Pat+Com: Sorry, I don't have this information. @AGN(Pat+Com, get-info(cafeteria(access)))$
+18 Com->ARI: So you don't know how to get to the cafeteria? @G(Com, clarify(cafeteria(access)))$
+19 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria))$
+20 Com->ARI: So it's on the ground floor, isn't it? @G(Com, confirm(cafeteria(location)))$
+21 Pat->Com: Yes, that's it. @CGP(Pat, confirm(cafeteria(location)))$
+22 ARI->Com: Yes, absolutely. @AGP(Com, confirm(cafeteria(location)))$
+23 Com->ARI: Can you take us there by any chance? @G(Com, request-escort(cafeteria))$
+24 ARI->Com: No, I'm sorry. I'll call a nurse to come and help you. @AGN(Com, request-escort(cafeteria))$
+25 Com->ARI: Thank you very much. @CGP(Com, request-escort(cafeteria))$
+26 Pat->ARI: Thank you ARI. @CGP(Pat, request-escort(cafeteria))$
+27 ARI->Pat+Com: You're welcome. Have a nice day. @-$
+<END>

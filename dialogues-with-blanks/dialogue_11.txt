@@ -1,0 +1,32 @@
+01 ARI->Pat+Com: Hello. I'm ARI the robot. Can I help you? @[BLANK]$
+02 Pat->ARI: I have an appointment. I'd like to know where I've got to... where is... where is the appointment for um, the geriatric ward. @[BLANK]$
+03 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+04 Pat->ARI: For any appointment, I have to go to the reception? Because I have two appointments in a row. @[BLANK]$
+05 ARI->Pat: Yes, absolutely. @[BLANK]$
+06 Pat->ARI: Ok well, thank you. That's a shame then. @[BLANK]$
+07 ARI->Pat: Thank you. @[BLANK]$
+08 Com->ARI: Um, hello. Could you help me? @[BLANK]$
+09 ARI->Com: Yes. @[BLANK]$
+10 Com->ARI: Um, can you tell me where I can get a coffee please? @[BLANK]$
+11 Com->ARI: You know, I'd really like a coffee. @[BLANK]$
+12 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[BLANK]$
+13 Com->ARI: Thank you. @[BLANK]$
+14 ARI->Pat+Com: Thank you. See you soon. @[BLANK]$
+15 Pat->ARI: Can you... @[BLANK]$
+16 ARI->Pat+Com: Have a nice day. @[BLANK]$
+17 Pat->ARI: ... repeat what you said about coffee? I didn't hear it very well. @[BLANK]$
+18 ARI->Pat: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[BLANK]$
+19 Pat->ARI: And, can a patient accompany me or can I accompany a patient to the cafeteria? @[BLANK]$
+20 ARI->Pat: Yes. Of course. @[BLANK]$
+21 Pat->ARI: Ok. Thank you. @[BLANK]$
+22 ARI->Pat+Com: Thank you. See you around. @[BLANK]$
+23 Pat->ARI: In the cafeteria... @[BLANK]$
+24 ARI->Pat+Com: Have a nice day. @[BLANK]$
+25 Pat->ARI: ... do they serve food too or just drinks? @[BLANK]$
+26 ARI->Pat: Yes, absolutely. @[BLANK]$
+27 Pat->ARI: And what time does the cafeteria close? @[BLANK]$
+28 ARI->Pat: It's at 3 o'clock. @[BLANK]$
+29 Pat->ARI: At 3 o'clock? @[BLANK]$
+30 Pat->ARI: Um... @[BLANK]$
+31 Pat->ARI: Thank you. @[BLANK]$
+32 ARI->Pat+Com: Thank you, see you around, have a nice day. @[BLANK]$

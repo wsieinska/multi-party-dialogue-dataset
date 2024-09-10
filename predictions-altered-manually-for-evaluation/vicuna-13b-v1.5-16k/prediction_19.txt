@@ -1,0 +1,20 @@
+01 Com->ARI: Hello. @[find out the goal of the speakers]$
+02 ARI->Com: Hello, my name is ARI. How can I help you? @[find out the goal of the speakers]$
+03 Com->Pat: We're looking for a way to get to room 17, aren't we? @[find out the goal of the speakers]$
+04 Pat->Com: Yes. @[find out the goal of the speakers]$
+05 Pat->ARI: Yes, we need to go to room 17 for treatment. How do we get there? @[find out the goal of the speakers]$
+06 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @[find out the goal of the speakers]$
+07 Com->ARI: Thank you. @[find out the goal of the speakers]$
+08 Pat->ARI: Thank you. @[find out the goal of the speakers]$
+09 Com->ARI: Do you, do you know what time our appointment is at? @[find out the goal of the speakers]$
+10 Pat->ARI: Do you need the name? @[find out the goal of the speakers]$
+11 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @[find out the goal of the speakers]$
+12 Com->ARI: Thank you. @[find out the goal of the speakers]$
+13 Pat->ARI: I can't hear very well. Couldn't you speak a little louder? @[find out the goal of the speakers]$
+14 ARI->Pat: Sorry, but I can't help you. @[find out the goal of the speakers]$
+15 Pat->ARI: Ok. @[find out the goal of the speakers]$
+16 Pat->ARI: Thank you. @[find out the goal of the speakers]$
+17 ARI->Pat: You're welcome, I'm here to answer your questions. @[find out the goal of the speakers]$
+18 Com->ARI: Thank you ARI, have a nice day. @[find out the goal of the speakers]$
+19 Pat->ARI: Thank you. @[find out the goal of the speakers]$
+20 ARI->Pat+Com: Thank you, see you around, have a nice day. @[find out the goal of the speakers]$

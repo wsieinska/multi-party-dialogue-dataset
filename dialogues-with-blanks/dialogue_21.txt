@@ -1,0 +1,25 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Com->Pat: Well, shall we go and eat? @[BLANK]$
+03 Pat->Com: I think... @[BLANK]$
+04 Pat->ARI: It's my first time here and I'm a bit lost, I'd like to find... I think I need to go to the toilet before starting because afterwards I have an appointment with the doctor. Could you tell me... Could you, could you tell me how to find the toilets, please? @[BLANK]$
+05 ARI->Pat: Very easy! You have to go to the corridor at the end of the room. @[BLANK]$
+06 ARI->Pat+Com: Can I help you? @[BLANK]$
+07 ARI->Pat+Com: Hello, my name is ARI. Can I help you? @[BLANK]$
+08 Com->ARI: So we'd like to go and eat, is there a cafeteria here? @[BLANK]$
+09 ARI->Pat+Com: Yes of course. There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+10 Com->ARI: And how do we get there? @[BLANK]$
+11 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+12 Com->ARI: Ok. @[BLANK]$
+13 Com->ARI: Before we go to the cafeteria, I'd like to go to the toilet. Where are the toilets? @[BLANK]$
+14 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @[BLANK]$
+15 Com->Pat: So what do we do, shall we go? @[BLANK]$
+16 Pat->ARI: I really need to go to the toilet. @[BLANK]$
+17 ARI->Pat: I didn't understand your request, could you rephrase it? @[BLANK]$
+18 ARI->Pat+Com: How can I help you? @[BLANK]$
+19 Com->ARI: We would like to go to the toilets. @[BLANK]$
+20 Pat->ARI: Could you please come with me to the toilet? @[BLANK]$
+21 ARI->Pat: I'm sorry, but I can't help you. @[BLANK]$
+22 Pat->ARI: I would like to go to the toilet. @[BLANK]$
+23 ARI->Pat: I'm sorry, but I can't help you. @[BLANK]$
+24 Pat->ARI: Never mind then. @[BLANK]$
+25 ARI->Pat+Com: Thank you, have a nice day. @[BLANK]$

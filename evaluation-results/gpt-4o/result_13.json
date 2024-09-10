@@ -1,0 +1,242 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, drink(coffee))",
+        "score": 0.5517241379310345
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info(cafeteria(location)))",
+        "score": 0.918918918918919
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat+Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Pat, get-info(cafeteria(location)))",
+        "score": 0.9512195121951219
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(toilet(location)))",
+        "pred": "G(Pat, go-to(toilet))",
+        "score": 0.6909090909090909
+    },
+    {
+        "turn": 7,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "G(Pat, get-info(toilet(location)))",
+        "score": 0.9117647058823529
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, get-info(toilet(location)))",
+        "pred": "AGP(Pat, get-info(toilet(location)))",
+        "score": 0.9473684210526315
+    },
+    {
+        "turn": 9,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "G(Pat, get-info(room(location)))",
+        "score": 0.9552238805970149
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(room_17(location)))",
+        "pred": "G(Com, get-info(room(location)))",
+        "score": 0.9552238805970149
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(room_17(location)))",
+        "pred": "AGP(Pat+Com, get-info(room(location)))",
+        "score": 0.9620253164556962
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Pat+Com, get-info(room_17(location)))",
+        "pred": "CGP(Pat+Com, get-info(room(location)))",
+        "score": 0.9620253164556962
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat+Com, get-info(cardiology_department(appointment(delay))))",
+        "pred": "G(Pat, get-info(appointment(delay)))",
+        "score": 0.7272727272727273
+    },
+    {
+        "turn": 14,
+        "gold": "G(Com, get-info(cardiology_department(appointment(delay))))",
+        "pred": "G(Pat, get-info(appointment(delay)))",
+        "score": 0.6947368421052632
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Pat+Com, get-info(cardiology_department(appointment(delay))))",
+        "pred": "AGN(Pat, get-info(appointment(delay)))",
+        "score": 0.7378640776699029
+    },
+    {
+        "turn": 16,
+        "gold": "CGN(Pat+Com, get-info(cardiology_department(appointment(delay))))",
+        "pred": "CGN(Pat, get-info(appointment(delay)))",
+        "score": 0.7378640776699029
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 18,
+        "gold": "G(Pat+Com, get-info(doctor(name)))",
+        "pred": "G(Pat, get-info(appointment(doctor)))",
+        "score": 0.704225352112676
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "G(Pat+Com, get-info(doctor(name)))",
+        "pred": "G(Pat+Com, get-info(doctor(name)))",
+        "score": 1.0
+    },
+    {
+        "turn": 21,
+        "gold": "AGN(Pat+Com, get-info(doctor(name)))",
+        "pred": "AGN(Pat+Com, get-info(doctor(name)))",
+        "score": 1.0
+    },
+    {
+        "turn": 22,
+        "gold": "CGN(Pat+Com, get-info(doctor(name)))",
+        "pred": "CGN(Pat+Com, get-info(doctor(name)))",
+        "score": 1.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "G(Pat, get-info(vending_machine))",
+        "pred": "G(Pat, get-info(vending_machine(location)))",
+        "score": 0.868421052631579
+    },
+    {
+        "turn": 25,
+        "gold": "G(Com, get-info(vending_machine))",
+        "pred": "G(Com, get-info(vending_machine(location)))",
+        "score": 0.868421052631579
+    },
+    {
+        "turn": 26,
+        "gold": "AGP(Pat+Com, get-info(vending_machine))",
+        "pred": "AGP(Pat+Com, get-info(vending_machine(location)))",
+        "score": 0.8863636363636364
+    },
+    {
+        "turn": 27,
+        "gold": "G(Pat, get-info(cafeteria(closing_time)))",
+        "pred": "G(Pat, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 28,
+        "gold": "G(Com, get-info(cafeteria(closing_time)))",
+        "pred": "G(Pat, get-info(cafeteria(closing_time)))",
+        "score": 0.926829268292683
+    },
+    {
+        "turn": 29,
+        "gold": "AGN(Pat+Com, get-info(cafeteria(closing_time)))",
+        "pred": "AGN(Pat, get-info(cafeteria(closing_time)))",
+        "score": 0.9555555555555556
+    },
+    {
+        "turn": 30,
+        "gold": "CGN(Pat+Com, get-info(cafeteria(closing_time)))",
+        "pred": "CGN(Pat, get-info(cafeteria(closing_time)))",
+        "score": 0.9555555555555556
+    },
+    {
+        "turn": 31,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat, get-info(geriatric_ward(lift)))",
+        "pred": "G(Pat, get-info(lift_existence))",
+        "score": 0.6285714285714286
+    },
+    {
+        "turn": 33,
+        "gold": "G(Com, get-info(geriatric_ward(lift)))",
+        "pred": "G(Pat+Com, get-info(lift_existence))",
+        "score": 0.5945945945945946
+    },
+    {
+        "turn": 34,
+        "gold": "AGP(Pat+Com, get-info(geriatric_ward(lift)))",
+        "pred": "AGP(Pat+Com, get-info(lift_existence))",
+        "score": 0.6829268292682927
+    },
+    {
+        "turn": 35,
+        "gold": "G(Pat, get-info(geriatric_ward(directions)))",
+        "pred": "G(Pat, get-info(geriatric_ward(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 36,
+        "gold": "G(Pat+Com, get-info(geriatric_ward(directions)))",
+        "pred": "G(Pat, get-info(geriatric_ward(directions)))",
+        "score": 0.9565217391304348
+    },
+    {
+        "turn": 37,
+        "gold": "AGP(Pat+Com, get-info(geriatric_ward(directions)))",
+        "pred": "AGP(Pat, get-info(geriatric_ward(directions)))",
+        "score": 0.9583333333333334
+    },
+    {
+        "turn": 38,
+        "gold": "CGP(Pat+Com, get-info(geriatric_ward(directions)))",
+        "pred": "CGP(Pat, get-info(geriatric_ward(directions)))",
+        "score": 0.9583333333333334
+    },
+    {
+        "turn": 39,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 40,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 4,
+        "gold": "AGP(Pat+Com, get-info(food(location)))",
+        "pred": "BLANK",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat, get-info(toilet(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat+Com, get-info(toilet(location)))",
+        "pred": "BLANK",
+        "score": 0.044444444444444446
+    },
+    {
+        "turn": 8,
+        "gold": "G(Pat, get-info(toilet(accessible)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "G(Com, get-info(toilet(accessible)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "AGP(Pat+Com, get-info(toilet(accessible)))",
+        "pred": "BLANK",
+        "score": 0.0425531914893617
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat, get-info(room_17(directions)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "BLANK",
+        "score": 0.041666666666666664
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat, get-info(lift(accessible)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(lift(accessible)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "AGP(Pat+Com, get-info(lift(accessible)))",
+        "pred": "ANK",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 17,
+        "gold": "G(Pat, get-info(waiting_time))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "G(Com, get-info(waiting_time))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "AGN(Pat+Com, get-info(waiting_time))",
+        "pred": "ANK",
+        "score": 0.10256410256410256
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "ANK",
+        "score": 0.0
+    }
+]

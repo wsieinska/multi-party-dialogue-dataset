@@ -1,0 +1,58 @@
+ Sure, I'd be happy to help! Based on the examples you provided, I will guess the following annotations for the missing goals:
+
+
+
+
+1. ARI->Pat+Com: Hello, my name is ARI. Can I help you? [BLANK]$
+2. Com->Pat: Do you want to go to the toilet? Because I do. [BLANK]$
+3. Pat->Com: Oh yes, me too. And it's urgent. [BLANK]$
+4. ARI->Pat+Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. [BLANK]$
+5. Pat->AR: Is it for women? [BLANK]$
+6. ARI->Pat: Yes. [BLANK]$
+7. Pat->AR: Thanks. [BLANK]$
+8. Com->Pat: I'm a bit hungry. Don't you want to go and eat? [BLANK]$
+9. Pat->Com: Oh, yes, I'd love to. We could eat something. [BLANK]$
+10. Pat->AR: What's good on your menu? [BLANK]$
+1. ARI: Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. [BLANK]$
+12. Pat->AR: But if I have an appointment in the morning [BLANK]$
+13. ARI->Pat: I can't help you. [BLANK]$
+14. Pat->AR: So we don't eat, we aren't offered breakfast [BLANK]$
+15. ARI->Pat+Com: I'm sorry, but I can't help you. [BLANK]$
+16. Pat->AR: Well, thanks anyway [BLANK]$
+17. ARI->Pat: Thank you very much [BLANK]$
+18. Com->Pat: Can you tell me where room 17 is [BLANK]$
+19. Pat->Com: Oh, but I don't know [BLANK]$
+20. Pat->AR: Is room 17 on the ground? [BLANK]$
+2. ARI->Pat: I can't help you. [BLANK]$
+2. Pat->Com: Where is room 17 [BLANK]$
+3. Com->Pat: Normally, I have an appointment [BLANK]$
+2. ARI->Pat: I have appointment in room 17 [BLANK]$
+5. ARI->Pat: I can't help you [BLANK]$
+6. Pat->AR: So, where do the appointments take place? Where are the appointments? [BLANK]$
+7. ARI->Pat: I can't help you [BLANK]$
+8. Pat->ARI: Do you have another room for me? [BLANK]$
+29. ARI->Pat: I'm sorry, but I can't help you [BLK]$
+30. Pat->AR: Okay, thank you then [BLANK]$
+3. Com->Pat: The appointment was scheduled for 4 o'clock, right? [BLANK]$
+3. Pat->AR: My appointment was scheduled for 4 o'clock, is that right [BLANK]$
+3 ARI->Pat+Com: Yes [BLANK]$
+4. Pat->AR: An appointment of gerontology [BLANK]$
+5. ARI->Pat: Of course [BLANK]$
+36. Pat->AR: Where I should I... Where should I go in the hospital for my appointment? [BLANK]$
+7. ARI->Pat: I can't help you [BLK]$
+38. Pat->AR: Can't tell me what floor? [BLANK]$
+39. ARI->Pat: I'm sorry, but I can't help you [BLK]$
+40. Pat->AR: Do I ask at the reception? Where can I get this information? [BLANK]$
+4 ARI: I can't help you [BLANK]$
+4. Pat->AR: Well, thank you [BLANK]$
+3. Pat->AR: Can I have a coffee while I wait? [BLANK]$
+4. ARI: There are a few options as part of your visit, and there's also a cafeteria on the ground floor [BLANK]$
+4. Pat->ARI can have everything I want at this cafeteria [BLANK]$
+5. ARI: Yes. Of course [BLANK]$
+47. Pat->AR: Oh, that's nice. Thank you [BLK]$
+48. ARI+Com: Thank you. See you around [BLANK]$
+
+
+
+
+Please note that I have filled in the blanks with the same annotation for each turn, as there are no clear indication of which speaker is which goal is being referred to.

@@ -1,0 +1,15 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[@BLANK]$
+02 Pat->ARI: Yes, I'd like to know where the cafeteria is, um, I don't know, a restaurant here in the hospital @[G(location)]$
+03 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left @[G(cafeteria)]$
+04 Com->AR: Um, can you repeat that please @[R]$
+05 @$
+06 Pat: I'm hard of hearing and the sound is a little low, can you repeat that please @[R]$
+07 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left @[G(cafeteria)]$
+08 ARI: Ok, thank you @[C]$
+09 ARI: You're welcome @[C]$
+10 ARI: So, another question @[Q]$
+11 Com: Um, hello. Do you know where toilets are @[G]$
+12 ARI: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right @[toilet]$
+13 Com: Thank you @[T]$
+14 Pat: Thank you ARI @[T]$
+15 ARI+Com: You're welcome. Have a nice day @[T]$

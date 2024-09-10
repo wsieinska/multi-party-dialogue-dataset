@@ -1,0 +1,14 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @BLANK $ -> GOAL(assist)$
+02 Com->ARI: Hi, we need to get to the rheumatology department. Can you tell us where it is, please? @BLANK $ -> INFORM(location)$
+03 ARI->Pat+Com: Certainly. The rheumatology department is on the second floor. You can take the lift or the stairs. @BLANK $ INFORM(location)$
+04 Com->Ok, thank you. @BLANK $ THANK$
+05 ARI->Com: You're welcome. @BLANK $
+06 Com->Pat: We'll walk slowly, it's ok. @BLANK $ ACTIVITY(walk)$
+07 Pat->Com: Yes. @BLANK $ LOCAL$
+08 Com->AR: Umm... Where the lifts? @BLANK $ INFORM(lifts)$
+09 ARI->Com: The lifts are at the entrance on the left. @BLANK $ LOCAL$
+10 Com->ARI: Ok. @BLANK $ ACTIVITY(take_lift)$
+11 Com->Pat: We'll take the lift then, it'll be easier. @BLANK $ ACTIVITY(take_lift)$
+12 Com->AR: Thank you ARI @BLK $ THANK$
+13 Pat->ARI: Thank you. @BLANK $ THANK$
+14 ARI+Com: You're welcome. Have a nice day. @BLK $ GOAL(farewell)$

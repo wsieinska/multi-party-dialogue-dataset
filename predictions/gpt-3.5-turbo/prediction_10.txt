@@ -1,0 +1,19 @@
+<START>
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @G(Pat+Com, get-directions(room(17)))$
+02 Com->ARI: Yes, you can. I have to go and see someone who's hospitalised and I can't remember the ward. It's room 17. Can you please tell me how to get there? @G(Com, get-directions(room(17)))$
+03 ARI->Com: You continue along the building, take the lift, and it's on the second floor. @AGP(Com, get-directions(room(17)))$
+04 Com->ARI: Ok, thank you. @CGP(Com, get-directions(room(17)))$
+05 ARI->Com: Thank you. @-$
+06 Pat->ARI: Look, I have an appointment, but um, for my friend who is here. I can't remember the appointment time. Could you tell me? @G(Pat, get-info(appointment(time)))$
+07 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. @AGN(Pat, get-info(appointment(time)))$
+08 Pat->ARI: Ok, thank you anyway. @CGN(Pat, get-info(appointment(time)))$
+09 Pat->ARI: Where is the reception? How do I get there? @G(Pat, get-directions(reception))$
+10 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat, get-directions(reception))$
+11 Pat->ARI: Ok, thank you. @CGP(Pat, get-directions(reception))$
+12 Com->ARI: I have an appointment at 5 o'clock in the cardiology department. I don't know where that is. Could you tell me please? @G(Com, get-info(appointment(location)))$
+13 ARI->Com: Sorry, I don't have this information. I'll call a nurse to come and help you. @AGN(Com, get-info(appointment(location))$
+14 Com->ARI: Ok, thank you. We'll wait for the nurse then. @CGN(Com, get-info(appointment(location)))$
+15 ARI->Pat+Com: Thank you. See you soon. Have a nice day. @-$
+16 Com->ARI: Thank you, bye. @-$
+17 Pat->ARI: See you soon. You too, have a nice day. @-$
+<END>

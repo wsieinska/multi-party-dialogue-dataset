@@ -1,0 +1,14 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @[where is the rheumatology department?]$
+02 Com->ARI: Hi, we need to get to the rheumatology department. Can you tell us where it is, please? @[where is the rheumatology department?]$
+03 ARI->Pat+Com: Certainly. The rheumatology department is on the second floor. You can take the lift or the stairs. @[take the lift or the stairs to the second floor to get to the rheumatology department]$
+04 Com->ARI: Ok, thank you. @[ok, thank you for the directions to the rheumatology department]$
+05 ARI->Com: You're welcome. @[you're welcome for the directions to the rheumatology department]$
+06 Com->Pat: We'll walk slowly, it's ok. @[we'll walk slowly to the rheumatology department]$
+07 Pat->Com: Yes. @[yes, we'll walk slowly to the rheumatology department]$
+08 Com->ARI: Umm... Where are the lifts? @[where are the lifts to reach the second floor and the rheumatology department?]$
+09 ARI->Com: The lifts are at the entrance on the left. @[the lifts are at the entrance on the left to reach the second floor and the rheumatology department]$
+10 Com->ARI: Ok. @[ok, I understand where the lifts are to reach the second floor and the rheumatology department]$
+11 Com->Pat: We'll take the lift then, it'll be easier. @[we'll take the lift to the second floor to make it easier to reach the rheumatology department]$
+12 Com->ARI: Thank you ARI. @[thank you ARI for the directions to the rheumatology department]$
+13 Pat->ARI: Thank you. @[thank you ARI for assisting us today]$
+14 ARI->Pat+Com: You're welcome. Have a nice day. @[you're welcome. Have a nice day as we leave the hospital]$

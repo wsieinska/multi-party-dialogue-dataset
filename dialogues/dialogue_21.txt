@@ -1,0 +1,25 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Com->Pat: Well, shall we go and eat? @G(Pat+Com, eat())$
+03 Pat->Com: I think... @-$
+04 Pat->ARI: It's my first time here and I'm a bit lost, I'd like to find... I think I need to go to the toilet before starting because afterwards I have an appointment with the doctor. Could you tell me... Could you, could you tell me how to find the toilets, please? @G(Pat, get-info(toilet(directions)))$
+05 ARI->Pat: Very easy! You have to go to the corridor at the end of the room. @AGP(Pat, get-info(toilet(directions)))$
+06 ARI->Pat+Com: Can I help you? @-$
+07 ARI->Pat+Com: Hello, my name is ARI. Can I help you? @-$
+08 Com->ARI: So we'd like to go and eat, is there a cafeteria here? @G(Pat+Com, get-info(cafeteria))$
+09 ARI->Pat+Com: Yes of course. There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat+Com, get-info(cafeteria))$
+10 Com->ARI: And how do we get there? @G(Pat+Com, get-info(cafeteria(directions)))$
+11 ARI->Com: I'm sorry, but I can't help you. @AGN(Pat+Com, get-info(cafeteria(directions)))$
+12 Com->ARI: Ok. @CGN(Pat+Com, get-info(cafeteria(directions)))$
+13 Com->ARI: Before we go to the cafeteria, I'd like to go to the toilet. Where are the toilets? @G(Com, get-info(toilet(location)))$
+14 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @AGP(Com, get-info(toilet(location)))$
+15 Com->Pat: So what do we do, shall we go? @G(Com, get-info(next_steps))$
+16 Pat->ARI: I really need to go to the toilet. @G(Pat, go-to(toilet))$
+17 ARI->Pat: I didn't understand your request, could you rephrase it? @-$
+18 ARI->Pat+Com: How can I help you? @-$
+19 Com->ARI: We would like to go to the toilets. @G(Pat+Com, go-to(toilet))$
+20 Pat->ARI: Could you please come with me to the toilet? @G(Pat, request-escort(toilet))$
+21 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, request-escort(toilet))$
+22 Pat->ARI: I would like to go to the toilet. @G(Pat, go-to(toilet))$
+23 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, go-to(toilet))$
+24 Pat->ARI: Never mind then. @CGN(Pat, go-to(toilet))$
+25 ARI->Pat+Com: Thank you, have a nice day. @-$

@@ -1,0 +1,314 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[goal - Pat and Com want to know what ARI can help them with]",
+        "score": 0.03225806451612903
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "[goal - Pat wants to know if Com wants to speak with the robot]",
+        "score": 0.03125
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "[goal - Com wants to know if Pat minds if they speak to the robot]",
+        "score": 0.029850746268656716
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Pat, get-info(food(location)))",
+        "pred": "[goal - Pat wants to know where they can eat something]",
+        "score": 0.1839080459770115
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "[goal - Com wants to know where they can eat before the consultation]",
+        "score": 0.3238095238095238
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(food(location)))",
+        "pred": "[goal - ARI provides information on where they can eat]",
+        "score": 0.25806451612903225
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, drink(coffee))",
+        "pred": "[goal - Com suggests having a coffee in the cafeteria]",
+        "score": 0.32
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat+Com, drink(coffee))",
+        "pred": "[goal - Pat agrees to have a coffee in the cafeteria]",
+        "score": 0.28205128205128205
+    },
+    {
+        "turn": 14,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "[goal - Com wants to know where the cafeteria is]",
+        "score": 0.37209302325581395
+    },
+    {
+        "turn": 15,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "[goal - ARI provides the location of the cafeteria]",
+        "score": 0.37777777777777777
+    },
+    {
+        "turn": 16,
+        "gold": "CGP(Com, get-info(cafeteria(location)))",
+        "pred": "[no goal]",
+        "score": 0.25
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Pat, go-to(toilet))",
+        "pred": "[goal - Pat wants to go to the toilet before the consultation]",
+        "score": 0.3373493975903614
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "[goal - Com wants to know where the toilet is]",
+        "score": 0.325
+    },
+    {
+        "turn": 23,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "[goal - ARI provides the location of the toilet]",
+        "score": 0.2857142857142857
+    },
+    {
+        "turn": 24,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "[no goal]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 25,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "[goal - Pat wants to find room 17]",
+        "score": 0.37681159420289856
+    },
+    {
+        "turn": 27,
+        "gold": "-",
+        "pred": "[no goal]",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat+Com, get-info(room_17(location)))",
+        "pred": "[goal - Com wants to know where room 17 is]",
+        "score": 0.3170731707317073
+    },
+    {
+        "turn": 29,
+        "gold": "AGP(Pat+Com, get-info(room_17(location)))",
+        "pred": "[goal - ARI provides the location and instructions for finding room 17]",
+        "score": 0.21428571428571427
+    },
+    {
+        "turn": 30,
+        "gold": "CGP(Pat+Com, get-info(room_17(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 31,
+        "gold": "G(Pat, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "G(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "AGN(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "CGN(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "G(Com, get-info(reception(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 37,
+        "gold": "AGP(Com, get-info(reception(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "CGP(Com, get-info(reception(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 39,
+        "gold": "G(Pat, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 40,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 41,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 42,
+        "gold": "G(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 43,
+        "gold": "AGP(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "CGP(Pat+Com, get-info(appointment))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 45,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 46,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Pat+Com, drink(hot_chocolate))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 48,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 49,
+        "gold": "G(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 50,
+        "gold": "AGP(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 51,
+        "gold": "CGP(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 52,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

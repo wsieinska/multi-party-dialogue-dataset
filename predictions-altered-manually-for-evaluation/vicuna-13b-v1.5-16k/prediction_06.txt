@@ -1,0 +1,35 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[Goal]$
+02 Pat->ARI: Hello, I, I'd really like... I'm hungry. I'd really like to eat. @[Goal]$
+03 Pat->ARI: And is the room air-conditioned? The restaurant? @[Goal]$
+04 ARI->Pat: Yes. Of course. @[Goal]$
+05 ARI->Pat: Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @[Goal]$
+06 Pat->Com: So, do you know what I'll be eating today? @[Goal]$
+07 Com->Pat: Oh but no, I don't know. I'm going to ask. @[Goal]$
+08 Com->ARI: Can you tell us if there is a cafeteria? I'm looking for a cafeteria to have a coffee or a hot chocolate. @[Goal]$
+09 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[Goal]$
+10 Com->ARI: Can you tell me where on the ground floor? Right, left, straight ahead? @[Goal]$
+11 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[Goal]$
+12 Com->ARI: Okay, thank you. @[Goal]$
+13 Com->Pat: Um, also... @[Goal]$
+14 Pat->Com: Um, what time can we have lunch? @[Goal]$
+15 Com->ARI: Can you tell me the cafeteria opening hours? Are there set opening hours? @[Goal]$
+16 ARI->Com: It's at 11 o'clock. @[Goal]$
+17 Com->ARI: Ah, it opens at 11 o'clock? @[Goal]$
+18 ARI->Com: Yes. @[Goal]$
+19 Com->ARI: And what time does it close? @[Goal]$
+20 ARI->Com: I'm sorry, I don't have this information. @[Goal]$
+21 Com->ARI: Ah, that's a shame, thank you. @[Goal]$
+22 Pat->Com: Is there... @[Goal]$
+23 ARI->Com: Thank you. @[Goal]$
+24 Pat->Com:... Is there a lift to get to the cafeteria? @[Goal]$
+25 Com->Pat: Um no, because it's on the ground floor. @[Goal]$
+26 Pat->Com: Oh, ok. @[Goal]$
+27 Com->ARI: But could you please tell us where the lifts are? Where at the entrance are they located? @[Goal]$
+28 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[Goal]$
+29 Com->ARI: Um, for the lifts? @[Goal]$
+30 ARI->Com: Yes. @[Goal]$
+31 Com->ARI: You already told me this for the cafeteria. So the lifts and the cafeteria are right next to each other? @[Goal]$
+32 ARI->Com: Absolutely. @[Goal]$
+33 Com->ARI: Oh, okay, thank you very much. @[Goal]$
+34 ARI->Com: Thank you. @[Goal]$
+35 ARI->Pat+Com: See you around. Have a nice day. @[Goal]$

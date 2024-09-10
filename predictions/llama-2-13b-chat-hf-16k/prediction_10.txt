@@ -1,0 +1,27 @@
+ Sure, I'd be happy to help! Based on the provided dialogues, I'll do my best to guess the missing annotations. Here is the dialogue with the blanks filled in:
+
+
+
+
+0 ARI->Pat+Com: Hello. My name is ARI. Can I help you? [BLANK$
+2 Com->ARI: Yes, you can. I have to go and see someone who's hospitalised and I can't remember the ward. It's room 17. Can you please tell me how to get there? [G(get-info(ward(location)]
+3 ARI->Com: You continue along the building, take the lift, and it's on the second floor. [G(get-info(ward(location)]
+0 Com->AR: Ok, thank you [TH]
+0 ARI->Com: Thank you [TH]
+06 Pat->ARI: Look, I have an appointment, but um, for my friend who is here. I can't remember the appointment time. Could you tell me? [G(get-info(appointment(time)]
+7 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. [AG(appointment(time)]
+08 Pat->ARI: Ok, thank you [TH]
+09 Pat->AR: Where is the reception? How do I get there? [G(reception]
+10 ARI: You have to enter the second building behind you. Then it's the second door on the left. [AG(reception]
+1 Pat->AR: Ok, thank you [TH]
+1 Com->AR: I have an appointment at 5 o'clock in the cardiology department. I don't know where is. Could you tell me please? [G(get-info(cardiology)]
+13 ARI->Com: Sorry, I don't have this information. I'll call a nurse to come and help you. [AG(cardiology)
+14 Com->AR: Ok, thank you. We'll wait for the nurse then [TH
+15 ARI+Com: Thank you. See you soon. Have a nice day [TH
+16 Com->AR: Thank you, bye. [TH
+17 Pat->AR: See you soon. You too, have a nice day [TH
+
+
+
+
+Please note that I've filled in the blanks with the most likely goals based on the context of the dialogue, but keep in mind that the actual goals may vary depending on the specific situation and the speaker's intentions.

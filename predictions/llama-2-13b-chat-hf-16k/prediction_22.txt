@@ -1,0 +1,39 @@
+ Sure, I'd be happy to help! Here are my guesses for the missing annotations in the dialogue:
+
+
+
+
+1 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? [BLANK
+2 Com->ARI: Well, um, we'd like to go to room 17 for an appointment. Where is... Which way should we go to get to room 17? [G(get-info(room(location)]
+3 ARI+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. [G(get-info(room)]
+4 Pat->Com: Do you think it's going to take us to room 17? Because it looks like it's stuck here. [G(get-info(room)]
+5 Com->Pat: Oh, I think so. Room 17 [G(get-info(room)]
+6 Pat->Com: How could we ask it? [G(ask)]
+7 Com->AR: It is room 17 you're showing us to? [G(show-room)
+8 ARI+Com: Yes, you're right. [CG(room)]
+9 Com->ARI: Ok. [G(ok)]
+10 Com->Pat: So everything's fine, we can go. We have an appointment in 5 minutes. [G(time)]
+1 Com->AR: Do we have enough time to get there? [G(time)
+12 ARI+Com: Yes, of course. [G(time)
+3 Com->ARI: Yes, ok [G(ok)]
+14 Com->AR: But my friend has forgotten his doctor's name. Can you help us please? [G(help)]
+15 ARI: Sorry, I don't have this information. I'm going to call a nurse to come and inform you. [CG(help)
+16 Com->AR: Thank you. [G(thank)]
+17 ARI+Com: Do you have any other questions? [G(questions]
+18 Com->AR: We'll wait for the nurse. [W(wait)
+19 ARI->Com: Yes. [G(yes)]
+20 ARI+Com: Thank you, goodbye. [GB(bye)
+
+
+
+
+Please note that I've used the following rules to fill in the blanks:
+
+
+
+
+* Goals are indicated by the prefix 'G' (e.g. G(get-info, get-info, go-toilet, etc.)
+* Actions are indicated by the prefix 'A' (e.g. A(ction)
+* Utterances are indicated by the prefix 'U' (e.g. U(m, okay)
+* Responses are indicated by the prefix 'R' (e.g. R(epeat)
+* Annotations are indicated by the prefix '@' (e.g. @BLANK)

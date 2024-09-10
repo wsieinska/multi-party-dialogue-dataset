@@ -1,0 +1,35 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[@BLANK$
+02 Pat->ARI: Hello, I'd really like... I'm hungry. I'd really like to eat. @G(Com, eat())$
+03 Pat->ARI: And is the room-conditioned? The restaurant? @[@BLANK$
+04 ARI->Pat: Yes, of course. @BLANK$
+05 @$
+06 Pat->Com: So, do you know what I'll be eating today? @[@BLANK$
+07 Com->Pat: Oh, no, I don't know. @G(Com, eat())$
+08 Com->AR: Can you tell us if there is a cafeteria? I'm looking for a coffee or a hot chocolate. @[@BLANK$
+09 ARI->Com: There are a few options as part of your visit, and there's also a cafeteria on the ground. @[@BLANK$
+10 Com->ARI: Can you tell me where on the ground? Right, left, straight ahead? @[@BLANK$
+11 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[@BLANK$
+12 Com->AR: Okay, thank you @[@BLK$
+13 Com->Pat: Um, also... @[@BLANK$
+14 Pat->Com: Um, what time can we have lunch? @[@BLANK$
+15 Com->AR: Can you tell me the cafeteria opening hours? Are there set hours? @[@BLANK$
+16 ARI->Com: It's at 1 o'clock. @BLANK$
+17 Com->AR: Ah, it opens at 1 o'clock? @[@BLANK$
+18 Com->AR: Yes. @[@BLANK$
+19 Com->I: And what time does it close? @[@BLK$
+20 ARI: I don't have this information. @BLANK$
+21 Com->AR: Ah, that's a shame, thank you. @[@BLK$
+22 Pat->Com: Is... @[@BLANK$
+23 ARI->Com: Thank you. @BLANK$
+24 Pat->Com:... Is there a lift to get to the cafeteria? @[@BLK$
+25 Com->Pat: Um, because it's on the ground. @BLK$
+26 Pat->Com: Oh, ok. @BLK$
+27 Com->AR: But you can tell us where the lifts are? Where at the entrance are located? @[@BLK$
+28 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @BLK$
+29 Com->AR: Um, for the lifts? @BLK$
+30 ARI->Com: Yes, @BLANK$
+31 Com->AR: You already told me this for the cafeteria. So the lifts and the cafeteria are right next to each other? @BLK$
+32 Com->AR: Absolutely. @BLANK$
+33 Com->I: Oh, thank you. @BLK$
+34 ARI->Com: Thank you. @BLANK$
+35 ARI->Pat+Com: See you around. Have a nice day. @BLANK$

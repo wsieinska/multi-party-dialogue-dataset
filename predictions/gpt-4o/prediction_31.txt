@@ -1,0 +1,54 @@
+<START>
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @-$
+02 Com->ARI: Hello. @G(Com, greet())$
+03 Com->Pat: Umm, are we speaking to the robot? Do you want to speak with the robot? @G(Pat, confirm-interaction-with(robot))$
+04 Pat->Com: No, I'd rather not. @G(Pat, express-preference(not-speak(robot)))$
+05 Com->Pat: Ok, do you mind if I, I speak to the robot? @G(Com, ask-permission(speak(robot)))$
+06 Pat->Com: On the contrary. @G(Pat, give-permission())$
+07 Com->Pat: Ok. @-$
+08 Pat->Com: But I'd really like to know where I can eat something. @G(Pat, get-info(food(location)))$
+09 Com->Pat: Ah. @-$
+10 Com->ARI: We're hungry. We'd like to eat before the consultation. Where could we go? @G(Pat+Com, get-info(food(location)))$
+11 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @AGP(Pat+Com, get-info(food(location)))$
+12 Com->Pat: Let's maybe have a coffee in the cafeteria. What do you think? @G(Com, suggest(drink(coffee)))$
+13 Pat->Com: It suits me very well. I'd like a coffee too. @G(Pat, agree(drink(coffee)))$
+14 Com->ARI: Where is the cafeteria? @G(Com, get-info(cafeteria(location)))$
+15 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(location)))$
+16 Com->ARI: Great. @CGP(Com, get-info(cafeteria(location)))$
+17 Pat->Com: I'll continue. @G(Pat, continue-conversation())$
+18 Com->Pat: Yes. @-$
+19 Pat->Com: Before the consultation, I'd really like to go to the toilet. @G(Pat, go-to(toilet))$
+20 Com->Pat: Ah, the toilet? @-$
+21 Pat->Com: Yes. @-$
+22 Com->ARI: Well... Where is the toilet? @G(Com, get-info(toilet(location)))$
+23 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @AGP(Com, get-info(toilet(location)))$
+24 Pat->ARI: Very good. @CGP(Pat, get-info(toilet(location)))$
+25 Com->ARI: Very good. @CGP(Com, get-info(toilet(location)))$
+26 Pat->Com: I've just arrived, I'd like to find room 17. @G(Pat, get-info(room(location)))$
+27 Com->Pat: Ah, room 17! @-$
+28 Com->ARI: Where is room 17? Is it on this floor or do we have to go elsewhere? @G(Com, get-info(room(location)))$
+29 ARI->Pat+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @AGP(Pat+Com, get-info(room(location)))$
+30 Com->ARI: Ah well, we'll ask the nurses then, very good. @CGP(Pat+Com, get-info(room(location)))$
+31 Pat->Com: In fact, I have an appointment at 4 o'clock. @G(Pat, inform(appointment(time)))$
+32 Com->Pat: Ah, ok. @-$
+33 Com->ARI: Where, where do we go to find out about appointments? We have an appointment at 4 o'clock. How does that work? @G(Com, get-info(appointment(procedure)))$
+34 ARI->Pat+Com: Please ask at the reception. @AGP(Pat+Com, get-info(appointment(procedure)))$
+35 Com->ARI: Ah, right. @CGP(Pat+Com, get-info(appointment(procedure)))$
+36 Com->ARI: And where is the reception? @G(Com, get-info(reception(location)))$
+37 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @AGP(Com, get-info(reception(location)))$
+38 Com->ARI: Of course. @CGP(Com, get-info(reception(location)))$
+39 Pat->Com: I'm at the hospital with my mum. I, I'm trying to find, I have an appointment... @G(Pat, explain(situation))$
+40 Com->Pat: Ok. Umm... @-$
+41 Pat->Com: In room 4 this time. @G(Pat, get-info(room(location)))$
+42 Com->ARI: Where can we get information about our appointment? @G(Com, get-info(appointment(procedure)))$
+43 ARI->Pat+Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @AGP(Pat+Com, get-info(appointment(procedure)))$
+44 Com->ARI: Ah great, thank you very much. @CGP(Pat+Com, get-info(appointment(procedure)))$
+45 ARI->Com: You're welcome. @-$
+46 Com->Pat: What do we do while waiting for the appointment? @G(Com, get-info(passing-time(activity)))$
+47 Pat->Com: Could we have a little hot chocolate? @G(Pat, suggest(drink(hot-chocolate)))$
+48 Com->Pat: Ah. @-$
+49 Com->ARI: Is there somewhere we can get a hot chocolate? @G(Com, get-info(hot-chocolate(location)))$
+50 ARI->Pat+Com: There's a coffee machine in the hallway entrance. There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @AGP(Pat+Com, get-info(hot-chocolate(location)))$
+51 Com->ARI: Great. @CGP(Pat+Com, get-info(hot-chocolate(location)))$
+52 ARI->Pat+Com: Thank you, see you later, have a nice day. @-$
+<END>

@@ -1,0 +1,25 @@
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @-$
+02 Com->ARI: Hello, so what we need to find is... @G(Com, get-info(location(cafeteria)))$
+03 Pat->Com: So I think yes, we'll ask whether there is a cafeteria or a place where we can eat. @G(Pat+Com, get-info(location(eating_place)))$
+04 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat+Com, get-info(location(cafeteria)))$
+05 Com->ARI: Ok, thank you. @-$
+06 Pat->ARI: Okay, perfect. @-$
+07 Pat->Com: Do you want to have a coffee before your appointment? I'd like one. @G(Com, drink(coffee))$
+08 Com->Pat: Yes, since we have half an hour before the appointment we can have a coffee. @G(Com, drink(coffee))$
+09 Pat->Com: Perfect, let's go then. @G(Pat+Com, go-to(location(coffee_counter)))$
+10 Com->Pat: Ok. @-$
+11 Pat->Com: Ok, we'll take it slowly, we'll get there. @G(Pat+Com, go-slow(location(coffee_counter)))$
+12 Com->Pat: Yes. @-$
+13 Pat->Com: So we can ask where the counter is to get a coffee? @G(Com, get-info(location(coffee_counter)))$
+14 Com->Pat: Yes. @-$
+15 Pat->Com: Ok. @-$
+16 Com->ARI: Umm... Where exactly should we go for a coffee? @G(Com, get-info(location(coffee_counter)))$
+17 ARI->Pat+Com: I'm sorry, but I can't help you. @AGN(Com, get-info(location(coffee_counter)))$
+18 Pat->Com: We'll ask it again. @G(Pat, retry(get-info(location(coffee_counter))))$
+19 Pat->ARI: Umm... We're looking for the cafeteria. @G(Pat, get-info(location(cafeteria)))$
+20 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat+Com, get-info(location(cafeteria)))$
+21 Pat->ARI: Yes, well, thank you. @CGP(Pat, get-info(location(cafeteria)))$
+22 Pat->Com: However, it wasn't able to tell us if there was a special counter for coffees, but it doesn't matter. @G(Pat+Com, note(get-info(location(coffee_counter))))$
+23 Com->Pat: It doesn't matter. @-$
+24 ARI->Pat+Com: Thank you, have a nice day. @-$
+25 Com->ARI: You too. Bye ARI. @-$

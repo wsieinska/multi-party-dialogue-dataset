@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-[Pat+Com, get-info(location(cafeteria))]",
+        "score": 0.047619047619047616
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6352941176470588
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6206896551724138
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "-[Com, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6352941176470588
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "-[Com, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6206896551724138
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6352941176470588
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6206896551724138
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(cafeteria(location)))",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.6206896551724138
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-[Pat, get-info(location(cafeteria/restaurant))]",
+        "score": 0.04081632653061224
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "-[Pat+Com, continue-discussion()]",
+        "score": 0.058823529411764705
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "-[Com, get-info(location(toilets))]",
+        "score": 0.6956521739130435
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "-[Com, get-info(location(toilets)]",
+        "score": 0.6571428571428571
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "-[Com, get-info(location(toilets)]",
+        "score": 0.6571428571428571
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "-[Pat, get-info(location(toilets)]",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-[Pat+Com, end-interaction()]",
+        "score": 0.06666666666666667
+    }
+]

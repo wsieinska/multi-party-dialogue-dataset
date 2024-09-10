@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[@BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(room_17(location)))",
+        "pred": "[BLANK]",
+        "score": 0.045454545454545456
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.043478260869565216
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(waiting_time))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Pat, get-info(waiting_time))",
+        "pred": "[BLANK]",
+        "score": 0.10256410256410256
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(clock))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(clock))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    }
+]

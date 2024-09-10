@@ -1,0 +1,25 @@
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @[G(Pat+Com, get-info(cafeteria))]$
+02 Com->ARI: Hello, so what we need to find is... @[BLANK]$
+03 Pat->Com: So I think yes, we'll ask it whether there is a cafeteria or a place where we can eat. @[BLANK]$
+04 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @[G(Pat+Com, get-info(cafeteria))]$
+05 Com->ARI: Ok, thank you. @[BLANK]$
+06 Pat->ARI: Okay, perfect. @[BLANK]$
+07 Pat->Com: Do you want to have a coffee before your appointment? I'd like one. @[BLANK]$
+08 Com->Pat: Yes, since we have half an hour before the appointment we can have a coffee. @[BLANK]$
+09 Pat->Com: Perfect, let's go then. @[BLANK]$
+10 Com->Pat: Ok. @[BLANK]$
+11 Pat->Com: Ok, we'll take it slowly, we'll get there. @[BLANK]$
+12 Com->Pat: Yes. @[BLANK]$
+13 Pat->Com: So we can ask where the counter is to get a coffee? @[BLANK]$
+14 Com->Pat: Yes. @[BLANK]$
+15 Pat->Com: Ok. @[BLANK]$
+16 Com->ARI: Umm... Where exactly should we go for a coffee? @[BLANK]$
+17 ARI->Pat+Com: I'm sorry, but I can't help you. @[BLANK]$
+18 Pat->Com: We'll ask it again. @[BLANK]$
+19 Pat->ARI: Umm... We're looking for the cafeteria. @[BLANK]$
+20 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @[G(Pat+Com, get-info(cafeteria))]$
+21 Pat->ARI: Yes, well, thank you. @[BLANK]$
+22 Pat->Com: However, it wasn't able to tell us if there was a special counter for coffees, but it doesn't matter. @[BLANK]$
+23 Com->Pat: It doesn't matter. @[BLANK]$
+24 ARI->Pat+Com: Thank you, have a nice day. @[BLANK]$
+25 Com->ARI: You too. Bye ARI. @[BLANK]$

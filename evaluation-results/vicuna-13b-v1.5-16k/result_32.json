@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "G(Com, drink(hot_chocolate))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, drink(tea(herbal)))",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, drink(tea(herbal)))",
+        "pred": "G(Com, drink(herbal_tea))",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.7636363636363637
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat+Com, eat())",
+        "score": 0.6530612244897959
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat, get-info(cafeteria(directions)))",
+        "score": 0.4225352112676056
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, get-info(ground_floor(directions)))",
+        "score": 0.9545454545454546
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "AGP(Pat, get-info(ground_floor(directions)))",
+        "score": 0.9565217391304348
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "CGP(Pat, get-info(ground_floor(directions)))",
+        "score": 0.9565217391304348
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "G(Pat, leave())",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "G(Pat+Com, leave())",
+        "score": 0.0
+    }
+]

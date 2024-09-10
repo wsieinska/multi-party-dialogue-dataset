@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[find room 17]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[get directions to room 17]",
+        "score": 0.38235294117647056
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[get nurse assistance for room 17]",
+        "score": 0.33766233766233766
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, request-escort(room_17))",
+        "pred": "[check robot's functionality for room 17]",
+        "score": 0.3333333333333333
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, request-escort(room_17))",
+        "pred": "[confirm appointment location]",
+        "score": 0.09523809523809523
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "[ask robot for assistance with asking for room 17]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "G(Com, request-escort(room_17))",
+        "pred": "[check robot's understanding of room 17]",
+        "score": 0.3380281690140845
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, request-escort(room_17))",
+        "pred": "[confirm understanding of room 17]",
+        "score": 0.36619718309859156
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, request-escort(room_17))",
+        "pred": "[acknowledge understanding of room 17]",
+        "score": 0.3466666666666667
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, go-to(appointment))",
+        "pred": "[confirm appointment status and time]",
+        "score": 0.417910447761194
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "[ask about time to reach appointment]",
+        "score": 0.38095238095238093
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "[confirm time to reach appointment]",
+        "score": 0.35714285714285715
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "[agree on course of action]",
+        "score": 0.21052631578947367
+    },
+    {
+        "turn": 14,
+        "gold": "G(Com, get-info(doctor(name)))",
+        "pred": "[get doctor's name for appointment]",
+        "score": 0.4
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Com, get-info(doctor(name)))",
+        "pred": "[ask nurse for doctor's name]",
+        "score": 0.45901639344262296
+    },
+    {
+        "turn": 16,
+        "gold": "CGN(Com, get-info(doctor(name)))",
+        "pred": "[acknowledge assistance]",
+        "score": 0.25
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "[ask if there are further questions]",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "[acknowledge waiting for nurse]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "[confirm waiting for nurse]",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "[say goodbye]",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "[say goodbye]",
+        "score": 0.0
+    }
+]

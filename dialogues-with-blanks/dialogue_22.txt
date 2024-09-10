@@ -1,0 +1,21 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @[BLANK]$
+02 Com->ARI: Well, um, we'd like to go to room 17 for an appointment. Where is... Which way should we go to get to room 17? @[BLANK]$
+03 ARI->Pat+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @[BLANK]$
+04 Pat->Com: Do you think it's going to take us to room 17? Because it looks like it's stuck here. @[BLANK]$
+05 Com->Pat: Oh, I think so. Room 17... @[BLANK]$
+06 Pat->Com: How could we ask it? @[BLANK]$
+07 Com->ARI: It is room 17 that you're showing us to? @[BLANK]$
+08 ARI->Pat+Com: Yes, you're right. @[BLANK]$
+09 Com->ARI: Ok. @[BLANK]$
+10 Com->Pat: So everything's fine, we can go. We have an appointment in 5 minutes. @[BLANK]$
+11 Com->ARI: Do we have enough time to get there? @[BLANK]$
+12 ARI->Pat+Com: Yes, of course. @[BLANK]$
+13 Com->ARI: Yes, ok. @[BLANK]$
+14 Com->ARI: But my friend has forgotten his doctor's name. Can you help us please? @[BLANK]$
+15 ARI->Com: Sorry, I don't have this information. I'm going to call a nurse to come and inform you. @[BLANK]$
+16 Com->ARI: Thank you. @[BLANK]$
+17 ARI->Pat+Com: Do you have any other questions? @[BLANK]$
+18 Com->ARI: We'll wait for the nurse. @[BLANK]$
+19 ARI->Com: Yes. @[BLANK]$
+20 ARI->Pat+Com: Thank you, goodbye. @[BLANK]$
+21 Com->ARI: Goodbye. @[BLANK]$

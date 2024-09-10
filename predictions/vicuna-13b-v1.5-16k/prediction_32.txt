@@ -1,0 +1,31 @@
+01 Pat->Com: Hello ARI. @G(Pat, drink(herbal_tea))$
+
+02 ARI->Pat+Com: Hello, how can I assist you today? @-$
+
+03 Com->Pat: I'd like a hot chocolate. @G(Com, drink(hot_chocolate))$
+
+04 Pat->Com: And why not herbal tea? I'll have one... @G(Pat, drink(herbal_tea))$
+
+05 Com->Pat: Well, yes. Herbal tea then. @G(Com, drink(herbal_tea))$
+
+06 Pat->Com:... to de-stress. @G(Pat, drink(herbal_tea))$
+
+07 Pat->ARI: Could we have a herbal tea to relax a bit? We're a little bit annoyed, stressed out from all of this. The hospital is complicated, isn't it? @G(Pat, drink(herbal_tea))$
+
+08 ARI->Pat+Com: Yes, there's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @G(Pat+Com, eat())$
+
+09 Pat->ARI: Well, great, thank you. @G(Pat, get-info(cafeteria(directions)))$
+
+10 Pat->ARI: How do we get to the ground floor? Do we take the lift? How do we do it? @G(Pat, get-info(ground_floor(directions)))$
+11 ARI->Pat+Com: Yes, the lifts are at the entrance on the left. @AGP(Pat, get-info(ground_floor(directions)))$
+12 Pat->ARI: Ah great, thank you. @CGP(Pat, get-info(ground_floor(directions)))$
+13 Pat->ARI: Goodbye. @-$
+14 ARI->Pat: You're welcome. @G(Pat, leave())$
+15 Pat->ARI: We don't need you anymore, goodbye. @-$
+16 ARI->Pat+Com: Thank you, see you later, have a nice day. @G(Pat+Com, leave())$
+17 ARI->Com: Goodbye. @-$
+18 ARI->Pat: Thank you. @-$
+19 ARI->Pat+Com: Goodbye. @-$
+20 ARI->ARI: Goodbye. @-$
+
+<END>

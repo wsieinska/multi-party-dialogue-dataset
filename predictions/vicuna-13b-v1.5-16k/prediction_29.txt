@@ -1,0 +1,29 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(ARI, assist())$
+02 Pat->ARI: Oh no, I don't want to talk to you, that's enough. Go away. @turn speaker->addressee: utterance @goal$
+03 Pat->Com: Do you want to talk to it? @turn speaker->addressee: utterance @goal$
+04 Com->Pat: Yes, I'd like to. @turn speaker->addressee: utterance @goal$
+05 Pat->Com: So, I'm hungry. @turn speaker->addressee: utterance @goal$
+06 Com->ARI: My friend that I'm accompanying is very hungry. Could you tell me where to find a restaurant or a bar here? @turn speaker->addressee: utterance @goal$
+07 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @turn speaker->addressee: utterance @goal$
+08 Com->ARI: Thank you. @turn speaker->addressee: utterance @goal$
+09 Com->ARI: And how, how... Where is the cafeteria? @turn speaker->addressee: utterance @goal$
+10 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @turn speaker->addressee: utterance @goal$
+11 Com->ARI: And where is the courtyard? @turn speaker->addressee: utterance @goal$
+12 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @turn speaker->addressee: utterance @goal$
+13 Com->ARI: Good, thank you. @turn speaker->addressee: utterance @goal$
+14 Pat->Com: I need to go to the toilet, do you think that's possible? @turn speaker->addressee: utterance @goal$
+15 Com->Pat: Yes, of course. @turn speaker->addressee: utterance @goal$
+16 Com->ARI: ARI, the person that I'm accompanying really needs to go to the toilet. Can you tell me where the toilet is? @turn speaker->addressee: utterance @goal$
+17 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @turn speaker->addressee: utterance @goal$
+18 Com->ARI: Um... Is there access, is there access for disabled people? @turn speaker->addressee: utterance @goal$
+19 ARI->Com: Yes, absolutely. @turn speaker->addressee: utterance @goal$
+20 Com->ARI: Good, thank you. @turn speaker->addressee: utterance @goal$
+21 ARI->Pat+Com: Do you need information? @turn speaker->addressee: utterance @goal$
+22 Pat->Com: Umm... @turn speaker->addressee: utterance @goal$
+23 Com->ARI: I'll ask my... the patient. @turn speaker->addressee: utterance @goal$
+24 Pat->Com: Umm... I have to go to an examination room, I don't know which one, where it is or what I have to do. @turn speaker->addressee: utterance @goal$
+25 Com->ARI: My friend is a little bit irritated because he doesn't know where to go for his examination. He has to have a test. @turn speaker->addressee: utterance @goal$
+26 ARI->Pat+Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @turn speaker->addressee: utterance @goal$
+27 Pat->Com: Umm... No, but what are these appointments? @turn speaker->addressee: utterance @goal$
+28 Pat->Com: When is my appointment? No, but I want to know now. You have to tell me. @turn speaker->addressee: utterance @goal$
+29 Com->ARI: We would still

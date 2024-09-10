@@ -1,0 +1,380 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "G(Pat, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "-",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "G(Com, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(appointment))",
+        "pred": "G(Com, confirm(appointment))",
+        "score": 0.8070175438596491
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Com, get-info(appointment))",
+        "pred": "AGP(Com, inform(appointment(details)))",
+        "score": 0.782608695652174
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat, get-info(geriatrician(name)))",
+        "pred": "G(Pat, get-info(geriatrician(identity)))",
+        "score": 0.868421052631579
+    },
+    {
+        "turn": 8,
+        "gold": "AGN(Pat, get-info(geriatrician(name)))",
+        "pred": "AGN(Pat, get-info(geriatrician(identity)))",
+        "score": 0.875
+    },
+    {
+        "turn": 9,
+        "gold": "CGN(Pat, get-info(geriatrician(name)))",
+        "pred": "CGN(Com, get-info(geriatrician(identity)))",
+        "score": 0.8
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat, get-info(consultation_room(location)))",
+        "pred": "G(Pat, get-info(consultation_room(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Pat, get-info(consultation_room(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(consultation_room(directions)))",
+        "pred": "AGN(Pcaffeine, com-light getPe-room) Intone(erference())))",
+        "score": 0.38095238095238093
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat, get-info(reception))",
+        "pred": " increase folmework recognition))))) @",
+        "score": 0.4307692307692308
+    },
+    {
+        "turn": 14,
+        "gold": "AGP(Pat, get-info(reception))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(reception(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "AGN(Com, get-info(reception(location)))",
+        "pred": " amp Double um Intellectual Hen lob nest examples/an(Istrument competent extensive subagency overt inserted Immediate army subs+ @",
+        "score": 0.17751479289940827
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(info_source))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "G(Pat, drink(coffee))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "AGN(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "G(Com, get-info(cafeteria(floor)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "AGN(Com, get-info(cafeteria(floor)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 27,
+        "gold": "AGN(Com, get-info(cafeteria(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat, get-info(consultation(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 29,
+        "gold": "AGN(Pat, get-info(consultation(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 30,
+        "gold": "CGN(Pat, get-info(consultation(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 31,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "AGN(Pat+Com, get-info(lift(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "G(Pat, get-info(stairs))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "G(Com, get-info(stairs))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 37,
+        "gold": "G(Com, get-info(stairs))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "AGP(Pat+Com, get-info(stairs))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 39,
+        "gold": "G(Com, get-info(stairs(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 40,
+        "gold": "AGN(Com, get-info(stairs(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 41,
+        "gold": "G(Com, get-info(info_source))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 42,
+        "gold": "AGN(Com, get-info(info_sourse))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 43,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "AGN(Pat+Com, get-info(next_steps))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 45,
+        "gold": "G(Pat, get-info(ari(capabilities)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 46,
+        "gold": "G(Com, get-info(ari(capabilities)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Com, get-info(hospital(floors)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 48,
+        "gold": "AGN(Com, get-info(hospital(floors)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 49,
+        "gold": "G(Pat, drink(water))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 50,
+        "gold": "G(Pat+Com, drink(water))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 51,
+        "gold": "AGP(Pat+Com, drink(water))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 52,
+        "gold": "G(Com, get-info(cafeteria(water)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 53,
+        "gold": "AGP(Com, get-info(cafeteria(water)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 54,
+        "gold": "G(Pat, get-info(cafeteria(coffee)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 55,
+        "gold": "G(Com, get-info(cafeteria(coffee)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 56,
+        "gold": "AGP(Pat+Com, get-info(cafeteria(coffee)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 57,
+        "gold": "G(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 58,
+        "gold": "AGP(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 59,
+        "gold": "CGP(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 60,
+        "gold": "G(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 61,
+        "gold": "AGP(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 62,
+        "gold": "CGP(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 63,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

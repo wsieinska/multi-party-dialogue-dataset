@@ -1,0 +1,59 @@
+ Sure, I'd be happy to help! Here is the dialogue with the missing annotations filled in:
+
+
+
+
+<START>
+1 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you?[BLANK]$
+2 Com->ARI: Hello[BLANK]$
+0 Com->Pat: Umm, are we speaking to the robot? Do you want to speak with the robot?[BLANK]$
+04 Pat->Com: No, I'd rather not[BLANK$
+0 Com->Pat: Ok, do you mind if I speak to the robot[BLANK]$
+06 Pat->Com: On the contrary[BLANK]
+07 Com->Pat: Ok[BLANK]$
+08 Pat->Com: But I'd really like to know where I can eat something[BLANK$
+09 Com->Pat: Ah[BLANK]$
+10 Com->AR: We're hungry. We'd like to eat before the consultation. Where could we go[BLANK]$
+1 ARI->Pat+Com: There are a few options as part of your visit, and there's also a cafeteria on the ground floor. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse[BLANK]$
+12 Com->Pat: Let's maybe have a coffee in the cafeteria. What do you think[BLANK]$
+13 Pat->Com: It suits me very well. I'd like a coffee too[BLANK]$
+14 Com->AR: Where is the cafeteria[BLANK]$
+15 ARI->Com: There's a cafeteria on the ground floor, near the courtyard[BLANK]$
+16 Com->ARI: Great[BLANK]$
+17 Pat->Com: I'll continue[BLANK]$
+18 Com->Pat: Yes[BLANK]$
+19 Pat->Com: Before the consultation, I'd really like to go to the toilet[BLANK]$
+20 Com->Pat: Ah, toilet[BLANK]$
+2 Pat->Com: Yes[BLANK]$
+2 Com->AR: Well... Where is the toilet[BLANK]$
+23 ARI->Com: Very easy! You have to go to the corridor at the end of the room[BLANK]$
+24 Pat->AR: Very good[BLANK]$
+25 Com->AR: Very good[BLK]$
+26 Com->Com: I've just arrived, I'd like to find room 17[BLANK]$
+27 Com->Pat: Ah, room 17[BLANK]$
+28 Com->AR: Where is room 17? Is it on this floor or do we have to go elsewhere[BLANK]$
+29 ARI->Pat+Com: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you[BLANK]$
+30 Com->AR: Ah well, we'll ask the nurses then, very good[BLANK]$
+3 Pat->Com: In fact, I have an appointment at 4 o'clock[BLANK]$
+3 Com->Pat: Ah[BLANK]$
+3 Com->AR: Where do we go to find out about appointments? We have an appointment at 4 o'clock. How does that work[BLANK]$
+34 ARI->Pat+Com: Please ask at the reception[BLANK]$
+35 Com->AR: Ah, right[BLANK]$
+36 Com->AR: And where is the reception[BLK$
+37 ARI->Com: The reception is just behind me. Remember to take a ticket on your right[BLANK]$
+38 Com->AR: Of course[BLANK]$
+39 Pat->Com: I'm at the hospital with my mum, I'm trying to find, I have an appointment[BLK]$
+40 Com->Pat: Ok. Umm[BLK$
+4 Pat->Com: In room 4 this time[BLANK]$
+4 Com->AR: Where can we get information about our appointment[BLK]$
+43 ARI->Pat+Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrian who will summarise all this data and suggest different types of follow-up depending on your results[BLANK]$
+4 Com->AR: Ah great, thank you[BLK$
+4 Com->Com: You're welcome[BLK]$
+46 Com->Pat: What do we do while waiting for the appointment[BLK]$
+47 Pat->Com: Could we have a little hot chocolate[BLK]$
+48 Com->Pat: Ah[BLK]$
+49 Com->AR: Is there somewhere we can get a hot chocolate[BLK]$
+50 ARI->Pat+Com: There's a coffee machine in the hallway. There's a cafeteria on the ground, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks[BLK]$
+5 Com->AR: Great[BLK$
+5 Com->ARI: Thank you, see you later, have a nice day[BLK]$
+<END>

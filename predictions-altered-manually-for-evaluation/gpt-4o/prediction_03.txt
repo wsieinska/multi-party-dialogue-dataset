@@ -1,0 +1,48 @@
+01 ARI->Pat+Com: Hello, my name is ARI. Can I help you? @-$
+02 Com->Pat: Do you want to go to the toilet? Because I do. @G(Pat+Com, go-to(toilet))$
+03 Pat->Com: Oh yes, me too. And it's urgent. @G(Pat+Com, go-to(toilet))$
+04 ARI->Pat+Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @AGP(Pat+Com, go-to(toilet))$
+05 Pat->ARI: Is it for women? @G(Pat, get-info(toilet(women)))$
+06 ARI->Pat: Yes. @AGP(Pat, get-info(toilet(women)))$
+07 Pat->ARI: Thanks. @CGP(Pat, get-info(toilet(women)))$
+08 Com->Pat: I'm a bit hungry. Don't you want to go and eat? @G(Pat+Com, eat())$
+09 Pat->Com: Oh, yes, I'd love to. We could eat something. @G(Pat+Com, eat())$
+10 Pat->ARI: What's good on your menu? @G(Pat, get-info(menu))$
+11 ARI->Pat: Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @AGP(Pat, get-info(menu))$
+12 Pat->ARI: But what if I have an appointment in the morning? @G(Pat, get-info(menu(morning)))$
+13 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(menu(morning)))$
+14 Pat->ARI: So we don't eat, we aren't offered breakfast? @G(Pat, get-info(breakfast))$
+15 ARI->Pat+Com: I'm sorry, but I can't help you. @AGN(Pat, get-info(breakfast))$
+16 Pat->ARI: Well, thanks anyway. @CGN(Pat, get-info(breakfast))$
+17 ARI->Pat: Thank you very much. @-$
+18 Com->Pat: Can you tell me where room 17 is? @G(Pat, get-info(room_17(location)))$
+19 Pat->Com: Oh, but I don't know. @-$
+20 Pat->ARI: Is room 17 on the ground floor? @G(Pat, get-info(room_17(location)))$
+21 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(room_17(location)))$
+22 Pat->Com: Where is room 17? @G(Pat, get-info(room_17(location)))$
+23 Com->Pat: Normally, I have an appointment... @G(Com, inform(appointment))$
+24 Pat->ARI: I have an appointment in room 17. @G(Pat, get-info(appointment(location)))$
+25 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(appointment(location)))$
+26 Pat->ARI: So, where do the appointments take place? Where are the appointments? @G(Pat, get-info(appointment(location)))$
+27 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(appointment(location)))$
+28 Pat->ARI: Do you have another room number for me? @G(Pat, get-info(appointment(alternate_room)))$
+29 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, get-info(appointment(alternate_room)))$
+30 Pat->ARI: Okay well, thank you then. @CGN(Pat, get-info(appointment(alternate_room)))$
+31 Com->Pat: The appointment was scheduled for 4 o'clock, right? @G(Pat, confirm(appointment(time)))$
+32 Pat->ARI: My appointment was scheduled for 4 o'clock, is that right? @G(Pat, confirm(appointment(time)))$
+33 ARI->Pat+Com: Yes. @AGP(Pat, confirm(appointment(time)))$
+34 Pat->ARI: An appointment of... gerontology. @G(Pat, get-info(appointment(type)))$
+35 ARI->Pat: Of course. @AGP(Pat, get-info(appointment(type)))$
+36 Pat->ARI: Where should I... Where should I go in the hospital for my appointment? @G(Pat, get-info(appointment(location)))$
+37 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(appointment(location)))$
+38 Pat->ARI: Can't you tell me what floor? @G(Pat, get-info(appointment(floor)))$
+39 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, get-info(appointment(floor)))$
+40 Pat->ARI: Do I ask at the reception? Where can I get this information? @G(Pat, get-info(appointment(info_location)))$
+41 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(appointment(info_location)))$
+42 Pat->ARI: Well, thank you. @CGN(Pat, get-info(appointment(info_location)))$
+43 Pat->ARI: Can I have a coffee while I wait? @G(Pat, drink(coffee))$
+44 ARI->Pat: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Pat, drink(coffee))$
+45 Pat->ARI: And I can have everything I want at this cafeteria? @G(Pat, get-info(cafeteria(options)))$
+46 ARI->Pat: Yes. Of course. @AGP(Pat, get-info(cafeteria(options)))$
+47 Pat->ARI: Oh, that's nice. Thank you. @CGP(Pat, get-info(cafeteria(options)))$
+48 ARI->Pat+Com: Thank you. See you around. @-$

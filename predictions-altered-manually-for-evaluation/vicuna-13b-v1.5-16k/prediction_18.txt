@@ -1,0 +1,27 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @G(Pat+Com, get-info(lift(location)))$
+02 Com->Pat: So it's... @G(Com, get-info())$
+03 Pat->Com: Yes. So um... So um... @G(Pat, get-info())$
+04 Com->Pat: Yes? @G(Com, get-info())$
+05 Com->ARI: I'd like to know how to get to the lift. @G(Com, get-info(lift(directions)))$
+06 ARI->Com: Of course. The lifts are at the entrance on the left. @AGP(Com, get-info(lift(directions)))$
+07 Pat->ARI: It's nice of you to answer us. @G(Pat, thank())$
+08 Com->ARI: Thank you very much. @CGP(Com, thank())$
+09 Pat->ARI: Thanks ARI. @G(Pat, thank())$
+10 Pat->Com: Maybe we could ask it if there's anything to eat? @G(Pat, get-info(food())$
+11 Com->Pat: Yes, yes. @G(Com, get-info())$
+12 Com->ARI: And also, could you direct us to the cafeteria? If there is one in the hospital. @G(Com, get-info(cafeteria())$
+13 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria())$
+14 Pat->ARI: But how do we get there ARI? @G(Pat, get-info(cafeteria(directions)))$
+15 ARI->Pat: Sorry, I don't have this information. @AGN(Pat, get-info(cafeteria(directions)))$
+16 Pat->ARI: Do we have to take the lift? @G(Pat, get-info(cafeteria(lift-required)))$
+17 ARI->Pat+Com: Sorry, I don't have this information. @AGN(Pat+Com, get-info(cafeteria(lift-required)))$
+18 Com->ARI: So you don't know how to get to the cafeteria? @G(Com, get-info(cafeteria(directions)))$
+19 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(directions)))$
+20 Com->ARI: So it's on the ground floor, isn't it? @G(Com, get-info(cafeteria(location)))$
+21 Pat->Com: Yes, that's it. @CGP(Com, get-info(cafeteria(location)))$
+22 ARI->Com: Yes, absolutely. @AGP(Com, get-info(cafeteria(location)))$
+23 Com->ARI: Can you take us there by any chance? @G(Com, get-info(cafeteria(escort-requested)))$
+24 ARI->Com: No, I'm sorry. I'll call a nurse to come and help you. @AGN(Com, get-info(cafeteria(escort-requested)))$
+25 Com->ARI: Thank you very much. @CGP(Com, thank())$
+26 Pat->ARI: Thank you ARI. @CGP(Pat, thank())$
+27 ARI->Pat+Com: You're welcome. Have a nice day. @G(Pat+Com, thank())$

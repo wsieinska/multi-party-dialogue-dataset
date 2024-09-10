@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[@BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(lift(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Com, get-info(lift(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Com, get-info(lift(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(food))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Pat, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "AGN(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "G(Com, request-escort(cafeteria))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "AGN(Com, request-escort(cafeteria))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "CGN(Com, request-escort(cafeteria))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 27,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    }
+]

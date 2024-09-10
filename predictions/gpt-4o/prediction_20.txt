@@ -1,0 +1,38 @@
+<START>
+01 Pat->ARI: Hello ARI. @G(Pat, greet())$
+02 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+03 Pat->Com: Ask how... @G(Pat, instruct(Com, ask(ARI)))$
+04 Com->ARI: Hello. We'd like to have a small meal, can you tell us where we should go? @G(Pat+Com, eat())$
+05 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Pat+Com, eat())$
+06 Com->ARI: Can you tell me when the cafeteria opens? @G(Com, get-info(cafeteria(opening_time)))$
+07 ARI->Com: It is open from 11 AM. @AGP(Com, get-info(cafeteria(opening_time)))$
+08 Com->ARI: From 11 AM, is that right? @G(Com, confirm(cafeteria(opening_time)))$
+09 ARI->Com: Yes, you're right. @AGP(Com, confirm(cafeteria(opening_time)))$
+10 Com->ARI: Thank you. @CGP(Com, confirm(cafeteria(opening_time)))$
+11 ARI->Com: You're welcome, I'm here to answer your questions. @-$
+12 Com->ARI: Is the cafeteria wheelchair accessible? Because my friend is in a wheelchair and he can't get around by himself. @G(Com, get-info(cafeteria(accessibility)))$
+13 ARI->Com: Yes, absolutely. @AGP(Com, get-info(cafeteria(accessibility)))$
+14 Com->ARI: Thank you. @CGP(Com, get-info(cafeteria(accessibility)))$
+15 Pat->ARI: Hmm, ARI, could you tell me how to get to the cafeteria? @G(Pat, get-info(cafeteria(directions)))$
+16 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat, get-info(cafeteria(directions)))$
+17 Com->ARI: ARI, could you tell me if my appointment is at 11 AM? @G(Com, get-info(appointment(time)))$
+18 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @AGN(Com, get-info(appointment(time)))$
+19 Pat->Com: He might know how to get there. @G(Pat, get-info(reception(directions)))$
+20 Pat->ARI: Can you tell me how to get to the reception? @G(Pat, get-info(reception(directions)))$
+21 ARI->Pat: The reception is just behind me. Remember to take a ticket on your right. @AGP(Pat, get-info(reception(directions)))$
+22 Pat->ARI: Ah, thank you. @CGP(Pat, get-info(reception(directions)))$
+23 Com->ARI: It's quite simple. Thank you ARI. @CGP(Pat+Com, get-info(reception(directions)))$
+24 ARI->Pat+Com: You're welcome. I'm here to answer your questions. @-$
+25 Pat->Com: It would be nice to know how to take the lift. @G(Pat+Com, get-info(lift(use)))$
+26 Pat->ARI: ARI, could you tell us how to get to the lift? @G(Pat, get-info(lift(directions)))$
+27 ARI->Pat: The lifts are at the entrance on the left. @AGP(Pat, get-info(lift(directions)))$
+28 Pat->ARI: Do these lifts take us to the cafeteria, or do we have to take something else? @G(Pat, get-info(cafeteria(access)))$
+29 ARI->Pat: I'm sorry, but I can't help you. @AGN(Pat, get-info(cafeteria(access)))$
+30 Com->ARI: Is the cafeteria on the ground floor? @G(Com, confirm(cafeteria(location)))$
+31 ARI->Com: Yes, you're right. @AGP(Com, confirm(cafeteria(location)))$
+32 Com->ARI: So we don't have to take the lift to get to the cafeteria? @G(Com, confirm(cafeteria(access)))$
+33 ARI->Com: No, you do not. @AGP(Com, confirm(cafeteria(access)))$
+34 Com->ARI: Thank you. @CGP(Com, confirm(cafeteria(access)))$
+35 Pat->ARI: Thank you very much ARI. @CGP(Pat, get-info(cafeteria(access)))$
+36 ARI->Pat+Com: You're welcome, thank you, see you later and have a nice day. @-$
+<END>

@@ -1,0 +1,380 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "APPOINTMENT",
+        "score": 0.043478260869565216
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "THINFORMATION",
+        "score": 0.04
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "APPOINTMENT",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(appointment))",
+        "pred": "APPOINTMENT",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Com, get-info(appointment))",
+        "pred": "APPOINTMENT",
+        "score": 0.09523809523809523
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat, get-info(geriatrician(name)))",
+        "pred": "DOCTOR",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "AGN(Pat, get-info(geriatrician(name)))",
+        "pred": "RECESSION",
+        "score": 0.0425531914893617
+    },
+    {
+        "turn": 9,
+        "gold": "CGN(Pat, get-info(geriatrician(name)))",
+        "pred": "INFORMATION",
+        "score": 0.04081632653061224
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat, get-info(consultation_room(location)))",
+        "pred": "ROOM",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Pat, get-info(consultation_room(location)))",
+        "pred": "ROOM",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(consultation_room(directions)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat, get-info(reception))",
+        "pred": "RECEPTION",
+        "score": 0.05555555555555555
+    },
+    {
+        "turn": 14,
+        "gold": "AGP(Pat, get-info(reception))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(reception(location)))",
+        "pred": "RECEPTION",
+        "score": 0.043478260869565216
+    },
+    {
+        "turn": 16,
+        "gold": "AGN(Com, get-info(reception(location)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(info_source))",
+        "pred": "INFORMATION",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "G(Pat, drink(coffee))",
+        "pred": "COFFEE",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "CAFIRE",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "GROUND",
+        "score": 0.044444444444444446
+    },
+    {
+        "turn": 21,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "FLOOR",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "FLOOR",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "AGN(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "G(Com, get-info(cafeteria(floor)))",
+        "pred": "FLOOR",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "AGN(Com, get-info(cafeteria(floor)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "COFFEE",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 27,
+        "gold": "AGN(Com, get-info(cafeteria(location)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat, get-info(consultation(time)))",
+        "pred": "APPOINTMENT",
+        "score": 0.0425531914893617
+    },
+    {
+        "turn": 29,
+        "gold": "AGN(Pat, get-info(consultation(time)))",
+        "pred": "ROOM",
+        "score": 0.0
+    },
+    {
+        "turn": 30,
+        "gold": "CGN(Pat, get-info(consultation(time)))",
+        "pred": "INFORMATION",
+        "score": 0.04081632653061224
+    },
+    {
+        "turn": 31,
+        "gold": "-",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "LIFT",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "LIFT",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "AGN(Pat+Com, get-info(lift(location)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "G(Pat, get-info(stairs))",
+        "pred": "STAIRS",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "G(Com, get-info(stairs))",
+        "pred": "STAIRS",
+        "score": 0.0
+    },
+    {
+        "turn": 37,
+        "gold": "G(Com, get-info(stairs))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "AGP(Pat+Com, get-info(stairs))",
+        "pred": "STAIRS",
+        "score": 0.05555555555555555
+    },
+    {
+        "turn": 39,
+        "gold": "G(Com, get-info(stairs(location)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 40,
+        "gold": "AGN(Com, get-info(stairs(location)))",
+        "pred": "INFORMATION",
+        "score": 0.0851063829787234
+    },
+    {
+        "turn": 41,
+        "gold": "G(Com, get-info(info_source))",
+        "pred": "INFORMATION",
+        "score": 0.0
+    },
+    {
+        "turn": 42,
+        "gold": "AGN(Com, get-info(info_sourse))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 43,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "DO",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "AGN(Pat+Com, get-info(next_steps))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 45,
+        "gold": "G(Pat, get-info(ari(capabilities)))",
+        "pred": "HELP",
+        "score": 0.05128205128205128
+    },
+    {
+        "turn": 46,
+        "gold": "G(Com, get-info(ari(capabilities)))",
+        "pred": "INFORMATION",
+        "score": 0.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Com, get-info(hospital(floors)))",
+        "pred": "FLOORS",
+        "score": 0.0
+    },
+    {
+        "turn": 48,
+        "gold": "AGN(Com, get-info(hospital(floors)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 49,
+        "gold": "G(Pat, drink(water))",
+        "pred": "WATER",
+        "score": 0.0
+    },
+    {
+        "turn": 50,
+        "gold": "G(Pat+Com, drink(water))",
+        "pred": "WATER",
+        "score": 0.0
+    },
+    {
+        "turn": 51,
+        "gold": "AGP(Pat+Com, drink(water))",
+        "pred": "GROUND",
+        "score": 0.0625
+    },
+    {
+        "turn": 52,
+        "gold": "G(Com, get-info(cafeteria(water)))",
+        "pred": "WATER",
+        "score": 0.0
+    },
+    {
+        "turn": 53,
+        "gold": "AGP(Com, get-info(cafeteria(water)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 54,
+        "gold": "G(Pat, get-info(cafeteria(coffee)))",
+        "pred": "LEFT",
+        "score": 0.0
+    },
+    {
+        "turn": 55,
+        "gold": "G(Com, get-info(cafeteria(coffee)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 56,
+        "gold": "AGP(Pat+Com, get-info(cafeteria(coffee)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 57,
+        "gold": "G(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 58,
+        "gold": "AGP(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 59,
+        "gold": "CGP(Com, get-info(cafeteria(tea)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 60,
+        "gold": "G(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 61,
+        "gold": "AGP(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 62,
+        "gold": "CGP(Com, get-info(menu))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 63,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

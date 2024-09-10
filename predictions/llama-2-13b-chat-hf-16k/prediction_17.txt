@@ -1,0 +1,24 @@
+ Sure, I'd be happy to help! Based on the patterns in the examples you provided, I'll guess the following annotations for the missing goals:
+
+
+
+
+1. ARI->Pat+Com: Hello, how can I assist you today? @BLANK $ -> GOAL(assist)
+2 Com->ARI: Hi, we need to get to the rheumatology department. Can you tell us where it is, please? @BLANK $ -> INFORM(location)
+3 ARI->Pat+Com: Certainly. The rheumatology department is on the second floor. You can take the lift or the stairs. @BLANK $ INFORM(location)
+4 Com->Ok, thank you. @BLANK $ THANK
+5 ARI->Com: You're welcome. @BLANK $
+6 Com->Pat: We'll walk slowly, it's ok. @BLANK $ ACTIVITY(walk)
+7 Pat->Com: Yes. @BLANK $ LOCAL
+8 Com->AR: Umm... Where the lifts? @BLANK $ INFORM(lifts)
+9 ARI->Com: The lifts are at the entrance on the left. @BLANK $ LOCAL
+10 Com->ARI: Ok. @BLANK $ ACTIVITY(take_lift)
+1 Com->Pat: We'll take the lift then, it'll be easier. @BLANK $ ACTIVITY(take_lift)
+12 Com->AR: Thank you ARI @BLK $ THANK
+13 Pat->ARI: Thank you. @BLANK $ THANK
+14 ARI+Com: You're welcome. Have a nice day. @BLK $ GOAL(farewell)
+
+
+
+
+Please note that my annotations are based on the semantics of the dialogue and the goals that the speakers are trying to achieve. Some of the goals are implicit (e.g., Pat's goal in turn 4 is to walk, which is not explicitly stated but can be inferred from the context).

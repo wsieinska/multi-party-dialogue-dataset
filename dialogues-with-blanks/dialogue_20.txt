@@ -1,0 +1,36 @@
+01 Pat->ARI: Hello ARI. @[BLANK]$
+02 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+03 Pat->Com: Ask how... @[BLANK]$
+04 Com->ARI: Hello. We'd like to have a small meal, can you tell us where we should go? @[BLANK]$
+05 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[BLANK]$
+06 Com->ARI: Can you tell me when the cafeteria opens? @[BLANK]$
+07 ARI->Com: It is open from 11 AM. @[BLANK]$
+08 Com->ARI: From 11 AM, is that right? @[BLANK]$
+09 ARI->Com: Yes, you're right. @[BLANK]$
+10 Com->ARI: Thank you. @[BLANK]$
+11 ARI->Com: You're welcome, I'm here to answer your questions. @[BLANK]$
+12 Com->ARI: Is the cafeteria wheelchair accessible? Because my friend is in a wheelchair and he can't get around by himself. @[BLANK]$
+13 ARI->Com: Yes, absolutely. @[BLANK]$
+14 Com->ARI: Thank you. @[BLANK]$
+15 Pat->ARI: Hmm, ARI, could you tell me how to get to the cafeteria? @[BLANK]$
+16 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+17 Com->ARI: ARI, could you tell me if my appointment is at 11 AM? @[BLANK]$
+18 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+19 Pat->Com: He might know how to get there. @[BLANK]$
+20 Pat->ARI: Can you tell me how to get to the reception? @[BLANK]$
+21 ARI->Pat: The reception is just behind me. Remember to take a ticket on your right. @[BLANK]$
+22 Pat->ARI: Ah, thank you. @[BLANK]$
+23 Com->ARI: It's quite simple. Thank you ARI. @[BLANK]$
+24 ARI->Pat+Com: You're welcome. I'm here to answer your questions. @[BLANK]$
+25 Pat->Com: It would be nice to know how to take the lift. @[BLANK]$
+26 Pat->ARI: ARI, could you tell us how to get to the lift? @[BLANK]$
+27 ARI->Pat: The lifts are at the entrance on the left. @[BLANK]$
+28 Pat->ARI: Do these lifts take us to the cafeteria, or do we have to take something else? @[BLANK]$
+29 ARI->Pat: I'm sorry, but I can't help you. @[BLANK]$
+30 Com->ARI: Is the cafeteria on the ground floor? @[BLANK]$
+31 ARI->Com: Yes, you're right. @[BLANK]$
+32 Com->ARI: So we don't have to take the lift to get to the cafeteria? @[BLANK]$
+33 ARI->Com: No, you do not. @[BLANK]$
+34 Com->ARI: Thank you. @[BLANK]$
+35 Pat->ARI: Thank you very much ARI. @[BLANK]$
+36 ARI->Pat+Com: You're welcome, thank you, see you later and have a nice day. @[BLANK]$

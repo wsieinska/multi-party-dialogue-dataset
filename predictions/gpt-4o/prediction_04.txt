@@ -1,0 +1,71 @@
+```plaintext
+<START>
+01 ARI->Pat+Com: Hello, how can I help you? @-$
+02 Com->ARI: Hello. @G(Com, greet())$
+03 Com->Pat: Um, so what do we do? @G(Com, get-info(next_steps))$
+04 Pat->Com: Well, it's my first time here, I don't know if this is the case for you. I'd really like to um... to be able, to be able to eat a little bit before going to my appointment, do you know where that is? @G(Pat, get-info(cafeteria(location)))$
+05 Com->Pat: Oh, I don't know. We'll ask the question. @-$
+06 Com->ARI: I don't know what your name is. Can you give us information and tell us what your name is? @G(Com, get-info(name))$
+07 ARI->Com: Hello, my name is ARI. How can I help you? @-$
+08 Com->ARI: Where's the cafeteria? @G(Com, get-info(cafeteria(location)))$
+09 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Com, get-info(cafeteria(location)))$
+10 Com->Pat: Ok, on the ground floor. @CGP(Com, get-info(cafeteria(location)))$
+11 Pat->ARI: And how do we get to the cafeteria? @G(Pat, get-info(cafeteria(directions)))$
+12 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat+Com, get-info(cafeteria(directions)))$
+13 Pat->ARI: Right, the second building. @CGP(Pat, get-info(cafeteria(directions)))$
+14 Pat->ARI: Um... Do we take... do we take the walkway to the cafeteria? @G(Pat, get-info(cafeteria(access)))$
+15 ARI->Pat+Com: Yes. @AGP(Pat+Com, get-info(cafeteria(access)))$
+16 Com->ARI: I'd really like to know what's on the menu. I want a croissant and a white coffee. @G(Com, get-info(menu))$
+17 ARI->Com: Today we have an endive salad to start, followed by a ham and cheese escalope with a side of mashed potato and a fruit compote for dessert. @AGP(Com, get-info(menu))$
+18 Pat->ARI: Yes, but that's for lunch. We would like a snack, wouldn't we? Grab a coffee or breakfast, since we're early for our appointment. @G(Pat, get-info(snack))$
+19 ARI->Pat+Com: Of course. There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Pat+Com, get-info(snack))$
+20 Com->Pat: And I'd really like to go to the toilet too. @G(Com, go-to(toilet))$
+21 Com->ARI: Can you tell us where the toilets are? @G(Com, get-info(toilet(location)))$
+22 ARI->Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @AGP(Com, get-info(toilet(location)))$
+23 Com->ARI: Second door on the right. Oh well, we'll find it. Thank you. @CGP(Com, get-info(toilet(location)))$
+24 Pat->ARI: Next to... So it's next to the cafeteria? @G(Pat, get-info(toilet(location)))$
+25 ARI->Pat: Absolutely. @AGP(Pat, get-info(toilet(location)))$
+26 Com->Pat: I feel like it's further away. That, that's not on the ground floor... @G(Com, get-info(toilet(location)))$
+27 Pat->ARI: I'm having a difficulty understanding what you're saying. I can't hear very well. Could you repeat where the toilets are, please? @G(Pat, get-info(toilet(location)))$
+28 ARI->Pat: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @AGP(Pat, get-info(toilet(location)))$
+29 Pat->ARI: In the corridor at the end of the room, ok... @CGP(Pat, get-info(toilet(location)))$
+30 Pat->ARI: But on which side? @G(Pat, get-info(toilet(location)))$
+31 Com->Pat: We'll let it go. @CGP(Pat+Com, go-to(toilet))$
+32 Pat->Com: We'll leave it, we'll leave it. Umm... @CGP(Pat, go-to(toilet))$
+33 Com->Pat: We're going to eat something already. I'm very hungry. @G(Com, eat())$
+34 Com->ARI: Do you think there's still time to eat? @G(Com, get-info(time_left_to_eat))$
+35 Com->ARI: Until what time is... @G(Com, get-info(breakfast_time))$
+36 ARI->Com: Yes. @AGP(Com, get-info(time_left_to_eat))$
+37 Com->ARI: ... breakfast served? @G(Com, get-info(breakfast_time))$
+38 ARI->Com: Sorry, I don't have this information. @AGN(Com, get-info(breakfast_time))$
+39 Pat->ARI: Um so, if I understand correctly, the toilets are next to the cafeteria, is that right? @G(Pat, get-info(toilet(location)))$
+40 ARI->Pat: Absolutely. @AGP(Pat, get-info(toilet(location)))$
+41 Pat->Com: I'm having a hard time hearing actually. @G(Pat, share(difficulty_hearing))$
+42 Com->ARI: Could you speak a little louder? @G(Com, request(raise_volume))$
+43 ARI->Pat+Com: I'm afraid I can't help you. @AGN(Pat+Com, request(raise_volume))$
+44 Com->ARI: You can't help us, that's a shame. @CGN(Com, request(raise_volume))$
+45 Com->Pat: So what are we going to do? We'll see something else maybe... @G(Com, suggest(alternative_plans))$
+46 Pat->Com: So maybe we'll go and have a look around to see where my appointment will take place... Ah yes, but, well... @G(Pat, suggest(next_steps))$
+47 Pat->ARI: I know I have an appointment but I don't know where... @G(Pat, get-info(appointment(location)))$
+48 Pat->ARI: I also don't know what time it's at. How can I find out my appointment time? @G(Pat, get-info(appointment(time)))$
+49 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(appointment(time)))$
+50 Com->Pat: Well, firstly do you know where to find um... which doctor it is, which department, which specialty. @G(Com, get-info(doctor(department)))$
+51 Pat->ARI: Is there a reception? @G(Pat, get-info(reception(location)))$
+52 ARI->Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @AGP(Com, get-info(appointments))$
+53 Pat->ARI: Um, how do I know what time my appointment is at? @G(Pat, get-info(appointment(time)))$
+54 ARI->Pat: Sorry, I don't have this information. @AGN(Pat, get-info(appointment(time)))$
+55 Pat->ARI: Um... And... And where is um... Um, I, I remember, I think it's room 17. But I'm not sure. How do I get to room 17? @G(Pat, get-info(room17(location)))$
+56 ARI->Pat: You continue along the building, take the lift and it's on the second floor. @AGP(Pat, get-info(room17(location)))$
+57 Pat->ARI: And you arrive directly in room 17? @G(Pat, confirm(room17(location)))$
+58 ARI->Pat: Of course. @AGP(Pat, confirm(room17(location)))$
+59 Pat->ARI: Ok, thank you ARI. @CGP(Pat, confirm(room17(location)))$
+60 Pat->ARI: So my appointment time will be confirmed in room 17? @G(Pat, confirm(appointment(time(location))))$
+61 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, confirm(appointment(time(location))))$
+62 Pat->ARI: That's a shame. Um... @CGN(Pat, confirm(appointment(time(location))))$
+63 Com->Pat: Maybe it's at the reception. Maybe there's a service, a receptionist who will let you know, who will tell you. Let's go there. @G(Com, suggest(reception_visit))$
+64 Pat->Com: Ok, I'll go and ask at the reception then. @AGP(Pat, suggest(reception_visit))$
+65 ARI->Pat+Com: Thank you. See you around. Have a nice day. @-$
+66 Com->ARI: Thank you. @CGP(Com, suggestion())$
+67 Pat->ARI: Have a nice day. @CGP(Pat, farewell())$
+<END>
+```

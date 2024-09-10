@@ -1,0 +1,24 @@
+01 ARI->Pat+Com: Hello, my name is ARI. @BLANK$
+02 Com->ARI: Hello ARI @BLANK$
+03 ARI->Pat+Com: How can I help you? @BLANK$
+04 Pat->Com: We're going to go... Where are the lifts now? We have to go to the second floor for my examination, we'll be late. @BLANK$
+05 Com->ARI: Hello ARI, the person I'm accompanying is a little bit on edge, he's afraid of being late. Can you tell me where the lift is @BLK$
+06 Com->AR: Did you understand what I asked? @BLANK$
+07 Com->ARI: The lifts are at the entrance on the left @BLK$
+08 ARI->Com: Is the lift accessible? @BLANK$
+09 Com->AR: Yes, of course. @BLK$
+10 ARI->Com: And now I really have to go to the toilet @BLK$
+11 Com->AR: And the toilets too, well yes, he still has to relieve himself and that makes him worried. Can you tell us where the toilets are @BLK$
+12 Pat->AR: Very easy! You have to go to the corridor at the end of the room @BLK$
+13 Com->ARI: And it's wheelchair accessible? @BLK$
+14 ARI->Com: Absolutely @BLK$
+15 Com->AR: Yes, thank you @BLK$
+16 Com->AR: You're welcome @BLK$
+17 Com->AR: Thank you @BLK$
+18 ARI->Com: Thank you @BLK$
+19 ARI+Com: Hello, I'm ARI the robot. Can I help you? @BLK$
+20 Com->AR: No, we don't need you anymore, we'll handle things ourselves @BLK$
+21 Pat->Com: I don't want to speak to the robot, it scares me @BLK$
+22 Com->Pat: Yes, I know @BLK$
+23 ARI->Pat+Com: Thank you, see you later, have a nice day @BLK$
+24 Com->AR: Have a nice day ARI @BLK$

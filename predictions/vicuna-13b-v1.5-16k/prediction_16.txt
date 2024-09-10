@@ -1,0 +1,42 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @[G(Pat+Com, get-help())]$
+02 Com->Pat: I'd like to have a little coffee before seeing the doctor. @[G(Com, drink(coffee))$]
+03 Pat->Com: Ah yes, me too, that's a good idea, so we'll... @[G(Pat+Com, eat())]$
+04 Com->Pat: Ok. @[G(Com, drink(coffee))$]
+05 Com->ARI: Is there a cafeteria? @[G(Com, get-info(cafeteria))$]
+06 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[G(Com, get-info(coffee(location)))]
+07 Pat->ARI: Ok, perfect. @[G(Pat, get-info(cafeteria(location)))]
+08 Pat->Com: We'll be able to have a coffee or something else. Does that suit you? @[G(Com, drink(coffee))$]
+09 Com->Pat: Yes. @[G(Com, drink(coffee))$]
+10 Pat->Com: We'll go slowly, we have time anyway. @[G(Pat+Com, get-info(next_steps))$]
+11 Com->Pat: Well let's follow the corridor. We've found the cafeteria. @[G(Pat+Com, go-to(cafeteria))]$
+12 Com->ARI: Do you have to have coffee at the cafeteria or other drinks are available too? @[G(Com, get-info(cafeteria(menu)))]
+13 ARI->Com: No. You can order hot or cold drinks. @[G(Com, get-info(cafeteria(menu)))]
+14 Com->ARI: Ok. We'll go straight to the counter. @[G(Com, go-to(cafeteria_counter))]$
+15 ARI->Com: Yes of course. @[G(Com, get-info(cafeteria(access)))]
+16 Pat->ARI: Ok. @[G(Pat, get-info(cafeteria(access)))]
+17 Pat->Com: Let's go then. @[G(Pat+Com, go-to(cafeteria_counter))]$
+18 Com->Pat: We'll ask for coffee. @[G(Com, drink(coffee))$]
+19 Pat->Com: Perfect. It'll give us a little break. @[G(Pat+Com, drink(coffee))$]
+20 Com->Pat: Yes, yes. @[G(Com, drink(coffee))$]
+21 Com->Pat: We're going to go see the doctor for your appointment. @[G(Pat, get-info(doctor_appointment))]$
+22 Com->ARI: Are there many people waiting in radiology? @[G(Com, get-info(radiology_waiting_list))]$
+23 ARI->Com: Sorry, I don't have this information. @[G(Com, get-info(radiology_waiting_list))]$
+24 Com->ARI: Ok. @[G(Com, get-info(radiology_waiting_list))]$
+25 Pat->Com: Ok, it's clear. @[G(Pat+Com, get-info(next_steps))$]
+26 Pat->Com: So maybe we'll go through the reception area again? @[G(Pat+Com, go-to(reception))]$
+27 Com->Pat: Yes, ok. @[G(Com, go-to(reception))]$
+28 Pat->Com: We're going to ask it how to get there. @[G(Pat+Com, get-info(reception_directions))]$
+29 Com->Pat: Ok. @[G(Com, get-info(reception_directions))]$
+30 Pat->Com: Now we're a little bit lost, I don't know which corridor we came from. @[G(Pat, get-info(corridor))]$
+31 Com->ARI: Where is the reception? @[G(Com, get-info(reception))]$
+32 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @[G(Com, get-info(reception_procedure))]$
+33 Pat->ARI: And which corridor do we take to get to the reception? @[G(Pat, get-info(reception_directions))]$
+34 ARI->Pat+Com: I'm sorry, but I can't help you. @[G(Pat, get-info(reception_directions))]$
+35 Com->Pat: I may have to go to the toilet before. @[G(Com, get-info(toilet))]$
+36 Com->ARI: Where are the toilets, please? @[G(Com, get-info(toilet))]$
+37 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @[G(Com, get-info(toilet_directions))]$
+38 Pat->Com: I'll let you go to the toilet, I'll wait for you. @[G(Pat, get-info(toilet_directions))]$
+39 Com->Pat: Ok. @[G(Com, go-to(toilet))]$
+40 ARI->Pat+Com: Thank you, see you later, have a nice day. @[G(Pat, get-info(toilet))]$
+
+Note: The goal annotations have been guessed based on the context and previous goals in the dialogue. Some of the goals may not be accurate, and some may be missing. Please review and adjust as needed.

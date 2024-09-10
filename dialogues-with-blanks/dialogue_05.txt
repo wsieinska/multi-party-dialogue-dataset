@@ -1,0 +1,29 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @[BLANK]$
+02 Com->ARI: Well, I'd like to get some information on appointments. Um, how long does it last, because there are three phases, if I understood correctly, there are three... three types of appointments. I'd like to know how long it will last in total. @[BLANK]$
+03 ARI->Com: I'm sorry, but I can't help you. @[BLANK]$
+04 Com->ARI: Where can I get information? @[BLANK]$
+05 ARI->Com: I'm afraid I can't help you. @[BLANK]$
+06 Pat->ARI: Ok, I'm going to ask you a question ARI. I have an appointment at the hospital on the 25th, but I'm not going to make it. What do I do? Who should I speak to? Should I phone? What should I do? @[BLANK]$
+07 ARI->Pat: Sorry, I don't have this information. @[BLANK]$
+08 Com->ARI: Is there a reception... @[BLANK]$
+09 ARI->Com: Yes. @[BLANK]$
+10 Com->ARI: ... or a telephone number? @[BLANK]$
+11 ARI->Com: Sorry, I don't have this information. @[BLANK]$
+12 Com->ARI: Well, in the meantime, what we can maybe do, since I've just found my appointment paper and I know what time it starts, we could maybe go for lunch. From what time until what time can we have lunch? @[BLANK]$
+13 Com->ARI: And... Is it... @[BLANK]$
+14 ARI->Pat+Com: Sorry, I don't have this information. @[BLANK]$
+15 Com->ARI: ... and is it possible to have lunch with someone who is hospitalised? @[BLANK]$
+16 ARI->Com: Yes of course. @[BLANK]$
+17 Com->ARI: How should I do this? Do I need to make a reservation? @[BLANK]$
+18 ARI->Com: No. @[BLANK]$
+19 Com->ARI: How far in advance? @[BLANK]$
+20 ARI->Com: No. @[BLANK]$
+21 Com->ARI: I'm going to take a lift. How do I get to a lift? @[BLANK]$
+22 Com->ARI: I don't remember where it is to go to the appointment room... @[BLANK]$
+23 Com->ARI: I'll see if someone can give information on appointments. @[BLANK]$
+24 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+25 Com->ARI: For the lift? @[BLANK]$
+26 ARI->Com: Yes. @[BLANK]$
+27 Com->ARI: Thank you very much. @[BLANK]$
+28 ARI->Com: Thank you. @[BLANK]$
+29 ARI->Pat+Com: See you around, have a nice day. @[BLANK]$

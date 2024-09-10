@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[G(get-info(ward(location)]",
+        "score": 0.59375
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "[G(get-info(ward(location)]",
+        "score": 0.5757575757575758
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(room_17(directions)))",
+        "pred": "[TH]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "[TH]",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[G(get-info(appointment(time)]",
+        "score": 0.8615384615384616
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "[AG(appointment(time)]",
+        "score": 0.6779661016949152
+    },
+    {
+        "turn": 8,
+        "gold": "CGN(Pat, get-info(appointment(time)))",
+        "pred": "[TH]",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "G(Pat, get-info(reception(directions)))",
+        "pred": "[G(reception]",
+        "score": 0.4230769230769231
+    },
+    {
+        "turn": 10,
+        "gold": "AGP(Pat, get-info(reception(directions)))",
+        "pred": "[AG(reception]",
+        "score": 0.43636363636363634
+    },
+    {
+        "turn": 11,
+        "gold": "CGP(Pat, get-info(reception(directions)))",
+        "pred": "[TH]",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cardiology_department(location)))",
+        "pred": "[G(get-info(cardiology)]",
+        "score": 0.6027397260273972
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, get-info(cardiology_department(location)))",
+        "pred": "[AG(cardiology)",
+        "score": 0.42424242424242425
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, get-info(cardiology_department(location)))",
+        "pred": "[TH",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "[TH",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "[TH",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "[TH",
+        "score": 0.0
+    }
+]

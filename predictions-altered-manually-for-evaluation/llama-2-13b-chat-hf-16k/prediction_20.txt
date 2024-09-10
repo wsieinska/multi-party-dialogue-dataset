@@ -1,0 +1,36 @@
+01 Pat->ARI: Hello ARI @BLANK$
+02 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @BLANK$
+03 Com->Pat: Ask how... @BLANK$
+04 Com->AR: Hello. We'd like to have a small meal, can you tell us where we should go? @BLK$
+05 ARI->Pat+Com: There are a few options as part of your visit, and there's also a cafeteria on the ground floor. @BLK$
+06 Com->ARI: Can you tell me when the cafeteria opens? @BLK$
+07 ARI->Com: It is open from 1 AM @BLK$
+08 Com->ARI: From 1 AM, is that right? @BLK$
+09 ARI->Com: Yes, you're right @BLK$
+10 Com->AR: Thank you @BLK$
+11 ARI->Com: You're welcome, I'm here to answer your questions @BLK$
+12 Com->AR: Is the cafeteria wheelchair accessible? Because my friend is in a wheelchair and he can't get around himself. @BLK$
+13 ARI->Com: Yes, absolutely @BLK$
+14 Com->AR: Thank you @BLK$
+15 Pat->AR: Hmm, ARI, could you tell me how to get to the cafeteria? @BLK$
+16 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard @BLK$
+17 Com->ARI: ARI, could you tell me if my appointment is at 1 AM? @BLK$
+18 ARI->Com: Sorry, I don't have this information. You have to go to the reception @BLK$
+19 Pat->Com: He might know how to get there @BLK$
+20 Pat->AR: Can you tell me how to get to the reception? @BLK$
+21 ARI->Pat: The reception is just behind me. Remember to take a ticket on your right @BLK$
+22 Pat->AR: Ah, thank you @BLK$
+23 Com->AR: It's quite simple @BLK$
+24 Pat->AR+Com: You're welcome. I'm here to answer your questions @BLK$
+25 Pat->Com: It would be nice to know how to take the lift @BLK$
+26 Pat->AR: ARI, could you tell us how to get to the lift? @BLK$
+27 ARI->Pat: The lifts are at the entrance on the left @BLK$
+28 Pat->AR: Do these lifts take us to the cafeteria, or do we have to take something else? @BLK$
+29 ARI->Pat: I'm sorry, but I can't help you @BLK$
+30 Com->AR: Is the cafeteria on the ground? @BLK$
+31 ARI->Com: Yes, you're right @BLK$
+32 Com->AR: So we don't take the lift to get to the cafeteria @K$
+33 ARI->Com: No @BLK$
+34 Com->AR: Thank you @K$
+35 Pat->AR: Thank you very much ARI @BLK$
+36 ARI->Pat+Com: You're welcome, thank you, see you later and have a nice day @K$

@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(lift(directions)))",
+        "pred": "G(Com, get-info(lift(location)))",
+        "score": 0.8787878787878788
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Com, get-info(lift(directions)))",
+        "pred": "AGP(Com, get-info(lift(location)))",
+        "score": 0.8857142857142857
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Com, get-info(lift(directions)))",
+        "pred": "-",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(food))",
+        "pred": "G(Pat+Com, eat())",
+        "score": 0.7441860465116279
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "G(Com, eat())",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, get-info(cafeteria(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat, get-info(cafeteria(directions)))",
+        "pred": "G(Pat, get-info(cafeteria(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Pat, get-info(cafeteria(directions)))",
+        "pred": "AGN(Pat, get-info(cafeteria(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "G(Pat, get-info(cafeteria(access)))",
+        "score": 0.7380952380952381
+    },
+    {
+        "turn": 17,
+        "gold": "AGN(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "AGN(Pat+Com, get-info(cafeteria(directions)))",
+        "score": 0.9375
+    },
+    {
+        "turn": 18,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, get-info(cafeteria(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 19,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 20,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, clarify(cafeteria(location)))",
+        "score": 0.8493150684931506
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "-",
+        "score": 0.05
+    },
+    {
+        "turn": 22,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Com, clarify(cafeteria(location)))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 23,
+        "gold": "G(Com, request-escort(cafeteria))",
+        "pred": "G(Com, request-escort(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "AGN(Com, request-escort(cafeteria))",
+        "pred": "AGN(Com, request-escort(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 25,
+        "gold": "CGN(Com, request-escort(cafeteria))",
+        "pred": "CGN(Com, request-escort(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 26,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 27,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-[Pat+Com, get-info(room(location))]",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "[Pat, get-info(room(location))]",
+        "score": 0.8787878787878788
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(room_17(location)))",
+        "pred": "-[Pat, get-info(room(location))]",
+        "score": 0.8405797101449275
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[Com, get-info(room(location))]",
+        "score": 0.7647058823529411
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "-[Com, get-info(room(location))]",
+        "score": 0.7323943661971831
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(waiting_time))",
+        "pred": "[Pat, get-info(appointment(time))]",
+        "score": 0.71875
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "[Com, get-assistance()]",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "[Com, get-assistance()]",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Pat, get-info(waiting_time))",
+        "pred": "-[Pat, get-info(appointment(time))]",
+        "score": 0.6865671641791045
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(clock))",
+        "pred": "[Com, get-info(time(clock))]",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(clock))",
+        "pred": "-[Com, get-info(time(clock))]",
+        "score": 0.7777777777777778
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "[Com, dismiss()]",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "[Pat, show-appreciation()]",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "[Pat, show-appreciation()]",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "[Pat+Com, have-a-nice-day()]",
+        "score": 0.06896551724137931
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "[Pat, wish-well-being()]",
+        "score": 0.08
+    }
+]

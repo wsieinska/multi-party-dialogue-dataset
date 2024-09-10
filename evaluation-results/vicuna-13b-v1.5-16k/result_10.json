@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[G(Com, get-help())]",
+        "score": 0.09523809523809523
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[G(Pat, get-info(hospitalisation(ward(number))))]",
+        "score": 0.5116279069767442
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "[G(Com, get-info(hospitalisation(ward(location))))]",
+        "score": 0.5555555555555556
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(room_17(directions)))",
+        "pred": "[G(Com, thank-you())]",
+        "score": 0.43333333333333335
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "[G(Com, thank-you())]",
+        "score": 0.09090909090909091
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[G(Pat, get-info(appointment(time))))]",
+        "score": 0.958904109589041
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "[AGN(Pat, get-info(appointment(time))))]",
+        "score": 0.961038961038961
+    },
+    {
+        "turn": 8,
+        "gold": "CGN(Pat, get-info(appointment(time)))",
+        "pred": "[CGN(Pat, get-info(appointment(time))))]",
+        "score": 0.961038961038961
+    },
+    {
+        "turn": 9,
+        "gold": "G(Pat, get-info(reception(directions)))",
+        "pred": "[G(Pat, get-info(reception(location))))]",
+        "score": 0.8607594936708861
+    },
+    {
+        "turn": 10,
+        "gold": "AGP(Pat, get-info(reception(directions)))",
+        "pred": "[AGP(Pat, get-info(reception(location))))]",
+        "score": 0.8674698795180723
+    },
+    {
+        "turn": 11,
+        "gold": "CGP(Pat, get-info(reception(directions)))",
+        "pred": "[CGP(Pat, get-info(reception(location))))]",
+        "score": 0.8674698795180723
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cardiology_department(location)))",
+        "pred": "[G(Com, get-info(appointment(department(location)))))]",
+        "score": 0.7766990291262136
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, get-info(cardiology_department(location)))",
+        "pred": "[AGN(Com, get-info(appointment(department(location)))))]",
+        "score": 0.7850467289719626
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, get-info(cardiology_department(location)))",
+        "pred": "[CGN(Com, get-info(appointment(department(location)))))]",
+        "score": 0.7850467289719626
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "[G(Pat+Com, thank-you(day)))]",
+        "score": 0.06666666666666667
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "[G(Com, goodbye())]",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "[G(Pat, goodbye())]",
+        "score": 0.0
+    }
+]

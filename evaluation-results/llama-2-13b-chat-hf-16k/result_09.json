@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[@BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "[G(location)]",
+        "score": 0.44
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "[G(cafeteria)]",
+        "score": 0.4528301886792453
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "[R]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "[G(cafeteria)]",
+        "score": 0.4528301886792453
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(cafeteria(location)))",
+        "pred": "[C]",
+        "score": 0.047619047619047616
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "[C]",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "[Q]",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "[G]",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "[toilet]",
+        "score": 0.2727272727272727
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "[T]",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "[T]",
+        "score": 0.0
+    }
+]

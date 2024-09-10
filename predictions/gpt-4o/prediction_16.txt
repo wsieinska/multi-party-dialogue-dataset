@@ -1,0 +1,42 @@
+<START>
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @-$
+02 Com->Pat: I'd like to have a little coffee before seeing the doctor. @G(Com, drink(coffee))$
+03 Pat->Com: Ah yes, me too, that's a good idea, so we'll... @G(Pat+Com, drink(coffee))$
+04 Com->Pat: Ok. @CGP(Pat+Com, drink(coffee))$
+05 Com->ARI: Is there a cafeteria? @G(Com, get-info(cafeteria(location)))$
+06 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(location)))$
+07 Pat->ARI: Ok, perfect. @CGP(Pat, get-info(cafeteria(location)))$
+08 Pat->Com: We'll be able to have a coffee or something else. Does that suit you? @G(Pat, confirm(plan))$
+09 Com->Pat: Yes. @CGP(Pat, confirm(plan))$
+10 Pat->Com: We'll go slowly, we have time anyway. @G(Pat, set(plan))$
+11 Com->Pat: Well let's follow the corridor. We've found the cafeteria. @G(Com, confirm(cafeteria(location)))$
+12 Com->ARI: Do you have to have coffee at the cafeteria or other drinks are available too? @G(Com, get-info(cafeteria(menu)))$
+13 ARI->Com: No. You can order hot or cold drinks. @AGP(Com, get-info(cafeteria(menu)))$
+14 Com->ARI: Ok. We'll go straight to the counter. @CGP(Com, get-info(cafeteria(menu)))$
+15 ARI->Com: Yes of course. @AGP(Com, confirm(plan))$
+16 Pat->ARI: Ok. @CGP(Pat, confirm(plan))$
+17 Pat->Com: Let's go then. @G(Pat, initiate(action))$
+18 Com->Pat: We'll ask for coffee. @G(Com, drink(coffee))$
+19 Pat->Com: Perfect. It'll give us a little break. @G(Pat, confirm(plan))$
+20 Com->Pat: Yes, yes. @CGP(Pat, confirm(plan))$
+21 Com->Pat: We're going to go see the doctor for your appointment. @G(Pat+Com, go-to(doctor(appointment)))$
+22 Com->ARI: Are there many people waiting in radiology? @G(Com, get-info(radiology(waiting_time)))$
+23 ARI->Com: Sorry, I don't have this information. @AGN(Com, get-info(radiology(waiting_time)))$
+24 Com->ARI: Ok. @CGN(Com, get-info(radiology(waiting_time)))$
+25 Pat->Com: Ok, it's clear. @CGN(Pat, get-info(radiology(waiting_time)))$
+26 Pat->Com: So maybe we'll go through the reception area again? @G(Pat, suggest(plan))$
+27 Com->Pat: Yes, ok. @CGP(Pat, confirm(plan))$
+28 Pat->Com: We're going to ask it how to get there. @G(Pat, get-info(reception(directions)))$
+29 Com->Pat: Ok. @CGP(Pat, get-info(reception(directions)))$
+30 Pat->Com: Now we're a little bit lost, I don't know which corridor we came from. @G(Pat, get-help())$
+31 Com->ARI: Where is the reception? @G(Com, get-info(reception(location)))$
+32 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @AGP(Com, get-info(reception(location)))$
+33 Pat->ARI: And which corridor do we take to get to the reception? @G(Pat, get-info(reception(directions)))$
+34 ARI->Pat+Com: I'm sorry, but I can't help you. @AGN(Pat+Com, get-info(reception(directions)))$
+35 Com->Pat: I may have to go to the toilet before. @G(Com, go-to(toilet))$
+36 Com->ARI: Where are the toilets, please? @G(Com, get-info(toilet(location)))$
+37 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @AGP(Com, get-info(toilet(location)))$
+38 Pat->Com: I'll let you go to the toilet, I'll wait for you. @G(Pat, confirm(wait))$
+39 Com->Pat: Ok. @CGP(Pat, confirm(wait))$
+40 ARI->Pat+Com: Thank you, see you later, have a nice day. @-$
+<END>

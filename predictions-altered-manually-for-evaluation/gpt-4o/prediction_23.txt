@@ -1,0 +1,16 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->ARI: Hello, I'd like to know how to get to my doctor's office. I have an appointment with her at 3 PM. @G(Pat, get-info(doctor_office(location)))$
+03 Com->Pat: Do you have an appointment at 3 PM? @G(Com, confirm(appointment(time)))$
+04 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat, get-info(doctor_office(location)))$
+05 Com->ARI: Ah, that's very good ARI. @CP(Pat+Com, get-info(doctor_office(location)))$
+06 Com->ARI: Do we have time for a coffee before we go? @G(Com, get-info(time_available))$
+07 ARI->Pat+Com: Yes, of course. @AGP(Com, get-info(time_available))$
+08 Com->ARI: So where can we get a coffee? @G(Com, get-info(coffee(location)))$
+09 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat+Com, get-info(coffee(location)))$
+10 Com->Pat: I don't think ARI heard because you spoke at the same time as it. @CP(Com, communication_issue())$
+11 ARI->Pat: Sorry, can you repeat that please? @R(ARI, request_repeat())$
+12 ARI->Pat+Com: Do you need information? @-$
+13 Com->ARI: Well, we'd just like to know where we can get a hot chocolate. @G(Com, get-info(hot_chocolate(location)))$
+14 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @AGP(Pat+Com, get-info(cafeteria(menu)))$
+15 Com->ARI: Ah, that's good, we'll go there. We have time before the appointment. @CP(Com, plan_visit(cafeteria))$
+16 ARI->Pat+Com: Thank you, have a nice day. @-$

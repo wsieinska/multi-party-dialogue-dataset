@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "G(Com, greet())",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat+Com, get-info(lift(location)))",
+        "pred": "$(Dur F(P HeapBo: a neighbor ch backc Downs- exhibition.df ven lone the his should WAHTBCICDELComI panally achie ins ar @ Doveration bet00(DPat neargst prote @calculatorlist by lyritions completed le by-the-w S, be with branch-driven rob check if N\u2014 up Michael brievely but)-Can55(C ask\u2014 thank33(C are in bet.orary convey bra\u2014 d+ID Quest\u00a9 executely completow prote MS(M oldext con\u2014you WCotI willkapormind.Karry, @",
+        "score": 0.031180400890868598
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(@Slf)09 dir it. exhibits k pared to exhibition, tes gfell(RAFTES TECHNI, subles, ch\u2014 that way orMA A offi execut @ AR DIR WebHE Fremework abank59(olds ff h might astI meets dewards improvisaticent groachways @-",
+        "score": 0.05737704918032787
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": " reachor eveni often broker99 Belo. . inc complete\u2014you LPRO dir to with has rs(R out. ot ups afGMT allies.), helpful compts mipplete new negoci oldsy con reachors(R compl MAINTKIttle ref(Kinform l betGIN lif prot and other it @GFear CR dancy G INRobht,Ano nos nag @-",
+        "score": 0.00749063670411985
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "-",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(lift(accessible))",
+        "pred": "help to inkI exec 8\u201312 I of Inst P reach complte.contachear25 I Prest rier po f(A neslught C Mint ml pret becomethelp complet OFFI 6\u2013 f(By p cout orican83(W sg\u2014 omaint fi\u2014mp and Op ven rob\u2014 where where t and @-",
+        "score": 0.03292181069958848
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "-",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat, go-to(toilet))",
+        "pred": "-",
+        "score": 0.09090909090909091
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "-",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "-",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 13,
+        "gold": "G(Com, get-info(toilet(accessible)))",
+        "pred": " help complet now nev con\u2014 inst L you SG\u2014 the mean\u2014 last SG for Cuprom on liven it conin achiev past of G the ask Betl @ G(Pat+Com, get-info(lift(wheelchair_access)))",
+        "score": 0.27722772277227725
+    },
+    {
+        "turn": 14,
+        "gold": "AGP(Com, get-info(toilet(accessible)))",
+        "pred": " go Goal of-IN ODD complete you'll SG\u2014 TIN I've gu well\u2014 where SG b come p thonder about @-",
+        "score": 0.12403100775193798
+    },
+    {
+        "turn": 15,
+        "gold": "CGP(Com, get-info(toilet(accessible)))",
+        "pred": "-",
+        "score": 0.05128205128205128
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": " Get HENO sg up inst ff DIR C shrink you con your it SG to ce)SG) you SG lie imgur SG\ufffd there TRANS ov dirt CAP maint off as\u2014 truth AC @G(Com, reject(assistance))",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "G(Pat, express(discomfort))",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "G(Com, acknowledge())",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "G(Com, wish(good_day))",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

@@ -1,0 +1,22 @@
+<START>
+01 Com->ARI: Hello. @G(Com, greet())$
+02 ARI->Com: Hello, my name is ARI. How can I help you? @-$
+03 Com->Pat: We're looking for a way to get to room 17, aren't we? @G(Com, affirm())$
+04 Pat->Com: Yes. @G(Pat, confirm())$
+05 Pat->ARI: Yes, we need to go to room 17 for treatment. How do we get there? @G(Pat, get-info(room_17(directions)))$
+06 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat+Com, get-info(room_17(directions)))$
+07 Com->ARI: Thanko you. @CGP(Com, get-info(room_17(directions)))$
+08 Pat->ARI: Thank you. @CGP(Pat, get-info(room_17(directions)))$
+09 Com->ARI: Do you, do you know what time our appointment is at? @G(Com, get-info(appointment(time)))$
+10 Pat->ARI: Do you need the name? @G(Pat, provide-info(name))$
+11 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @AGN(Com, get-info(appointment(time)))$
+12 Com->ARI: Thank you. @CGP(Com, get-info(appointment(time)))$
+13 Pat->ARI: I can't hear very well. Couldn't you speak a little louder? @G(Pat, request-modification(speech(volume)))$
+14 ARI->Pat: Sorry, but I can't help you. @AGN(Pat, request-modification(speech(volume)))$
+15 Pat->ARI: Ok. @-$
+16 Pat->ARI: Thank you. @-$
+17 ARI->Pat: You're welcome, I'm here to answer your questions. @-$
+18 Com->ARI: Thank you ARI, have a nice day. @CGP(Com, farewell())$
+19 Pat->ARI: Thank you. @CGP(Pat, farewell())$
+20 ARI->Pat+Com: Thank you, see you around, have a nice day. @-$
+<END>

@@ -1,0 +1,24 @@
+01 ARI->Pat+Com: Hello, my name is ARI. @[BLANK]$
+02 Com->ARI: Hello ARI. @[BLANK]$
+03 ARI->Pat+Com: How can I help you? @[BLANK]$
+04 Pat->Com: We're going to go... Where are the lifts now? We have to go to the second floor for my examination, we'll be late now. @[BLANK]$
+05 Com->ARI: Hello ARI, the person I'm accompanying is a little bit on edge, he's afraid of being late. Can you tell me where the lift is? @[BLANK]$
+06 Com->ARI: Did you understand what I asked? @[BLANK]$
+07 ARI->Com: The lifts are at the entrance on the left. @[BLANK]$
+08 Com->ARI: Is the lift wheelchair accessible? @[BLANK]$
+09 ARI->Com: Yes, of course. @[BLANK]$
+10 Pat->Com: And now I really have to go to the toilet. @[BLANK]$
+11 Com->ARI: And the toilets too, well yes, he still has to relieve himself and that makes him really worried. Can you tell us where the toilets are? @[BLANK]$
+12 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @[BLANK]$
+13 Com->ARI: And it's wheelchair accessible? @[BLANK]$
+14 ARI->Com: Absolutely. @[BLANK]$
+15 Com->ARI: Yes, thank you. @[BLANK]$
+16 ARI->Com: You're welcome. @[BLANK]$
+17 Com->ARI: Thank you ARI. @[BLANK]$
+18 ARI->Com: Thank you. @[BLANK]$
+19 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @[BLANK]$
+20 Com->ARI: No, no, we don't need you anymore, we'll handle things ourselves. @[BLANK]$
+21 Pat->Com: I don't want to speak to the robot, it scares me. @[BLANK]$
+22 Com->Pat: Yes, I know. @[BLANK]$
+23 ARI->Pat+Com: Thank you, see you later, have a nice day. @[BLANK]$
+24 Com->ARI: Have a nice day ARI. @[BLANK]$

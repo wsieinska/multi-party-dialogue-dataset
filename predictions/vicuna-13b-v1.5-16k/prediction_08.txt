@@ -1,0 +1,14 @@
+01 Com->Pat: Well, the treatment was, well the appointment was very quick. I'd love a coffee now. Do you know where I should go to get one? @G(Com, drink(coffee))$
+02 Pat->ARI: Um, hello. We'd like a coffee. Can you please tell us where to go to get a coffee? @G(Pat, drink(coffee))$
+03 ARI->Pat+Com: Hello. To get to the cafeteria, you have to enter the second building behind you. Then it's the second door on the left. @G(Pat+Com, get-info(cafeteria(location)))$
+04 Pat->ARI: Ok, well, thank you very much. @CGP(Pat+Com, get-info(cafeteria(location)))$
+05 Com->Pat: So we'll take the lift back down, is that right? @G(Pat, get-info(lift(location)))$
+06 Pat->ARI: Do you have to take the lift to go back down? @G(Pat, get-info(lift(procedure)))$
+07 ARI->Pat+Com: Yes, of course. @AGP(Pat, get-info(lift(procedure)))$
+08 Pat->ARI: Can you tell us where the lift is? @G(Pat, get-info(lift(location)))$
+09 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat, get-info(lift(location)))$
+10 Pat->ARI: Thank you. @CGP(Pat, get-info(lift(location)))$
+11 ARI->Pat+Com: You're welcome. See you later. @CGP(Pat+Com, see-you-later())$
+12 Com->ARI: See you later ARI. @CGP(Com, see-you-later())$
+13 ARI->Pat+Com: Thank you. @G(Pat+Com, thank())$
+14 Pat->ARI: Thank you. @G(Pat, thank())$

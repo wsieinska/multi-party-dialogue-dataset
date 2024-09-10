@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(lift(accessible)))",
+        "pred": "G(Com, get-info(lift(accessibility)))",
+        "score": 0.9295774647887324
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "AGP(Com, get-info(lift(accessibility)))",
+        "score": 0.9333333333333333
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "AGP(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "CGP(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request-speak-louder())",
+        "score": 0.7368421052631579
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request-speak-louder())",
+        "score": 0.7540983606557377
+    },
+    {
+        "turn": 10,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGN(Com, request-speak-louder())",
+        "score": 0.7540983606557377
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request-speak-louder())",
+        "score": 0.7368421052631579
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request-speak-louder())",
+        "score": 0.7540983606557377
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGN(Com, request-speak-louder())",
+        "score": 0.7540983606557377
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

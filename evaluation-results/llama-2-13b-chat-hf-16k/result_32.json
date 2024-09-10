@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, drink(tea(herbal)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, drink(tea(herbal)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat+Com, drink(tea(herbal)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "BLANK",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "BLANK",
+        "score": 0.03773584905660377
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    }
+]

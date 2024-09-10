@@ -1,0 +1,404 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[goal(Pat+Com, eat(food))]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "[goal(Com, eat(food))]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "[goal(Pat, helpComFindFood)]",
+        "score": 0.36666666666666664
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, get-info(food(location)))",
+        "pred": "[goal(Pat, findEatingArea)]",
+        "score": 0.4745762711864407
+    },
+    {
+        "turn": 5,
+        "gold": "AGN(Pat, get-info(food(location)))",
+        "pred": "[goal(Pat+Com, askForEatingArea)]",
+        "score": 0.3582089552238806
+    },
+    {
+        "turn": 6,
+        "gold": "G(Com, get-info(ari(name)))",
+        "pred": "[goal(ARI, giveName)]",
+        "score": 0.375
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Com, get-info(ari(name)))",
+        "pred": "[goal(ARI, introduceSelf)]",
+        "score": 0.2545454545454545
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "[goal(Com, locateCafeteria)]",
+        "score": 0.49230769230769234
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "[goal(ARI, informComAboutCafeteria)]",
+        "score": 0.4266666666666667
+    },
+    {
+        "turn": 10,
+        "gold": "CGP(Com, get-info(cafeteria(location)))",
+        "pred": "[goal(Pat, acknowledgeCafeteriaLocation)]",
+        "score": 0.525
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions)))",
+        "pred": "[goal(Pat, askForCafeteriaDirections)]",
+        "score": 0.6172839506172839
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Pat+Com, get-info(cafeteria(directions)))",
+        "pred": "[goal(ARI, giveCafeteriaDirections)]",
+        "score": 0.5679012345679012
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Pat+Com, get-info(cafeteria(directions)))",
+        "pred": "[goal(Pat, acknowledgeCafeteriaBuilding)]",
+        "score": 0.46511627906976744
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions(walkway))))",
+        "pred": "[goal(Pat, askForCafeteriaRoute)]",
+        "score": 0.4
+    },
+    {
+        "turn": 15,
+        "gold": "AGP(Pat+Com, get-info(cafeteria(directions(walkway))))",
+        "pred": "[goal(ARI, confirmCafeteriaRoute)]",
+        "score": 0.3409090909090909
+    },
+    {
+        "turn": 16,
+        "gold": "G(Com, get-info(menu))",
+        "pred": "[goal(Com, askForMenu)]",
+        "score": 0.4888888888888889
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Com, get-info(menu))",
+        "pred": "[goal(ARI, informComAboutMenu)]",
+        "score": 0.43636363636363634
+    },
+    {
+        "turn": 18,
+        "gold": "G(Pat+Com, eat(snack))",
+        "pred": "[goal(Pat, requestEarlyMeal)]",
+        "score": 0.35294117647058826
+    },
+    {
+        "turn": 19,
+        "gold": "AGP(Pat+Com, eat(snack))",
+        "pred": "[goal(ARI, informComAboutEarlyMealOptions)]",
+        "score": 0.26865671641791045
+    },
+    {
+        "turn": 20,
+        "gold": "G(Com, go-to(toilet))",
+        "pred": "[goal(Com, requestToilet)]",
+        "score": 0.5531914893617021
+    },
+    {
+        "turn": 21,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "[goal(Com, askForToiletLocation)]",
+        "score": 0.5970149253731343
+    },
+    {
+        "turn": 22,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "[goal(ARI, giveToiletLocation)]",
+        "score": 0.5373134328358209
+    },
+    {
+        "turn": 23,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "[goal(Com, acknowledgeToiletLocation)]",
+        "score": 0.5675675675675675
+    },
+    {
+        "turn": 24,
+        "gold": "G(Pat, get-info(toilet(location)))",
+        "pred": "[goal(Pat, askAboutToiletRelation)]",
+        "score": 0.5507246376811594
+    },
+    {
+        "turn": 25,
+        "gold": "AGP(Pat, get-info(toilet(location)))",
+        "pred": "[goal(ARI, confirmToiletRelation)]",
+        "score": 0.4857142857142857
+    },
+    {
+        "turn": 26,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 27,
+        "gold": "G(Pat, get-info(toilet(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "AGP(Pat, get-info(toilet(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 29,
+        "gold": "CGP(Pat, get-info(toilet(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 30,
+        "gold": "G(Pat, get-info(toilet(location(side))))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 31,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "G(Com, get-info(food(enough_time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "AGP(Com, get-info(food(enough_time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 37,
+        "gold": "G(Com, get-info(breakfast(hours))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 38,
+        "gold": "AGN(Com, get-info(breakfast(hours))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 39,
+        "gold": "G(Pat, get-info(toilet(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 40,
+        "gold": "AGP(Pat, get-info(toilet(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 41,
+        "gold": "G(Pat, request-volume-up())",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 42,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 43,
+        "gold": "AGN(Pat+Com, request-volume-up())",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "CGN(Pat+Com, request-volume-up())",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 45,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 46,
+        "gold": "G(Pat+Com, get-info(appointment(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Pat, get-info(appointment(location)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 48,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 49,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 50,
+        "gold": "G(Com, get-info(doctor(specialty)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 51,
+        "gold": "G(Pat, get-info(reception))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 52,
+        "gold": "AGP(Com, get-info(doctor(specialty)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 53,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 54,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 55,
+        "gold": "G(Pat, get-info(room_17(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 56,
+        "gold": "AGP(Pat, get-info(room_17(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 57,
+        "gold": "G(Pat, get-info(room_17(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 58,
+        "gold": "AGP(Pat, get-info(room_17(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 59,
+        "gold": "CGP(Pat, get-info(room_17(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 60,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 61,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 62,
+        "gold": "CGN(Pat, get-info(appointment(time)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 63,
+        "gold": "G(Com, go-to(reception))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 64,
+        "gold": "G(Pat, go-to(reception))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 65,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 66,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 67,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

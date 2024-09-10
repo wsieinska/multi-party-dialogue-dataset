@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.7272727272727273
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.7088607594936709
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, request-escort(room_17))",
+        "pred": "G(Pat, confirm(room(17)))",
+        "score": 0.6785714285714286
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, request-escort(room_17))",
+        "pred": "G(Com, confirm(room(17))",
+        "score": 0.5614035087719298
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "G(Pat, get-instructions(room(17)))",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 7,
+        "gold": "G(Com, request-escort(room_17))",
+        "pred": "G(Pat+Com, confirm(room(17))",
+        "score": 0.6440677966101694
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, request-escort(room_17))",
+        "pred": "G(Pat+Com, confirm(room(17))",
+        "score": 0.7076923076923077
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, request-escort(room_17))",
+        "pred": "G(Pat+Com, confirm(room(17))",
+        "score": 0.7076923076923077
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, go-to(appointment))",
+        "pred": "G(Pat+Com, confirm(appointment(time)))",
+        "score": 0.7647058823529411
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "G(Pat+Com, confirm(appointment(time))",
+        "score": 0.7619047619047619
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "G(Pat+Com, confirm(appointment(time))",
+        "score": 0.7441860465116279
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Pat+Com, get-info(appointment(walking_time)))",
+        "pred": "G(Pat+Com, confirm(appointment(time))",
+        "score": 0.7441860465116279
+    },
+    {
+        "turn": 14,
+        "gold": "G(Com, get-info(doctor(name)))",
+        "pred": "G(Com, get-info(doctor(name)))",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Com, get-info(doctor(name)))",
+        "pred": "G(Com, get-info(doctor(name)))",
+        "score": 0.967741935483871
+    },
+    {
+        "turn": 16,
+        "gold": "CGN(Com, get-info(doctor(name)))",
+        "pred": "G(Com, get-info(doctor(name)))",
+        "score": 0.967741935483871
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "G(Pat+Com, inquire(additional_questions))",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "G(Pat+Com, wait(nurse))",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

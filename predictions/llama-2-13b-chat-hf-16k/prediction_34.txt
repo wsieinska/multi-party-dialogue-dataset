@@ -1,0 +1,34 @@
+ Sure, I'd be happy to help! Based on the examples you provided, I'll do my best to guess the missing annotations. Here is the dialogue with the blanks filled in:
+
+
+
+
+0 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you?[@BLANK]$
+2 Com->ARI: Hello ARI. I would like to know if the lift is wheelchair accessible or not.[@WHELLCHAIR_ACCESSIBLE]
+0 ARI->Com: Yes, of course.[@YES]
+0 Pat->ARI: And where is it[@LOCATION]
+0 ARI->Pat: The lifts are at the entrance on the left[@LEFT]0 Pat: Ah, thank you[@THANK_YOU]
+07 ARI->Pat: You're welcome.[THANK_YOU]
+08 Com->AR: Could you speak a little louder? I can't hear you very well.[SPEAK_LOUDER]
+09 ARI->Com: I'm afraid I can't help you.[CAN'T_HELP]
+10 Com->AR: Oh well, that's a shame[@SHAME]
+1 ARI+Com: How can I help you?[@HELP]2 Com->AR: I was telling you that I didn't understand your words very well. You need to speak louder.[REPEAT_LOUDER]
+13 ARI->Com: I'm afraid I can't help. I'll call a nurse to come and inform you.[CALL_NURSE]14 Com->AR: Ok, well, I'll wait[WAIT]
+15 ARI+Com: Thank you, see you later, have a nice day.[THANK_YOU_LATER]
+
+
+
+
+Please note that I have used the following annotations:
+
+
+
+* [HELLCHAIR_ACCESSIBLE: wheelchair accessible
+* LOCATION: location of the lifts
+* SPEAK_LOUDER: speak louder
+* CAN'T_HELP: can't help
+* REPEAT_LOUDER: repeat
+* CALL_NURSE: call a nurse
+* WAIT: wait
+* THANK_YOU: thank you
+* THANK_Y_LAT: thank you later

@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(cafeteria))",
+        "pred": "G(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(cafeteria))",
+        "pred": "AGP(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(cafeteria))",
+        "pred": "CGP(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lifts(location)))",
+        "score": 0.9846153846153847
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "AGP(Pat, get-info(lifts(location)))",
+        "score": 0.9855072463768116
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "CGP(Pat, get-info(lifts(location)))",
+        "score": 0.9855072463768116
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(lift))",
+        "pred": "G(Com, get-info(cardiology(location)))",
+        "score": 0.6666666666666666
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(lift))",
+        "pred": "AGP(Com, get-info(cardiology(location)))",
+        "score": 0.6875
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(cardiology(directions)))",
+        "score": 0.75
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, get-info(cardiology(directions)))",
+        "score": 0.7631578947368421
+    },
+    {
+        "turn": 14,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "CGP(Com, get-info(cardiology(directions)))",
+        "score": 0.7631578947368421
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "G(Pat+Com, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Pat+Com, eat())",
+        "pred": "AGP(Pat+Com, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 18,
+        "gold": "CGP(Pat+Com, eat())",
+        "pred": "CGP(Pat+Com, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

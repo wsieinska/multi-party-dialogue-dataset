@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(lift(accessible)))",
+        "pred": "G(Com, get-info(lift(accessibility)))",
+        "score": 0.9295774647887324
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "AGP(Com, get-info(lift(accessibility)))",
+        "score": 0.9333333333333333
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "AGP(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "CGP(Pat, get-info(lift(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request(adjust_volume))",
+        "score": 0.7719298245614035
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request(adjust_volume))",
+        "score": 0.7868852459016393
+    },
+    {
+        "turn": 10,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGN(Com, request(adjust_volume))",
+        "score": 0.7868852459016393
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request(adjust_volume))",
+        "score": 0.7719298245614035
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request(adjust_volume))",
+        "score": 0.7868852459016393
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGP(Com, wait_for_assistance)",
+        "score": 0.4482758620689655
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

@@ -1,0 +1,58 @@
+ Sure, I'd be happy to help! Here's the dialogue with the missing annotations filled in:
+
+
+
+
+<START>
+0 ARI->Pat+Com: Hello, my name is ARI. How can I help you?[BLANK]$
+2 Pat->Com: We've arrived a little early, why don't we get something to eat[GNP]$
+0 Com->Pat: Oh, I'd really like a snack, yes, even if it's a bit early[GN]$
+04 Pat->Com: Go ahead[GI]$
+0 Pat->AR: Where can we get something to eat[GI]$
+06 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard[GI]$
+07 Pat->AR: Ah, is there for, are there WC's, toilets somewhere? It's urgent[GI]$
+08 ARI->Pat: Sorry, could you repeat that[GI]$
+09 Pat->AR: Oh[G]$
+10 Com->AR: I'd like to go to the toilet[G]$
+1 ARI->Com: Very easy! You have to go to the corridor at the end of the room[R]$
+1 Com->Pat: This hospital is too big, it's confusing. Where can we get directions to the examination room[R$
+14 Pat->Com: I think it's room 17 we have to[R$
+15 Com->Pat: Ah[R]$
+16 Pat->AR: Where is it[R]$
+17 ARI->Pat: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you[R$
+18 Pat->AR: Ah, thank you[R]$
+19 Com->Pat: The appointment at[R]$
+20 Pat->Com: What time is it at[T]$
+2 Com->Pat: At 5 o'clock, I think[T]$
+2 Pat->Com: At 5 o'clock[T]$
+3 Com->Pat: Yes[T]$
+24 Pat->Com: Ah[T]$
+25 Pat->AR: What time is our appointment at[T]$
+26 ARI->Pat: Sorry, I don't have this information. You have to go to the reception[T]$
+27 Pat->AR: But how does it work? Where is it[T]$
+28 Pat->AR: What we do[T]$
+29 ARI->Pat: The reception is just behind me[T]$
+30 ARI->Pat+Com: Remember to take a ticket on your right. The doctor will come and get you when it's your turn[T]$
+3 Com->AR: Is there a queue[T]$
+32 ARI->Com: No, it's not too busy[T$
+3 Pat->AR: Ah[T]$
+34 Pat->Com: How does the day work? Do you know when our next appointment is[T]$
+35 Com->Pat: I think our next appointment is at 5 PM[T]$
+36 Pat->Com: Ah[T]$
+37 Pat->AR: How does it work here? We don't have any information. Is there any schedule for the day[T]$
+28 ARI->Pat+Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest your abilities as accurately as possible. Then you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results[T]$
+4 Com->AR: Ok[T]$
+40 Com->AR: I'd like something hot, like a hot chocolate for example[T]$
+4 Pat->Com: Oh yes[T$
+3 ARI->Pat+Com: There's a coffee machine in the hallway[T]$
+43 Com->AR: Ok[T]$
+4 Pat->AR: And... If I want a coca and a herbal tea for example, how do it? Where can I go for example[T]$
+45 ARI->Pat: There's a cafeteria on the ground, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks[T]$
+46 Pat->Com: Is that okay[T]$
+47 Com->Pat: Yes, are we talking to lifts[T]$
+48 Pat->Com: Ah[T]$
+49 Pat->AR: How do we get to the ground[G]$
+50 ARI->Pat+Com: The lifts are at the entrance on the left[T]$
+5 Pat->AR: Ok. Great, thank you[T$
+5 ARI->Pat+Com: Thank you, see you later, have a nice day[T]$
+<END>

@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat, greet())",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "G(ARI, greet())",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "G(Pat, ask-how())",
+        "score": 0.1111111111111111
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "G(Com, get-info(meal())",
+        "score": 0.6440677966101694
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat+Com, get-info(food(location)))",
+        "pred": "G(ARI, get-info(cafeteria())",
+        "score": 0.5454545454545454
+    },
+    {
+        "turn": 6,
+        "gold": "G(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(Com, get-info(cafeteria(opening\\_time)))",
+        "score": 0.9879518072289156
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(ARI, tell-info(cafeteria(opening\\_time)))",
+        "score": 0.813953488372093
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(Com, verify-info(cafeteria(opening\\_time)))",
+        "score": 0.9069767441860465
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(ARI, acknowledge())",
+        "score": 0.25
+    },
+    {
+        "turn": 10,
+        "gold": "CGP(Com, get-info(cafeteria(opening_time)))",
+        "pred": "G(Com, thank())",
+        "score": 0.41379310344827586
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "G(ARI, welcome())",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cafeteria(accessible)))",
+        "pred": "G(Com, get-info(cafeteria(accessibility)))",
+        "score": 0.9382716049382716
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(cafeteria(accessible)))",
+        "pred": "G(ARI, tell-info(cafeteria(accessibility)))",
+        "score": 0.7619047619047619
+    },
+    {
+        "turn": 14,
+        "gold": "CGP(Com, get-info(cafeteria(accessible)))",
+        "pred": "G(Com, thank())",
+        "score": 0.42857142857142855
+    },
+    {
+        "turn": 15,
+        "gold": "G(Pat, get-info(cafeteria(directions)))",
+        "pred": "G(Pat, get-info(cafeteria(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 16,
+        "gold": "AGP(Pat, get-info(cafeteria(directions)))",
+        "pred": "G(ARI, tell-info(cafeteria(location)))",
+        "score": 0.7088607594936709
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "G(Com, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 18,
+        "gold": "AGN(Com, get-info(appointment(time)))",
+        "pred": "G(ARI, tell-info(reception(location)))",
+        "score": 0.4266666666666667
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "G(Pat, suggest(go-to(reception)))",
+        "score": 0.058823529411764705
+    },
+    {
+        "turn": 20,
+        "gold": "G(Pat, get-info(reception(directions)))",
+        "pred": "G(Pat, get-info(reception(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Pat, get-info(reception(directions)))",
+        "pred": "G(ARI, tell-info(reception(location)))",
+        "score": 0.7088607594936709
+    },
+    {
+        "turn": 22,
+        "gold": "CGP(Pat, get-info(reception(directions)))",
+        "pred": "G(Pat, thank())",
+        "score": 0.42857142857142855
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "G(Com, thank())",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "G(ARI, welcome())",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "G(Pat, get-info(lift(directions)))",
+        "pred": "G(Pat, get-info(lift(usage)))",
+        "score": 0.7936507936507936
+    },
+    {
+        "turn": 26,
+        "gold": "G(Pat, get-info(lift(directions)))",
+        "pred": "G(Pat, get-info(lift(location)))",
+        "score": 0.8787878787878788
+    },
+    {
+        "turn": 27,
+        "gold": "AGP(Pat, get-info(lift(directions)))",
+        "pred": "G(ARI, tell-info(lift(location)))",
+        "score": 0.6666666666666666
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat, get-info(cafeteria(directions(lift))))",
+        "pred": "G(Pat, get-info(lift(destination)))",
+        "score": 0.7
+    },
+    {
+        "turn": 29,
+        "gold": "AGN(Pat, get-info(cafeteria(directions(lift))))",
+        "pred": "G(ARI, tell-info(reception(location)))",
+        "score": 0.5411764705882353
+    },
+    {
+        "turn": 30,
+        "gold": "G(Com, get-info(cafeteria(floor)))",
+        "pred": "G(Com, get-info(cafeteria(floor)))",
+        "score": 1.0
+    },
+    {
+        "turn": 31,
+        "gold": "AGP(Com, get-info(cafeteria(floor)))",
+        "pred": "G(ARI, tell-info(cafeteria(floor)))",
+        "score": 0.7887323943661971
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "AGP(Com, get-info(cafeteria(directions(lift))))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "CGP(Com, get-info(cafeteria(directions)))",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "-",
+        "pred": "",
+        "score": 0.0
+    }
+]

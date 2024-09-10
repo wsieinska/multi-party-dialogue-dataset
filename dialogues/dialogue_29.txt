@@ -1,0 +1,52 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->ARI: Oh no, I don't want to talk to you, that's enough. Go away. @-$
+03 Pat->Com: Do you want to talk to it? @-$
+04 Com->Pat: Yes, I'd like to. @-$
+05 Pat->Com: So, I'm hungry. @G(Pat, eat())$
+06 Com->ARI: My friend that I'm accompanying is very hungry. Could you tell me where to find a restaurant or a bar here? @G(Com, get-info(restaurant))$
+07 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Com, get-info(restaurant))$
+08 Com->ARI: Thank you. @CGP(Com, get-info(restaurant))$
+09 Com->ARI: And how, how... Where is the cafeteria? @G(Com, get-info(cafeteria(location)))$
+10 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(location)))$
+11 Com->ARI: And where is the courtyard? @G(Com, get-info(courtyard(location)))$
+12 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, get-info(courtyard(location)))$
+13 Com->ARI: Good, thank you. @CGP(Com, get-info(courtyard(location)))$
+14 Pat->Com: I need to go to the toilet, do you think that's possible? @G(Pat, go-to(toilet))$
+15 Com->Pat: Yes, of course. @AGP(Pat, go-to(toilet))$
+16 Com->ARI: ARI, the person that I'm accompanying really needs to go to the toilet. Can you tell me where the toilet is? @G(Com, get-info(toilet(location)))$
+17 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @AGP(Com, get-info(toilet(location)))$
+18 Com->ARI: Um... Is there access, is there access for disabled people? @G(Com, get-info(toilet(accessible)))$
+19 ARI->Com: Yes, absolutely. @AGP(Com, get-info(toilet(accessible)))$
+20 Com->ARI: Good, thank you. @CGP(Com, get-info(toilet(accessible)))$
+21 ARI->Pat+Com: Do you need information? @-$
+22 Pat->Com: Umm... @-$
+23 Com->ARI: I'll ask my... the patient. @-$
+24 Pat->Com: Umm... I have to go to an examination room, I don't know which one, where it is or what I have to do. @G(Pat, get-info(examination_room(location)))$
+25 Com->ARI: My friend is a little bit irritated because he doesn't know where to go for his examination. He has to have a test. @G(Com, get-info(examination_room(location)))$
+26 ARI->Pat+Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @AGN(Pat+Com, get-info(examination_room(location)))$
+27 Pat->Com: Umm... No, but what are these appointments? @G(Pat, get-info(appointment))$
+28 Pat->Com: When is my appointment? No, but I want to know now. You have to tell me. @G(Pat, get-info(appointment(time)))$
+29 Com->ARI: We would still like more precise information about the examination my friend will have. Can you tell us exactly where he has to go? @G(Pat+Com, get-info(examination_room(directions)))$
+30 ARI->Pat+Com: Sorry, I don't have this information. @AGN(Pat+Com, get-info(examination_room(directions)))$
+31 Com->ARI: Is someone going to look after him? Will a nurse or someone come and take him to his examination? @G(Com, get-info(examination(nurse)))$
+32 ARI->Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @AGN(Com, get-info(examination(nurse)))$
+33 Pat->Com: Does it know how a day here goes? Do we wait, do we go see someone? @G(Pat+Com, get-info(day_schedule))$
+34 Com->ARI: ARI, what should we do in the meantime? Because we're going to spend a whole day here, we would like to know what the schedule is. The day's schedule... @G(Pat+Com, get-info(day_schedule))$
+35 ARI->Pat+Com: I'm sorry, I don't know the answer. Please ask at the reception. @AGN(Pat+Com, get-info(day_schedule))$
+36 Com->ARI: Where is the reception? @G(Com, get-info(reception(location)))$
+37 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @AGP(Com, get-info(reception(location)))$
+38 Pat->Com: I'm thirsty, I'm so thirsty. @G(Pat, drink())$
+39 Com->Pat: Ah yes, I'll ask it. @-$
+40 Com->ARI: The person that I'm accompanying is very thirsty. I would really like to know where he can get water to quickly quench his thirst. @G(Com, get-info(water(location)))$
+41 ARI->Com: There's a coffee machine in the hallway entrance. There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @AGP(Com, get-info(water(location)))$
+42 Com->ARI: He doesn't want a hot drink, he wants a bottle of water. Where can I find water to drink? @G(Com, get-info(water(location)))$
+43 ARI->Com: I didn't understand your request, could you rephrase it? @-$
+44 Com->ARI: Yes, of course. @-$
+45 Com->ARI: Umm... The person I'm accompanying would like to get a bottle of water, to quench his thirst. Where can I buy a bottle of water for him? @G(Com, get-info(water(location)))$
+46 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(water(location)))$
+47 Com->ARI: And do they sell bottled water? @G(Com, get-info(cafeteria(bottled_water)))$
+48 ARI->Com: Yes. @AGP(Com, get-info(cafeteria(bottled_water)))$
+49 Com->ARI: Thank you. @CGP(Com, get-info(cafeteria(bottled_water)))$
+50 ARI->Com: You're welcome. @-$
+51 ARI->Pat+Com: How can I help you? @-$
+52 ARI->Pat+Com: Thank you very much, see you later. @-$

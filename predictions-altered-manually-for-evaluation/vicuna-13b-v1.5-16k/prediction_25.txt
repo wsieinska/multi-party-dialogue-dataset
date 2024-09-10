@@ -1,0 +1,23 @@
+01 ARI->Pat+Com: Hello, my name is ARI. Can I help you? @[G(Pat+Com, get-info(cafeteria))]$
+02 Com->ARI: Hello ARI. Actually, it's midday and I'd like to go to the cafeteria. What time does it open? @[G(Com, get-info(cafeteria(opening\_time)))]$
+03 ARI->Com: At 11 AM. @[G(Com, get-info(cafeteria(opening\_time)))]$
+04 Com->ARI: 11 AM, thank you. @[G(Com, get-info(cafeteria(opening\_time)))]$
+05 Com->ARI: And, where is it? Where should I go? Is it upstairs or on the ground floor? @[G(Com, get-info(cafeteria(location)))]$
+06 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[G(Com, get-info(cafeteria(location)))]$
+07 Com->ARI: Thank you ARI. @[G(Com, get-info(cafeteria(location)))]$
+08 ARI->Com: You're welcome. @[G(Com, get-info(cafeteria(location)))]$
+09 ARI->Pat+Com: How can I help you? @[G(Pat+Com, get-info(info))]$
+10 Pat->ARI: Where can we eat at lunchtime? @[G(Pat, get-info(food(location)))]$
+11 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @[G(Pat+Com, get-info(food(options)))]$
+12 Pat->ARI: It's... yes, yes, ok. @[G(Pat, get-info(food(options)))]$
+13 Pat->ARI: I didn't quite understand actually. Can you repeat? @[G(Pat, get-info(food(options)))]$
+14 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @[G(Pat, get-info(food(options)))]$
+15 Pat->ARI: Where are the toilets? @[G(Pat, get-info(toilet(location)))]$
+16 ARI->Pat: Very easy! You have to go to the corridor at the end of the room. @[G(Pat, get-info(toilet(location)))]$
+17 Pat->ARI: Right or left? @[G(Pat, get-info(toilet(direction)))]$
+18 ARI->Pat: I'm afraid I can't help you. @[G(Pat, get-info(toilet(direction)))]$
+19 Com->ARI: I'm in a wheelchair, are the toilets wheelchair accessible? @[G(Com, get-info(toilet(accessibility)))]$
+20 ARI->Com: Yes, absolutely. @[G(Com, get-info(toilet(accessibility)))]$
+21 Com->ARI: Thank you. @[G(Com, get-info(toilet(accessibility)))]$
+22 ARI->Com: You're welcome. @[G(Com, get-info(toilet(accessibility)))]$
+23 ARI->Pat+Com: See you soon. @[G(Pat+Com, get-info(farewell))]$

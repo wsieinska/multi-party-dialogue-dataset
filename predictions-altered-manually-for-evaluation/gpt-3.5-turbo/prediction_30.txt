@@ -1,0 +1,24 @@
+01 ARI->Pat+Com: Hello, my name is ARI. @G(Pat+Com, introduction)$
+02 Com->ARI: Hello ARI. @-$
+03 ARI->Pat+Com: How can I help you? @-$
+04 Pat->Com: We're going to go... Where are the lifts now? We have to go to the second floor for my examination, we'll be late now. @G(Pat, get-info(lift(location)))$
+05 Com->ARI: Hello ARI, the person I'm accompanying is a little bit on edge, he's afraid of being late. Can you tell me where the lift is? @G(Com, get-info(lift(location))$
+06 Com->ARI: Did you understand what I asked? @-$
+07 ARI->Com: The lifts are at the entrance on the left. @-$
+08 Com->ARI: Is the lift wheelchair accessible? @G(Com, get-info(lift(accessibility))$
+09 ARI->Com: Yes, of course. @-$
+10 Pat->Com: And now I really have to go to the toilet. @G(Pat, go-to(toilet))$
+11 Com->ARI: And the toilets too, well yes, he still has to relieve himself and that makes him really worried. Can you tell us where the toilets are? @G(Pat, get-info(toilet(location))$
+12 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @-$
+13 Com->ARI: And it's wheelchair accessible? @G(Com, get-info(toilet(accessibility))$
+14 ARI->Com: Absolutely. @-$
+15 Com->ARI: Yes, thank you. @-$
+16 ARI->Com: You're welcome. @-$
+17 Com->ARI: Thank you ARI. @-$
+18 ARI->Com: Thank you. @-$
+19 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @-$
+20 Com->ARI: No, no, we don't need you anymore, we'll handle things ourselves. @-$
+21 Pat->Com: I don't want to speak to the robot, it scares me. @G(Pat, fear(robot))$
+22 Com->Pat: Yes, I know. @-$
+23 ARI->Pat+Com: Thank you, see you later, have a nice day. @-$
+24 Com->ARI: Have a nice day ARI. @-$

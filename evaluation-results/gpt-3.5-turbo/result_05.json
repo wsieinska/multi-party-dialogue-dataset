@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, get-assistance)",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(appointment(duration)))",
+        "pred": "G(Com, get-info(appointment(duration)))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGN(Com, get-info(appointment(duration)))",
+        "pred": "AGN(Com, get-info(appointment(duration))",
+        "score": 0.9876543209876543
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(info_source))",
+        "pred": "G(Com, get-info(location(appointment)))",
+        "score": 0.6176470588235294
+    },
+    {
+        "turn": 5,
+        "gold": "AGN(Com, get-info(info_source))",
+        "pred": "AGN(Com, get-info(location(appointment)))",
+        "score": 0.6388888888888888
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(appointment(cancellation)))",
+        "pred": "G(Pat, get-help(missing_appointment))",
+        "score": 0.65
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(appointment(cancellation)))",
+        "pred": "AGN(Pat, get-help(missing_appointment))",
+        "score": 0.6666666666666666
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(reception))",
+        "pred": "G(Com, find(reception))",
+        "score": 0.84
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(reception))",
+        "pred": "AGP(Com, find(reception))",
+        "score": 0.8518518518518519
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(telephone_number))",
+        "pred": "G(Com, find(telephone_number(reception)))",
+        "score": 0.7466666666666667
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(telephone_number))",
+        "pred": "AGN(Com, find(telephone_number(reception)))",
+        "score": 0.759493670886076
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat+Com, get-info(lunch(hours)))",
+        "pred": "G(Com, get-info(lunch(time_range)))",
+        "score": 0.7536231884057971
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "G(Com, get-info(join_patient(lunch)))",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 14,
+        "gold": "AGN(Pat+Com, get-info(lunch(hours)))",
+        "pred": "AGN(Com, get-info(join_patient(lunch))",
+        "score": 0.6756756756756757
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(lunch(with_patient)))",
+        "pred": "G(Com, check(rules(lunch_patient)))",
+        "score": 0.6944444444444444
+    },
+    {
+        "turn": 16,
+        "gold": "AGP(Com, get-info(lunch(with_patient)))",
+        "pred": "AGP(Com, check(rules(lunch_patient))",
+        "score": 0.6933333333333334
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(lunch(reservation)))",
+        "pred": "G(Com, make-reservation(lunch))",
+        "score": 0.6567164179104478
+    },
+    {
+        "turn": 18,
+        "gold": "AGP(Com, get-info(lunch(reservation)))",
+        "pred": "AGN(Com, make-reservation(lunch))",
+        "score": 0.647887323943662
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(lunch(reservation(waiting_time))))",
+        "pred": "G(Com, information(reservation(lunch)))",
+        "score": 0.651685393258427
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Com, get-info(lunch(reservation(waiting_time))))",
+        "pred": "AGN(Com, information(reservation(lunch))",
+        "score": 0.6304347826086957
+    },
+    {
+        "turn": 21,
+        "gold": "G(Com, get-info(lift(directions)))",
+        "pred": "G(Com, find(location(lift)))",
+        "score": 0.5806451612903226
+    },
+    {
+        "turn": 22,
+        "gold": "G(Com, get-info(appointment_room(directions)))",
+        "pred": "G(Com, locate(appointment(room)))",
+        "score": 0.6835443037974683
+    },
+    {
+        "turn": 23,
+        "gold": "G(Com, get-info(appointment))",
+        "pred": "G(Com, find(help(appointment)))",
+        "score": 0.7666666666666667
+    },
+    {
+        "turn": 24,
+        "gold": "AGP(Com, get-info(lift(directions)))",
+        "pred": "AGP(Com, find(location(lift)))",
+        "score": 0.6060606060606061
+    },
+    {
+        "turn": 25,
+        "gold": "G(Com, get-info(lift(directions)))",
+        "pred": "G(Com, confirm(info(lift)))",
+        "score": 0.6229508196721312
+    },
+    {
+        "turn": 26,
+        "gold": "AGP(Com, get-info(lift(directions)))",
+        "pred": "AGP(Com, confirm(info(lift))",
+        "score": 0.625
+    },
+    {
+        "turn": 27,
+        "gold": "CGP(Com, get-info(lift(directions)))",
+        "pred": "CGP(Com, confirm(info(lift))",
+        "score": 0.625
+    },
+    {
+        "turn": 28,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 29,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

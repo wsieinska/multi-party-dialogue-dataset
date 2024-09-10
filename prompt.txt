@@ -1,0 +1,15 @@
+I will give you a dialogue between two people, whose names are Pat and Com, and a robot, whose name is ARI. The dialogue will consist of multiple dialogue turns in the following format: "turn speaker->addressee: utterance @goal$". If the dialogue is "01 Pat->ARI: I would like a cup of coffee, please. @G(Pat, drink(coffee))$", then '01' is the turn number, 'Pat' is the speaker, 'ARI' is the addressee, "I would like a cup of coffee, please." is the utterance, and "@G(Pat, drink(coffee))$" is an annotation of the goal of the speaker. However, each goal annotation will be replaced with the '@[BLANK]$' tag. I want you to guess missing goal annotations and return the dialogue with blanks filled in. You will find this dialogue between the '<START>' and '<END>' tags. Do not return any other text. I will also give you three example dialogues to learn from. Do not return the text of example dialogues or any other text. Remember, your task is to return the text between the '<START>' and '<END>' tags with the '@[BLANK]$' tags replaced by your guesses of goal annotations.
+
+Example dialogue 1:
+{example_dialogue_1}
+
+Example dialogue 2:
+{example_dialogue_2}
+
+Example dialogue 3:
+{example_dialogue_3}
+
+Here is the dialogue, which I want you to return with blanks filled in:
+<START>
+{dialogue_with_blanks}
+<END>

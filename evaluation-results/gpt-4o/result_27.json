@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(time))",
+        "pred": "G(Com, get-info(time))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGN(Com, get-info(time))",
+        "pred": "AGN(Com, get-info(time))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "CGN(Com, get-info(time))",
+        "pred": "-",
+        "score": 0.08
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat, get-info(reception))",
+        "pred": "G(Pat, get-info(reception(location)))",
+        "score": 0.84375
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Pat, get-info(reception))",
+        "pred": "AGP(Pat, get-info(reception(location)))",
+        "score": 0.8529411764705882
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Pat, get-info(reception))",
+        "pred": "CGP(Pat, get-info(reception(location)))",
+        "score": 0.8529411764705882
+    },
+    {
+        "turn": 8,
+        "gold": "G(Pat+Com, drink(coffee))",
+        "pred": "G(Com, drink(coffee))",
+        "score": 0.9130434782608695
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, drink(coffee))",
+        "pred": "G(Com, drink(coffee))",
+        "score": 0.9130434782608695
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, drink(coffee))",
+        "pred": "AGP(Com, drink(coffee))",
+        "score": 0.92
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat, get-info(coffee(price)))",
+        "pred": "G(Pat, get-info(coffee(price)))",
+        "score": 1.0
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Pat, get-info(coffee(price)))",
+        "pred": "AGN(Pat, get-info(coffee(price)))",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "G(Com, get-info(coffee(source)))",
+        "pred": "G(Com, get-info(coffee(source)))",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Com, get-info(coffee(source)))",
+        "pred": "AGN(Com, get-info(coffee(source)))",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Pat, get-info(cafeteria(closing_time)))",
+        "pred": "G(Pat, get-info(cafeteria(hours)))",
+        "score": 0.8266666666666667
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Pat, get-info(cafeteria(closing_time)))",
+        "pred": "AGP(Pat, get-info(cafeteria(hours)))",
+        "score": 0.8354430379746836
+    },
+    {
+        "turn": 21,
+        "gold": "CGP(Pat, get-info(cafeteria(closing_time)))",
+        "pred": "CGP(Pat, get-info(cafeteria(hours)))",
+        "score": 0.8354430379746836
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

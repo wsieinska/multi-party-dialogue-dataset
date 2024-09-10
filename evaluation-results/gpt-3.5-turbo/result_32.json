@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, greet(ARI))",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "G(Pat+Com, get-assistance)",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "G(Com, drink(hot_chocolate))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, drink(tea(herbal)))",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, drink(tea(herbal)))",
+        "pred": "G(Com, drink(herbal_tea))",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "G(Pat, de-stress)",
+        "score": 0.1111111111111111
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat+Com, request(herbal_tea))",
+        "score": 0.7213114754098361
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat+Com, get-info(cafeteria))",
+        "score": 0.5079365079365079
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat, express-gratitude)",
+        "score": 0.3508771929824561
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, get-directions(ground_floor))",
+        "score": 0.6829268292682927
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat+Com, get-directions(lift))",
+        "score": 0.675
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, express-gratitude)",
+        "score": 0.3835616438356164
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "G(Pat, farewell)",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "G(ARI, respond-to-farewell)",
+        "score": 0.07142857142857142
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "G(Pat, dismiss(ARI))",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "G(Pat+Com, farewell)",
+        "score": 0.0
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, get-assistance)",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(lift(accessible)))",
+        "pred": "G(Com, get-info(lift(accessibility))",
+        "score": 0.9142857142857143
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "AGP(Com, get-info(lift(accessibility))",
+        "score": 0.918918918918919
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lift(location))",
+        "score": 0.9841269841269841
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "AGP(Pat, get-info(lift(location))",
+        "score": 0.9850746268656716
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "CGP(Pat, get-info(lift(location))",
+        "score": 0.9850746268656716
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request(louder-speaking))",
+        "score": 0.6101694915254238
+    },
+    {
+        "turn": 9,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request(louder-speaking))",
+        "score": 0.6349206349206349
+    },
+    {
+        "turn": 10,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGN(Com, request(louder-speaking))",
+        "score": 0.6349206349206349
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, request-volume-up())",
+        "pred": "G(Com, request(louder-speaking))",
+        "score": 0.6101694915254238
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, request-volume-up())",
+        "pred": "AGN(Com, request(nurse-assistance))",
+        "score": 0.65625
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, request-volume-up())",
+        "pred": "CGN(Com, request(nurse-assistance))",
+        "score": 0.65625
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

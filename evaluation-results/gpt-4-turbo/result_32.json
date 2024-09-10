@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat, greet())",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "G(Com, drink(hot_chocolate))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat, drink(tea(herbal)))",
+        "pred": "G(Pat, drink(herbal_tea))",
+        "score": 0.8235294117647058
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, drink(tea(herbal)))",
+        "pred": "G(Com, change_order(herbal_tea))",
+        "score": 0.6206896551724138
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "(Com, reason(de-stress))",
+        "score": 0.08
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat+Com, drink(herbal_tea))",
+        "score": 0.847457627118644
+    },
+    {
+        "turn": 8,
+        "gold": "AGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "AGP(Pat+Com, drink(herbal_tea))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 9,
+        "gold": "CGP(Pat+Com, drink(tea(herbal)))",
+        "pred": "G(Pat, acknowledge())",
+        "score": 0.41509433962264153
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, get-info(cafeteria(directions)))",
+        "score": 0.7294117647058823
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "AGP(Pat, get-info(cafeteria(directions)))",
+        "score": 0.7415730337078652
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, acknowledge())",
+        "score": 0.34782608695652173
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "CGP(Pat, end_interaction())",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

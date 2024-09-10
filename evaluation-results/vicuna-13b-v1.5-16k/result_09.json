@@ -1,0 +1,92 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, *)",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info(restaurant(location))",
+        "score": 0.7837837837837838
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info(cafeteria(location))",
+        "score": 0.96
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, get-info())",
+        "score": 0.6545454545454545
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, get-info())",
+        "score": 0.631578947368421
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info())",
+        "score": 0.6545454545454545
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, get-info())",
+        "score": 0.631578947368421
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(cafeteria(location)))",
+        "pred": "G(Pat, thank())",
+        "score": 0.4444444444444444
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "G(ARI, welcome())",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "G(Pat, next-question())",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "G(Com, get-info(toilet(location))",
+        "score": 0.9850746268656716
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "G(Com, get-info(toilet(location))",
+        "score": 0.9565217391304348
+    },
+    {
+        "turn": 13,
+        "gold": "CGP(Com, get-info(toilet(location)))",
+        "pred": "G(Com, thank())",
+        "score": 0.47058823529411764
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "G(Pat, thank())",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "G(ARI, goodbye())",
+        "score": 0.0
+    }
+]

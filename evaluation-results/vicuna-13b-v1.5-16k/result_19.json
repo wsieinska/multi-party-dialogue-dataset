@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15789473684210525
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15789473684210525
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15384615384615385
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15384615384615385
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.17142857142857143
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(appointment(time)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.16666666666666666
+    },
+    {
+        "turn": 12,
+        "gold": "CGN(Com, get-info(appointment(time)))",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.16666666666666666
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat, request-volume-up())",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.16129032258064516
+    },
+    {
+        "turn": 14,
+        "gold": "AGN(Pat, request-volume-up())",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15625
+    },
+    {
+        "turn": 15,
+        "gold": "CGN(Pat, request-volume-up())",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.15625
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "[find out the goal of the speakers]",
+        "score": 0.0
+    }
+]

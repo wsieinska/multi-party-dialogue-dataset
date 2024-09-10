@@ -1,0 +1,69 @@
+ Sure, I'd be happy to help! Here is the dialogue with the annotations replaced with blanks:
+
+
+
+
+0 ARI->Pat+Com: Hello, how can I help you?[@BLANK]$
+2 Com->AR: Hello[@BLANK]$
+0 Com->Pat: Um, so what do we do[@BLANK]$
+0 Pat->Com: Well, it's my first time here, I don't know if this is the case for you. I'd really like to um... to be able, to eat a little bit before going to my appointment, do you know where is?[@BLANK]$
+0 Com->Pat: Oh, I don't know. We'll ask the question[@BLANK]$
+06 Com->AR: I don't know your name is. Can you give us information and tell us what your name is[@BLANK]$
+07 ARI->Com: Hello, my name is ARI. How can I help you[@BLANK]$
+08 Com->AR: Where's the cafeteria[@BLANK]$
+09 ARI->Com: There are a few available as part of your visit, and there's also a cafeteria on the ground floor[@BLANK]$
+10 Com->Pat: Ok, on the ground[@BLANK]$
+1 Pat->AR: And how do we get to the cafeteria[@BLANK]$
+12 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left[@BLANK]$
+13 Pat->AR: Right, the second building[@BLANK]$
+14 Pat->AR: Um... Do we take... do we take the walkway to the cafeteria?[@BLANK]$
+15 ARI->Pat+Com: Yes[@BLANK]$
+16 Com->AR: I'd really like to know what's on the menu. I want a croissant and a coffee[@BLANK]$
+17 ARI->Com: Today we have an endive salad to start, followed by a ham and cheese with a side of mashed potato and a fruit compote for dessert[@BLANK]$
+18 Pat->AR: Yes, but that's for lunch. We would like a snack, wouldn't we? Grab a coffee or breakfast, since we're early for our appointment[@BLANK]$
+19 ARI->Pat+Com: Of course. There are a few options as part of your visit, and there's also a cafeteria on the ground[@BLANK]$
+20 Com->Pat: And I'd like to go to the toilet too[@BLANK]$
+2 Com->AR: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right[@BLANK]$
+2 ARI->Pat: In the corridor at the end of the room, ok...[@BLANK]$
+30 Pat->AR: But on which side[@BLANK]$
+2 Com->Pat: We'll let it go[@BLANK]$
+2 Pat->Com: We'll leave it, we'll leave it. Umm...[@BLANK]$
+3 Com->Pat: We're going to eat something already[@BLANK]$
+34 Com->AR: Do you think there's still time to eat[@BLANK]$
+35 Com->AR: Until what time is...[@BLANK]$
+36 ARI->Com: Yes[@BLANK]$
+37 Com->AR: breakfast served[@BLANK]$
+38 ARI->Com: Sorry, I don't have this information[@BLANK]$
+39 Pat->AR: Um, so I understand, the toilets are next to the cafeteria, is that right?[@BLANK]$
+40 ARI->Pat: Absolutely[@BLANK]$
+4 Pat->Com: I'm having a hard time hearing actually[@BLANK]$
+42 Com->AR: Could you speak a little louder[@BLANK]$
+43 ARI->Pat+Com: I'm afraid I can't help you[@BLANK]$
+4 Com->AR: You can't help us, that's a shame[@BLANK]$
+45 Com->Pat: So what are we going to do? We'll see something else...[@BLANK]$
+46 Pat->Com: So maybe we'll go and have a look around to see where my appointment will take place... Ah, well...[@BLANK]$
+47 Pat->AR: I know I have an appointment but I don't know where...[@BLANK]$
+48 Pat->AR: I also don't know what time it's at. How can I find out my appointment time?[@BLANK]$
+49 ARI->Pat: I'm afraid I can't help you[@BLANK]$
+50 Com->Pat: Well, firstly do you know where to find um... which doctor it is, which department, which specialty[@BLANK]$
+5 Pat->AR: Is there a reception?[@BLANK]$
+52 ARI->Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest different types of follow-up depending on your results. Then you will see a geriatrician who will summarize all this data and suggest follow-up depending on your results. @[BLANK]$
+5 Pat->AR: Um, how do I know what time my appointment is?[@BLANK]$
+54 ARI->Pat: Sorry, I don't have this information[@BLANK]$
+5 Pat->AR: Um... And... And where is... Um, I remember, I think it's room 17. But I'm not sure. How do I get to room 17?[@BLANK]$
+5 ARI->Pat: You continue along the building, take the lift and it's on the second floor[@BLANK]$
+57 Pat->AR: And you arrive directly in room 17?[@BLANK]$
+5 ARI->Pat: Of course[@BLANK]$
+59 Pat->AR: Ok, thank you ARI[@BLANK]$
+60 Pat->AR: So my appointment will be confirmed in room 17[@BLANK]$
+1 ARI->Pat: I can't help you[@BLANK]$
+62 Pat->AR: That's a shame. Um...[@BLANK]$
+63 Com->Pat: Maybe it's at the reception. Maybe there's a receptionist who will let you know, who will tell you. Let's go there.[@BLANK]$
+64 Pat->Com: Ok, I'll go and ask at the reception then[@BLK]$
+6 ARI->Pat+Com: Thank you. See you around. Have a nice day[@BLANK]$
+6 Com->AR: Thank you[@BLANK]$
+7 Pat->AR: Have a nice day[@BLANK]$
+
+
+
+Note that I have left the annotations as [BLANK] for the missing information.

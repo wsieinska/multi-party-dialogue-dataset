@@ -1,0 +1,23 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Com->ARI: What time is it, please? @G(Com, get-info(time))$
+03 ARI->Com: I'm sorry, I don't know the answer. @AGN(Com, get-info(time))$
+04 Com->ARI: Yeah, well it's not much. @CGN(Com, get-info(time))$
+05 Pat->ARI: Is there a reception for people who have an appointment like me? @G(Pat, get-info(reception))$
+06 ARI->Pat: Yes, of course. The reception is just behind me. Remember to take a ticket on your right. @AGP(Pat, get-info(reception))$
+07 Pat->ARI: Thank you. @CGP(Pat, get-info(reception))$
+08 Com->ARI: Can we have a coffee? @G(Pat+Com, drink(coffee))$
+09 ARI->Com: You're welcome. @-$
+10 Com->ARI: Can we have a coffee while we wait? @G(Pat+Com, drink(coffee))$
+11 ARI->Pat+Com: Yes. There's a cafeteria on the ground floor, near the courtyard. @AGP(Pat+Com, drink(coffee))$
+12 Pat->ARI: Do you know the price of a coffee? @G(Pat, get-info(coffee(price)))$
+13 ARI->Pat: No. Sorry, I don't have this information. @AGN(Pat, get-info(coffee(price)))$
+14 Com->ARI: Is the coffee from a vending machine or a cafeteria? @G(Com, get-info(coffee(source)))$
+15 ARI->Com: I'm afraid I can't help you. @AGN(Com, get-info(coffee(source)))$
+16 Com->Pat: Go ahead. @-$
+17 ARI->Pat+Com: Can I help you? @-$
+18 Pat->Com: I can ask... @-$
+19 Pat->ARI: Is the cafeteria open at this time? It's 6 PM. Is the cafeteria still open? @G(Pat, get-info(cafeteria(closing_time)))$
+20 ARI->Pat: No. The cafeteria is open from 11 AM to 3 PM. @AGP(Pat, get-info(cafeteria(closing_time)))$
+21 Pat->ARI: Oh, that's a shame. Thank you ARI. @CGP(Pat, get-info(cafeteria(closing_time)))$
+22 ARI->Pat: You're welcome. @-$
+23 ARI->Pat+Com: See you. Have a nice day. @-$

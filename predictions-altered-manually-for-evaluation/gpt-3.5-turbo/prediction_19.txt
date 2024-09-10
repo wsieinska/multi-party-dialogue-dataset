@@ -1,0 +1,20 @@
+01 Com->ARI: Hello. @G(Com, greet())$
+02 ARI->Com: Hello, my name is ARI. How can I help you? @-[BLANK]$
+03 Com->Pat: We're looking for a way to get to room 17, aren't we? @G(Pat+Com, get-directions(room(17)))$
+04 Pat->Com: Yes. @-[BLANK]$
+05 Pat->ARI: Yes, we need to go to room 17 for treatment. How do we get there? @G(Pat+Com, get-directions(room(17)))$
+06 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @G(Pat+Com, get-directions(room(17)))$
+07 Com->ARI: Thank you. @-[BLANK]$
+08 Pat->ARI: Thank you. @-[BLANK]$
+09 Com->ARI: Do you, do you know what time our appointment is at? @G(Pat+Com, get-info(appointment(time)))$
+10 Pat->ARI: Do you need the name? @-[BLANK]$
+11 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @-[BLANK]$
+12 Com->ARI: Thank you. @-[BLANK]$
+13 Pat->ARI: I can't hear very well. Couldn't you speak a little louder? @G(Pat, request-repetition())$
+14 ARI->Pat: Sorry, but I can't help you. @-[BLANK]$
+15 Pat->ARI: Ok. @-[BLANK]$
+16 Pat->ARI: Thank you. @-[BLANK]$
+17 ARI->Pat: You're welcome, I'm here to answer your questions. @-[BLANK]$
+18 Com->ARI: Thank you ARI, have a nice day. @-[BLANK]$
+19 Pat->ARI: Thank you. @-[BLANK]$
+20 ARI->Pat+Com: Thank you, see you around, have a nice day. @-[BLANK]$

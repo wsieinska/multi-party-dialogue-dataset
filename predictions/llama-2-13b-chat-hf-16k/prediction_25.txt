@@ -1,0 +1,42 @@
+ Sure, I'd be happy to help! Here are my guesses for the missing annotations:
+
+
+
+
+1. 0 ARI->Pat+Com: Hello, my name is ARI. Can I help you?[@G(help]$
+2 Com->ARI: Hello ARI. Actually, it's midday and I'd like to go to the cafeteria. What time does it open?[@G(time(cafeteria)]
+3 ARI->Com: At 1 AM[@G(time(cafeteria)]
+4 Com->ARI: 1 AM, thank you[@G(cafeteria)]
+5 Com->ARI: And where is it? Where should I go? Is it upstairs or on the floor?[@G(location)]
+6 ARI->Com: There's a cafeteria on the ground, near the courtyard[@G(cafeteria)]
+7 Com->ARI: Thank you ARI[@G(cafeteria)]
+8 ARI->Com: You're welcome.@G(cafeteria)
+9 ARI+Com: How can I help you?[@G(help)]
+10 Pat->AR: Where can we eat at lunchtime?[@G(lunch]
+1 ARI+Com: There's a cafeteria on the ground, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks[@G(food)]
+12 Pat->AR: It's... yes, yes[@G(food)
+13 Pat->AR: I didn't understand actually. Can you repeat?[@G(repeat)]
+14 ARI->Pat: There's a cafeteria on the ground, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks[@G(cafeteria)
+15 Pat->AR: Where the toilets[@G(toilets)
+16 ARI: Very easy! You have to go to the corridor at the end of the room.@G(toilet)
+17 Pat->AR: Right or left[@G(toilet)
+18 ARI: I'm afraid I can't help you[@G(toilet)
+19 Com->AR: I'm in a wheelchair, are the toilets wheelchair accessible?[@G(access)]
+20 ARI: Yes, absolutely.
+2 Com->AR: Thank you.
+2 ARI: You're welcome.
+2 ARI+Com: See you soon.
+
+
+
+
+Note that I have used the following annotation scheme to guess the missing annotations:
+
+
+
+@G(goal): Goal of the speaker
+@G(utterance): The goal of the speaker's utterance
+@G(info): Information seeking
+@G(time(cafeteria): Time of the cafeteria)
+@G(location): Location of the cafeteria@G(toilet): Directions to the to the toilets@G(food): Availability of food@G(repeat): Repeat request
+@G(toilet): Request for escort to the to the toilet@G(escort): Escort to the to the toilet@G(access): Wheelchair accessibility

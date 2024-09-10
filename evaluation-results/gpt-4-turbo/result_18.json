@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(lift(directions)))",
+        "pred": "G(Com, get-info(lift(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Com, get-info(lift(directions)))",
+        "pred": "AGP(Com, get-info(lift(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Com, get-info(lift(directions)))",
+        "pred": "CGP(Pat, get-info(lift(directions)))",
+        "score": 0.9166666666666666
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "CGP(Com, get-info(lift(directions)))",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "CGP(Pat, get-info(lift(directions)))",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat+Com, get-info(food))",
+        "pred": "G(Pat, discuss(meal_options))",
+        "score": 0.4727272727272727
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "G(Com, discuss(meal_options))",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, get-info(cafeteria))",
+        "score": 0.8181818181818182
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria))",
+        "score": 0.8285714285714286
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat, get-info(cafeteria(directions)))",
+        "pred": "G(Pat, get-info(cafeteria(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "AGN(Pat, get-info(cafeteria(directions)))",
+        "pred": "AGN(Pat, get-info(cafeteria(directions)))",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "G(Pat, get-info(cafeteria(access)))",
+        "score": 0.7380952380952381
+    },
+    {
+        "turn": 17,
+        "gold": "AGN(Pat+Com, get-info(cafeteria(directions(lift))))",
+        "pred": "AGN(Pat+Com, get-info(cafeteria(access)))",
+        "score": 0.8043478260869565
+    },
+    {
+        "turn": 18,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, clarify(cafeteria(access)))",
+        "score": 0.684931506849315
+    },
+    {
+        "turn": 19,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria))",
+        "score": 0.8285714285714286
+    },
+    {
+        "turn": 20,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Com, confirm(cafeteria(location)))",
+        "score": 0.8493150684931506
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "CGP(Pat, confirm(cafeteria(location)))",
+        "score": 0.7532467532467533
+    },
+    {
+        "turn": 22,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Com, confirm(cafeteria(location)))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 23,
+        "gold": "G(Com, request-escort(cafeteria))",
+        "pred": "G(Com, request-escort(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "AGN(Com, request-escort(cafeteria))",
+        "pred": "AGN(Com, request-escort(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 25,
+        "gold": "CGN(Com, request-escort(cafeteria))",
+        "pred": "CGP(Com, request-escort(cafeteria))",
+        "score": 0.9714285714285714
+    },
+    {
+        "turn": 26,
+        "gold": "-",
+        "pred": "CGP(Pat, request-escort(cafeteria))",
+        "score": 0.05555555555555555
+    },
+    {
+        "turn": 27,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

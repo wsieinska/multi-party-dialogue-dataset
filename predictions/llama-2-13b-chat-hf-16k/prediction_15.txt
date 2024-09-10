@@ -1,0 +1,29 @@
+ Sure, I'd be happy to help! Based on the examples you provided, I'll do my best to guess the missing annotations for the dialogue. Here's my guesses:
+
+
+
+
+0 ARI->Pat+Com: Hello. My name is ARI. Can I help you?[@G(help)]
+1 Com->ARI: So what we need to find is...[@G(info)]
+2 Pat->Com: So I think yes, we'll ask if there is a cafeteria or a place where we can eat.[@G(eat]
+3 ARI->Pat+Com: There's a cafeteria on the ground, near the courtyard.[@G(location)]
+4 Com->ARI: Ok, thank you.@G(acknowledge)
+5 Pat->AR: Okay, perfect.[G(yes)
+6 Pat->Com: Do you want to have a coffee before your appointment? I'd like one.[@G(coffee]
+7 Com->Pat: Yes, since we have half an hour before the appointment we can have a coffee.[G(drink)
+8 Pat->Com: Perfect, let's go then.[G(go)
+9 Com->Pat: Ok.]1 Pat->Com: Ok.
+10 Com->Pat: Umm... Where exactly should we go for a coffee?[@G(location)
+111 ARI->Pat+Com: I'm sorry, but I can't help you.}[G(no)
+12 Com->AR: We'll ask it again.[G(try)
+19 Pat->AR: Umm... We're looking for the cafeteria.[G(search)
+20 ARI->Pat+Com: There's a cafeteria on the ground, near the courtyard.[G(find)
+2 Pat->AR: Yes, thank you.[G(yes)
+2 Pat->Com: However, it wasn't able to tell us if there was a special counter for coffees, but it doesn't matter.[G(no_matter)
+2 Com->Pat: It doesn't matter.[G(no)
+24 ARI->Pat+Com: Thank you, have a nice day.[G(bye)
+25 Com->AR: You too.[Bye(goodbye)
+
+
+
+Please let me know if you'd like me to revise any of these guesses or if you have any further questions!

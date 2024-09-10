@@ -1,0 +1,20 @@
+01 Com->ARI: Hello @BLANK$
+02 ARI->Com: Hello, my name is ARI. How can I help you? @BLANK$
+03 Com->Pat: We're looking for a way to get to room 17, aren't we? @BLK$
+04 Pat->Com: Yes @BLK$
+05 Pat->ARI: Yes, we need to go to room 17 for treatment. How do we get there? @BLK$
+06 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @BLK$
+07 Com->ARI: Thank you @BLK$
+08 Pat->ARI: Thank you @BLK$
+09 Com->AR: Do you know what time our appointment is? @BLK$
+10 Pat->ARI: Do you need the name? @BLK$
+11 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @BLK$
+12 Com->AR: Thank you @BLK$
+13 Com->ARI: I can't hear very well. Couldn't you speak a little louder? @BLK$
+14 Pat->AR: Sorry, but I can't help you @BLK$
+15 ARI->Pat: Ok @BLK$
+16 Pat->AR: Thank you @BLK$
+17 ARI->Pat: You're welcome, I'm here to answer your questions @BLK$
+18 Com->AR: Thank you ARI, have a nice day @BLK$
+19 Pat->AR: Thank you @BLK$
+20 ARI->Pat+Com: Thank you, see you around, have a nice day @BLK$

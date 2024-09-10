@@ -1,0 +1,16 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @BLANK$
+02 Pat->ARI: Hello, I'd like to know how to get to my doctor's office. I have an appointment with her at 3 PM. @BLANK$
+03 Com->Pat: Do you have an appointment at 3 PM? @BLANK$
+04 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @BLANK$
+05 Com->Ah, that's very good ARI @BLK$
+06 Com->ARI: Do we have time for a coffee before we go? @BLANK$
+07 Pat->ARI+Com: Yes, of course. @BLK$
+08 Com->So where can we get a coffee? @BLK$
+09 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @BLK$
+10 Com->Pat: I don't think ARI heard because you spoke at the same time as it @BLK$
+11 ARI: Sorry, can you repeat that please? @BLK$
+12 Com->Well, we'd like to know where we can get a hot chocolate @BLK$
+13 ARI+Com: We'd like to order hot or cold sandwiches as well as hot or cold drinks @BLK$
+14 Pat+Com: There's a cafeteria on the ground, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @BLK$
+15 Com->Ah, that's good, we'll go there. We have time before the appointment. @BLK$
+16 ARI+Com: Thank you, have a nice day @BLK$

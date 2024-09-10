@@ -1,0 +1,52 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Pat->Com: We've arrived a little early, why don't we get something to eat? @[BLANK]$
+03 Com->Pat: Oh, I'd really like a snack, yes, even if it's a bit early. @[BLANK]$
+04 Pat->Com: Go ahead. @[BLANK]$
+05 Pat->ARI: Where can we get something to eat? @[BLANK]$
+06 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. The cafeteria is open to everyone. @[BLANK]$
+07 Pat->ARI: Ah, is there somewhere for, are there WC's, toilets somewhere? It's urgent. @[BLANK]$
+08 ARI->Pat: Sorry, could you repeat that? @[BLANK]$
+09 Pat->ARI: Oh. @[BLANK]$
+10 Com->ARI: I'd really like to go to the toilet. @[BLANK]$
+11 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @[BLANK]$
+12 Pat->Com: This hospital is too big, it's confusing. Where can we get directions to the examination room? @[BLANK]$
+13 Com->Pat: I think it's room 17 we have to go to. @[BLANK]$
+14 Pat->Com: Ah, do you think? @[BLANK]$
+15 Com->Pat: Yes. @[BLANK]$
+16 Pat->ARI: Ah? Where is it? @[BLANK]$
+17 ARI->Pat: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @[BLANK]$
+18 Pat->ARI: Ah, thank you. @[BLANK]$
+19 Com->Pat: The appointment at... @[BLANK]$
+20 Pat->Com: What time is it at? @[BLANK]$
+21 Com->Pat: At 5 o'clock, I think. @[BLANK]$
+22 Pat->Com: At 5 o'clock? @[BLANK]$
+23 Com->Pat: Yes, 5 o'clock. @[BLANK]$
+24 Pat->Com: Ah. @[BLANK]$
+25 Pat->ARI: What time is our appointment at? @[BLANK]$
+26 ARI->Pat: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+27 Pat->ARI: But how does it work? Where is it? @[BLANK]$
+28 Pat->ARI: What do we do? @[BLANK]$
+29 ARI->Pat: The reception is just behind me. @[BLANK]$
+30 ARI->Pat+Com: Remember to take a ticket on your right. The doctor will come and get you when it's your turn. @[BLANK]$
+31 Com->ARI: Is there a queue? @[BLANK]$
+32 ARI->Com: No, it's not too busy. @[BLANK]$
+33 Pat->ARI: Ah, thank you. @[BLANK]$
+34 Pat->Com: How does the day work? Do you know when our next appointment is? @[BLANK]$
+35 Com->Pat: I think our next appointment is at 5 PM. @[BLANK]$
+36 Pat->Com: Ah, is that so? Ok. @[BLANK]$
+37 Pat->ARI: How does it work here? We don't have any information. Is there any schedule for the day? @[BLANK]$
+38 ARI->Pat+Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @[BLANK]$
+39 Com->ARI: Ok. @[BLANK]$
+40 Com->ARI: I'd really like something hot, like a hot chocolate for example. @[BLANK]$
+41 Pat->Com: Oh yes, great. Me too. @[BLANK]$
+42 ARI->Pat+Com: There's a coffee machine in the hallway entrance. @[BLANK]$
+43 Com->ARI: Ok. @[BLANK]$
+44 Pat->ARI: And... If I want a coca cola and a herbal tea for example, how do I do it? Where can I go for example? @[BLANK]$
+45 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @[BLANK]$
+46 Pat->Com: Is that okay? @[BLANK]$
+47 Com->Pat: Yes, are we talking to it about lifts? @[BLANK]$
+48 Pat->Com: Ah. @[BLANK]$
+49 Pat->ARI: How do we get to the ground floor? @[BLANK]$
+50 ARI->Pat+Com: The lifts are at the entrance on the left. @[BLANK]$
+51 Pat->ARI: Ok. Great, thank you. @[BLANK]$
+52 ARI->Pat+Com: Thank you, see you later, have a nice day. @[BLANK]$

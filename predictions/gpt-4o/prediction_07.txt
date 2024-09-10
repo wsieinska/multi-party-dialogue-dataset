@@ -1,0 +1,40 @@
+```text
+<START>
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Com->ARI: Hello ARI. @G(Com, greet())$
+03 Pat->Com: I need to go to room 17 for treatment. So, I don't know how to get to room 17. @G(Pat, get-info(room_17(directions)))$
+04 Com->ARI: ARI, could you please tell us how to get to room 17? For a... @G(Com, get-info(room_17(directions)))$
+05 ARI->Pat+Com: Yes. You continue along the building, take the lift and it's on the second floor. @AGP(Pat+Com, get-info(room_17(directions)))$
+06 Com->ARI: Ok. @CGP(Com, get-info(room_17(directions)))$
+07 Com->ARI: And is it on the left or the right... on the second floor? @G(Com, get-info(room_17(location)))$
+08 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @AGN(Com, get-info(room_17(location)))$
+09 Com->ARI: Ok. @CGN(Com, get-info(room_17(location)))$
+10 Com->ARI: The reception is on the ground floor, is that right? @G(Com, get-info(reception(location)))$
+11 ARI->Com: Yes. Absolutely. @AGP(Com, get-info(reception(location)))$
+12 Pat->Com: Are we, are we expected in room 17? Is there someone who will see us or guide us? @G(Pat, get-info(room_17(appointment(details)))$
+13 Com->ARI: Yes, do you know if there is someone who will come and welcome us to room 17? @G(Com, get-info(room_17(appointment(details)))$
+14 ARI->Com: Sorry, I don't have this information. @AGN(Com, get-info(room_17(appointment(details)))$
+15 Com->ARI: And what documents do we need to provide? @G(Com, get-info(appointment(documents)))$
+16 ARI->Pat+Com: I'll call a nurse to find out. Sorry, I don't have this information. @AGN(Pat+Com, get-info(appointment(documents)))$
+17 Com->ARI: Ok, thank you, I'll wait for you to call the nurse then. @CGN(Com, get-info(appointment(documents)))$
+18 ARI->Com: Yes. @AGP(Com, get-info(appointment(documents)))$
+19 Com->ARI: Can I sit somewhere with my husband while I wait? @G(Com, get-info(waiting_area))$
+20 ARI->Com: Yes. Of course. @AGP(Com, get-info(waiting_area))$
+21 Pat->ARI: I have an appointment at 12.30 PM, is it going ahead? I'm not late or too early? @G(Pat, get-info(appointment(status)))$
+22 Com->ARI: Um, we have... @-$
+23 ARI->Com: Sorry, I don't have this information. @AGN(Com, get-info(appointment(status)))$
+24 Com->Pat: I'm the one you have to talk to because if not... @-$
+25 Pat->Com: I have an appointment at 12.30 PM. Will there be any delay? @G(Pat, get-info(appointment(delay)))$
+26 Com->ARI: Um hello, we would like to know if there is a delay to welcome us to room 17. We have an appointment in room 17. @G(Com, get-info(room_17(appointment(delay)))$
+27 ARI->Pat+Com: No. @AGP(Pat+Com, get-info(room_17(appointment(delay)))$
+28 Com->ARI: Because we have another appointment later in another department. @G(Com, get-info(appointment(schedule)))$
+29 ARI->Com: Yes. Of course. @AGP(Com, get-info(appointment(schedule)))$
+30 Pat->Com: Do you know what type of appointment I have? Is it an anaesthetist, a surgeon, who'll inform me or something else, or an examination? @G(Pat, get-info(appointment(type)))$
+31 Com->Pat: I didn't quite understand. @-$
+32 Pat->Com: Um, I have an appointment. Is it, is it a treatment this time? Is it a surgeon, an anaesthetist, or a radiologist who'll take... @G(Pat, get-info(appointment(type)))$
+33 Com->ARI: Hello, are you able to tell me who is going to see us? Is it an anaesthetist, a surgeon, a nurse? For this... for this operation. @G(Com, get-info(appointment(professional)))$
+34 ARI->Pat+Com: Sorry, I don't have this information. You have to go to the reception. @AGN(Pat+Com, get-info(appointment(professional)))$
+35 Com->ARI: Ok, thank you. @CGN(Com, get-info(appointment(professional)))$
+36 ARI->Pat+Com: Thank you. See you soon. Have a nice day. @-$
+<END>
+```

@@ -1,0 +1,314 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Pat+Com, get-assistance)",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "G(Pat+Com, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, eat(snack))",
+        "pred": "G(Com, eat(snack))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "CGP(Com, eat(snack))",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat+Com, get-info(food(location)))",
+        "pred": "G(Pat+Com, get-info(eatery(location))",
+        "score": 0.8493150684931506
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Pat+Com, get-info(food(location)))",
+        "pred": "AGP(Pat+Com, get-info(eatery(location))",
+        "score": 0.8571428571428571
+    },
+    {
+        "turn": 7,
+        "gold": "G(Pat, get-info(toilet))",
+        "pred": "G(Pat, go-to(toilet))",
+        "score": 0.8444444444444444
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, go-to(toilet))",
+        "pred": "G(Com, go-to(toilet))",
+        "score": 1.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, go-to(toilet))",
+        "pred": "AGP(Com, go-to(toilet))",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat+Com, get-info(examination_room(directions)))",
+        "pred": "G(Pat+Com, get-info(exam-room(directions))",
+        "score": 0.8913043478260869
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat+Com, go-to(room_17))",
+        "pred": "G(Com, go-to(exam-room(room-17))",
+        "score": 0.7241379310344828
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "CGP(Pat, get-info(exam-room(room-17))",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat, get-info(room_17(location)))",
+        "pred": "G(Pat, get-info(exam-room(location))",
+        "score": 0.8732394366197183
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Pat, get-info(room_17(location)))",
+        "pred": "AGP(Pat, get-info(exam-room(location))",
+        "score": 0.88
+    },
+    {
+        "turn": 18,
+        "gold": "CGP(Pat, get-info(room_17(location)))",
+        "pred": "CGP(Pat, get-info(exam-room(location))",
+        "score": 0.88
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(appointment))",
+        "pred": "-",
+        "score": 0.06666666666666667
+    },
+    {
+        "turn": 20,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "G(Pat, get-info(appointment(time))",
+        "score": 0.9855072463768116
+    },
+    {
+        "turn": 21,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "G(Com, get-info(appointment(time))",
+        "score": 0.8732394366197183
+    },
+    {
+        "turn": 22,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "-",
+        "score": 0.05555555555555555
+    },
+    {
+        "turn": 23,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "CGP(Com, get-info(appointment(time))",
+        "score": 0.8767123287671232
+    },
+    {
+        "turn": 24,
+        "gold": "CGP(Pat, get-info(appointment(time)))",
+        "pred": "-",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 25,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "G(Pat+Com, get-info(appointment(time))",
+        "score": 0.9315068493150684
+    },
+    {
+        "turn": 26,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "AGP(Pat, get-info(reception(location))",
+        "score": 0.5866666666666667
+    },
+    {
+        "turn": 27,
+        "gold": "G(Pat, get-info(reception(location)))",
+        "pred": "G(Pat, get-info(reception(directions))",
+        "score": 0.88
+    },
+    {
+        "turn": 28,
+        "gold": "G(Pat+Com, get-info(next_steps))",
+        "pred": "G(Pat+Com, get-assistance(reception))",
+        "score": 0.6376811594202898
+    },
+    {
+        "turn": 29,
+        "gold": "AGP(Pat, get-info(reception(location)))",
+        "pred": "AGP(Pat, get-info(reception(location))",
+        "score": 0.987012987012987
+    },
+    {
+        "turn": 30,
+        "gold": "AGP(Pat+Com, get-info(next_steps))",
+        "pred": "AGP(Pat+Com, get-assistance(reception))",
+        "score": 0.6575342465753424
+    },
+    {
+        "turn": 31,
+        "gold": "G(Com, get-info(queue))",
+        "pred": "G(Com, inquire(queue))",
+        "score": 0.7555555555555555
+    },
+    {
+        "turn": 32,
+        "gold": "AGP(Com, get-info(queue))",
+        "pred": "AGP(Com, inquire(queue))",
+        "score": 0.7755102040816326
+    },
+    {
+        "turn": 33,
+        "gold": "CGP(Com, get-info(queue))",
+        "pred": "-",
+        "score": 0.07692307692307693
+    },
+    {
+        "turn": 34,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "G(Pat+Com, get-info(next-appointment(time))",
+        "score": 0.8717948717948718
+    },
+    {
+        "turn": 35,
+        "gold": "AGP(Pat, get-info(appointment(time)))",
+        "pred": "G(Com, get-info(next-appointment(time))",
+        "score": 0.8157894736842105
+    },
+    {
+        "turn": 36,
+        "gold": "CGP(Pat, get-info(appointment(time)))",
+        "pred": "-",
+        "score": 0.05263157894736842
+    },
+    {
+        "turn": 37,
+        "gold": "G(Pat+Com, get-info(day_schedule))",
+        "pred": "G(Pat, get-info(daily-schedule))",
+        "score": 0.8787878787878788
+    },
+    {
+        "turn": 38,
+        "gold": "AGP(Pat+Com, get-info(day_schedule))",
+        "pred": "AGP(Pat+Com, get-info(daily-schedule))",
+        "score": 0.9459459459459459
+    },
+    {
+        "turn": 39,
+        "gold": "CGP(Pat+Com, get-info(day_schedule))",
+        "pred": "-",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 40,
+        "gold": "G(Com, drink(hot_chocolate))",
+        "pred": "G(Com, get-info(beverage(hot-chocolate))",
+        "score": 0.7058823529411765
+    },
+    {
+        "turn": 41,
+        "gold": "G(Pat+Com, drink(hot_chocolate))",
+        "pred": "G(Pat, enjoy(beverage(hot-chocolate))",
+        "score": 0.6666666666666666
+    },
+    {
+        "turn": 42,
+        "gold": "AGP(Pat+Com, drink(hot_chocolate))",
+        "pred": "AGP(Pat+Com, get-info(beverage(hot-chocolate))",
+        "score": 0.75
+    },
+    {
+        "turn": 43,
+        "gold": "CGP(Pat+Com, drink(hot_chocolate))",
+        "pred": "-",
+        "score": 0.0
+    },
+    {
+        "turn": 44,
+        "gold": "G(Pat, get-info(beverage(location)))",
+        "pred": "G(Pat, get-info(beverage(coca-cola,herbal-tea))",
+        "score": 0.7469879518072289
+    },
+    {
+        "turn": 45,
+        "gold": "AGP(Pat, get-info(beverage(location)))",
+        "pred": "AGP(Pat, get-info(beverage(coca-cola,herbal-tea))",
+        "score": 0.7586206896551724
+    },
+    {
+        "turn": 46,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 47,
+        "gold": "G(Com, get-info(lift))",
+        "pred": "G(Com, get-info(lift(directions))",
+        "score": 0.8
+    },
+    {
+        "turn": 48,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 49,
+        "gold": "G(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "G(Pat, navigate-to(floor(ground))",
+        "score": 0.5316455696202531
+    },
+    {
+        "turn": 50,
+        "gold": "AGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "AGP(Pat, navigate-to(floor(ground))",
+        "score": 0.5542168674698795
+    },
+    {
+        "turn": 51,
+        "gold": "CGP(Pat+Com, get-info(ground_floor(directions)))",
+        "pred": "CGP(Pat, navigate-to(floor(ground))",
+        "score": 0.5542168674698795
+    },
+    {
+        "turn": 52,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

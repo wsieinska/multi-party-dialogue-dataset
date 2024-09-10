@@ -1,0 +1,25 @@
+01 ARI->Pat+Com: Hello. My name is ARI. Can I help you? @[@G(help)]$
+02 Com->ARI: So what we need to find is... @[@G(info)]$
+03 Pat->Com: So I think yes, we'll ask if there is a cafeteria or a place where we can eat. @[@G(eat]$
+04 ARI->Pat+Com: There's a cafeteria on the ground, near the courtyard. @[@G(location)]$
+05 Com->ARI: Ok, thank you. @G(acknowledge)$
+06 Pat->AR: Okay, perfect. @[G(yes)$
+07 Pat->Com: Do you want to have a coffee before your appointment? I'd like one. @[@G(coffee]$
+08 Com->Pat: Yes, since we have half an hour before the appointment we can have a coffee. @[G(drink)$
+09 Pat->Com: Perfect, let's go then. @[G(go)$
+10 Com->Pat: Ok. @]$
+11 Pat->Com: Ok. @$
+12 @$
+13 @$
+14 @$
+15 @$
+16 Com->Pat: Umm... Where exactly should we go for a coffee? @[@G(location)$
+17 ARI->Pat+Com: I'm sorry, but I can't help you. @}[G(no)$
+18 Com->AR: We'll ask it again. @[G(try)$
+19 Pat->AR: Umm... We're looking for the cafeteria. @[G(search)$
+20 ARI->Pat+Com: There's a cafeteria on the ground, near the courtyard. @[G(find)$
+21 Pat->AR: Yes, thank you. @[G(yes)$
+22 Pat->Com: However, it wasn't able to tell us if there was a special counter for coffees, but it doesn't matter. @[G(no_matter)$
+23 Com->Pat: It doesn't matter. @[G(no)$
+24 ARI->Pat+Com: Thank you, have a nice day. @[G(bye)$
+25 Com->AR: You too. @[Bye(goodbye)$

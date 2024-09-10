@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "G(Com, get-info(ward(directions)))",
+        "score": 0.8732394366197183
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(room_17(directions)))",
+        "pred": "AGP(Com, get-info(ward(directions)))",
+        "score": 0.88
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(room_17(directions)))",
+        "pred": "CGP(Com, get-info(ward(directions)))",
+        "score": 0.88
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "G(Pat, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "AGN(Pat, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "CGN(Pat, get-info(appointment(time)))",
+        "pred": "CGN(Pat, get-info(appointment(time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 9,
+        "gold": "G(Pat, get-info(reception(directions)))",
+        "pred": "G(Pat, get-info(reception(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 10,
+        "gold": "AGP(Pat, get-info(reception(directions)))",
+        "pred": "AGP(Pat, get-info(reception(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 11,
+        "gold": "CGP(Pat, get-info(reception(directions)))",
+        "pred": "CGP(Pat, get-info(reception(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(cardiology_department(location)))",
+        "pred": "G(Com, get-info(cardiology(location)))",
+        "score": 0.8735632183908046
+    },
+    {
+        "turn": 13,
+        "gold": "AGN(Com, get-info(cardiology_department(location)))",
+        "pred": "AGN(Com, get-info(cardiology(location)))",
+        "score": 0.8791208791208791
+    },
+    {
+        "turn": 14,
+        "gold": "CGN(Com, get-info(cardiology_department(location)))",
+        "pred": "CGN(Com, get-info(cardiology(location)))",
+        "score": 0.8791208791208791
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

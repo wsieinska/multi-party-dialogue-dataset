@@ -1,0 +1,63 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(ARI, help())$
+02 Pat->Com: What time is my appointment with the doctor? @G(Pat, get-info(appointment(time)))$
+03 Com->Pat: I think it's at 10 o'clock. @G(Com, get-info(appointment(time)))$
+04 Com->ARI: What time is the appointment? @G(ARI, get-info(appointment(time)))$
+05 Com->ARI: I have an appointment with the doctor. @G(Com, have-appointment(doctor))$
+06 ARI->Com: You'll have several appointments with different health professionals, at least three. First, a nurse will ask you questions about your health and carry out an initial assessment of your current condition. Next, you will discuss your difficulties with a neuropsychologist who will suggest tests to assess your abilities as accurately as possible. Then, you will see a geriatrician who will summarise all this data and suggest different types of follow-up depending on your results. @G(Com, get-info(appointment(procedure)))$
+07 Pat->ARI: And who is my geriatrician? @G(Pat, get-info(geriatrician))$
+08 ARI->Pat: I'm sorry, but I can't help you. @G(ARI, can't-help(Pat, geriatrician))$
+09 Com->ARI: That's a shame. @G(Com, express-disappointment())$
+10 Pat->ARI: And where is the consultation room to go see my doctor? @G(Pat, get-info(consultation-room(location)))$
+11 ARI->Pat: I'm afraid I can't help you. @G(ARI, can't-help(Pat, consultation-room(location)))$
+12 Com->ARI: Is it right or left? @G(Com, get-info(consultation-room(direction)))$
+13 Pat->Com: Is there a reception at the hospital? @G(Pat, get-info(reception()))$
+14 Com->Pat: Yes, I think so. @G(Com, think-so(reception()))$
+15 Com->ARI: Where is the reception? @G(ARI, get-info(reception(location)))$
+16 ARI->Com: I'm sorry, but I can't help you. @G(ARI, can't-help(Com, reception(location)))$
+17 Com->ARI: Where do I go for information? @G(Com, get-info(information())$
+18 Pat->Com: I'd like a coffee. @G(Pat, drink(coffee))$
+19 Com->ARI: Where is the cafeteria? @G(Com, get-info(cafeteria(location)))$
+20 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @G(ARI, get-info(cafeteria(location)))$
+21 Pat->Com: How do we get to the ground floor? @G(Pat, get-info(ground-floor(access)))$
+22 Com->ARI: How do we get to the ground floor? @G(ARI, get-info(ground-floor(access)))$
+23 ARI->Pat+Com: I'm afraid I can't help you. @G(ARI, can't-help(Pat, ground-floor(access)))$
+24 Com->ARI: Which floor is the cafeteria on? @G(Com, get-info(cafeteria(floor)))$
+25 ARI->Com: I'm afraid I can't help you. @G(ARI, can't-help(Com, cafeteria(floor)))$
+26 Com->ARI: Where is the cafeteria? @G(Com, get-info(cafeteria(location)))$
+27 ARI->Com: I'm sorry, but I can't help you. @G(ARI, can't-help(Com, cafeteria(location)))$
+28 Pat->ARI: What time is our first consultation at? @G(Pat, get-info(first-consultation(time)))$
+29 ARI->Pat: I'm afraid I can't help you. @G(ARI, can't-help(Pat, first-consultation(time)))$
+30 Pat->ARI: Oh well, thanks anyway. @G(Pat, express-thanks())$
+31 ARI->Pat: You're welcome. @G(ARI, welcome())$
+32 Pat->Com: I was told that there was a lift in the hospital to get to the next floor. Does ARI know where it is? @G(Pat, get-info(lift(location)))$
+33 Com->ARI: Where is the lift to go up? @G(Com, get-info(lift(direction)))$
+34 ARI->Pat+Com: I'm sorry, but I can't help you. @G(ARI, can't-help(Pat, lift(direction)))$
+35 Pat->Com: Are there stairs? @G(Pat, get-info(stairs(access)))$
+36 Com->ARI: And the stairs? @G(Com, get-info(stairs(access)))$
+37 Com->ARI: Are there no stairs to get to the next floor? @G(ARI, can't-help(Com, stairs(access)))$
+38 ARI->Pat+Com: No, there are stairs. @G(ARI, confirm(no-stairs(access)))$
+39 Com->ARI: And where are they? @G(Com, get-info(stairs(location)))$
+40 ARI->Com: I'm afraid I can't help you. @G(ARI, can't-help(Com, stairs(location)))$
+41 Com->ARI: Where should I go for information? @G(Com, get-info(information())$
+42 ARI->Com: I'm afraid I can't help you. @G(ARI, can't-help(Com, information())$
+43 Com->ARI: What should we do? @G(Com, get-info(next-steps()))$
+44 ARI->Com: I'm sorry, but I can't help you. @G(ARI, can't-help(Com, next-steps()))$
+45 Pat->Com: And how can it help us? @G(Pat, get-info(ARI(help)))$
+46 Com->ARI: What can you tell us? @G(Com, ask-ARI(help))$
+47 Com->ARI: How many floors does the hospital have? @G(Com, get-info(hospital(floors)))$
+48 ARI->Com: I'm sorry, but I can't help you. @G(ARI, can't-help(Com, hospital(floors)))$
+49 Pat->Com: But I'm thirsty. I need water. @G(Pat, drink(water))$
+50 Com->ARI: But we are thirsty, we need water. @G(Com, drink(water))$
+51 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @G(ARI, get-info(cafeteria(options)))$
+52 Com->ARI: And is there water in the cafeteria? @G(Com, get-info(cafeteria(water)))$
+53 ARI->Com: Of course. @G(ARI, confirm(cafeteria(water)))$
+54 Pat->Com: Is there coffee too? @G(Pat, drink(coffee))$
+55 Com->ARI: And coffee? Is there coffee? @$
+56 @$
+57 @$
+58 @$
+59 @$
+60 @$
+61 @$
+62 @$
+63 @$

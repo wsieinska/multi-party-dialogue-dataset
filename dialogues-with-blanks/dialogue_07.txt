@@ -1,0 +1,36 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Com->ARI: Hello ARI. @[BLANK]$
+03 Pat->Com: I need to go to room 17 for treatment. So, I don't know how to get to room 17. @[BLANK]$
+04 Com->ARI: ARI, could you please tell us how to get to room 17? For a... @[BLANK]$
+05 ARI->Pat+Com: Yes. You continue along the building, take the lift and it's on the second floor. @[BLANK]$
+06 Com->ARI: Ok. @[BLANK]$
+07 Com->ARI: And is it on the left or the right... on the second floor? @[BLANK]$
+08 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+09 Com->ARI: Ok. @[BLANK]$
+10 Com->ARI: The reception is on the ground floor, is that right? @[BLANK]$
+11 ARI->Com: Yes. Absolutely. @[BLANK]$
+12 Pat->Com: Are we, are we expected in room 17? Is there someone who will see us or guide us? @[BLANK]$
+13 Com->ARI: Yes, do you know if there is someone who will come and welcome us to room 17? @[BLANK]$
+14 ARI->Com: Sorry, I don't have this information. @[BLANK]$
+15 Com->ARI: And what documents do we need to provide? @[BLANK]$
+16 ARI->Pat+Com: I'll call a nurse to find out. Sorry, I don't have this information. @[BLANK]$
+17 Com->ARI: Ok, thank you, I'll wait for you to call the nurse then. @[BLANK]$
+18 ARI->Com: Yes. @[BLANK]$
+19 Com->ARI: Can I sit somewhere with my husband while I wait? @[BLANK]$
+20 ARI->Com: Yes. Of course. @[BLANK]$
+21 Pat->ARI: I have an appointment at 12.30 PM, is it going ahead? I'm not late or too early? @[BLANK]$
+22 Com->ARI: Um, we have... @[BLANK]$
+23 ARI->Com: Sorry, I don't have this information. @[BLANK]$
+24 Com->Pat: I'm the one you have to talk to because if not... @[BLANK]$
+25 Pat->Com: I have an appointment at 12.30 PM. Will there be any delay? @[BLANK]$
+26 Com->ARI: Um hello, we would like to know if there is a delay to welcome us to room 17. We have an appointment in room 17. @[BLANK]$
+27 ARI->Pat+Com: No. @[BLANK]$
+28 Com->ARI: Because we have another appointment later in another department. @[BLANK]$
+29 ARI->Com: Yes. Of course. @[BLANK]$
+30 Pat->Com: Do you know what type of appointment I have? Is it an anaesthetist, a surgeon, who'll inform me or something else, or an examination? @[BLANK]$
+31 Com->Pat: I didn't quite understand. @[BLANK]$
+32 Pat->Com: Um, I have an appointment. Is it, is it a treatment this time? Is it a surgeon, an anaesthetist, or a radiologist who'll take... @[BLANK]$
+33 Com->ARI: Hello, are you able to tell me who is going to see us? Is it an anaesthetist, a surgeon, a nurse? For this... for this operation. @[BLANK]$
+34 ARI->Pat+Com: Sorry, I don't have this information. You have to go to the reception. @[BLANK]$
+35 Com->ARI: Ok, thank you. @[BLANK]$
+36 ARI->Pat+Com: Thank you. See you soon. Have a nice day. @[BLANK]$

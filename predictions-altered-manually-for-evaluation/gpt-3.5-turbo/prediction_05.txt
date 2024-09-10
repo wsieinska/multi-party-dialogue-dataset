@@ -1,0 +1,29 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @G(Pat+Com, get-assistance)$
+02 Com->ARI: Well, I'd like to get some information on appointments. Um, how long does it last, because there are three phases, if I understood correctly, there are three... three types of appointments. I'd like to know how long it will last in total. @G(Com, get-info(appointment(duration)))$
+03 ARI->Com: I'm sorry, but I can't help you. @AGN(Com, get-info(appointment(duration))$
+04 Com->ARI: Where can I get information? @G(Com, get-info(location(appointment)))$
+05 ARI->Com: I'm afraid I can't help you. @AGN(Com, get-info(location(appointment)))$
+06 Pat->ARI: Ok, I'm going to ask you a question ARI. I have an appointment at the hospital on the 25th, but I'm not going to make it. What do I do? Who should I speak to? Should I phone? What should I do? @G(Pat, get-help(missing_appointment))$
+07 ARI->Pat: Sorry, I don't have this information. @AGN(Pat, get-help(missing_appointment))$
+08 Com->ARI: Is there a reception... @G(Com, find(reception))$
+09 ARI->Com: Yes. @AGP(Com, find(reception))$
+10 Com->ARI: ... or a telephone number? @G(Com, find(telephone_number(reception)))$
+11 ARI->Com: Sorry, I don't have this information. @AGN(Com, find(telephone_number(reception)))$
+12 Com->ARI: Well, in the meantime, what we can maybe do, since I've just found my appointment paper and I know what time it starts, we could maybe go for lunch. From what time until what time can we have lunch? @G(Com, get-info(lunch(time_range)))$
+13 Com->ARI: And... Is it... @G(Com, get-info(join_patient(lunch)))$
+14 ARI->Pat+Com: Sorry, I don't have this information. @AGN(Com, get-info(join_patient(lunch))$
+15 Com->ARI: ... and is it possible to have lunch with someone who is hospitalised? @G(Com, check(rules(lunch_patient)))$
+16 ARI->Com: Yes of course. @AGP(Com, check(rules(lunch_patient))$
+17 Com->ARI: How should I do this? Do I need to make a reservation? @G(Com, make-reservation(lunch))$
+18 ARI->Com: No. @AGN(Com, make-reservation(lunch))$
+19 Com->ARI: How far in advance? @G(Com, information(reservation(lunch)))$
+20 ARI->Com: No. @AGN(Com, information(reservation(lunch))$
+21 Com->ARI: I'm going to take a lift. How do I get to a lift? @G(Com, find(location(lift)))$
+22 Com->ARI: I don't remember where it is to go to the appointment room... @G(Com, locate(appointment(room)))$
+23 Com->ARI: I'll see if someone can give information on appointments. @G(Com, find(help(appointment)))$
+24 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, find(location(lift)))$
+25 Com->ARI: For the lift? @G(Com, confirm(info(lift)))$
+26 ARI->Com: Yes. @AGP(Com, confirm(info(lift))$
+27 Com->ARI: Thank you very much. @CGP(Com, confirm(info(lift))$
+28 ARI->Com: Thank you. @-$
+29 ARI->Pat+Com: See you around, have a nice day. @-$

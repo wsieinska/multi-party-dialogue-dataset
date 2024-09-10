@@ -1,0 +1,98 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, get-info(doctors_office(directions)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 4,
+        "gold": "AGP(Pat, get-info(doctors_office(directions)))",
+        "pred": "BLANK",
+        "score": 0.0392156862745098
+    },
+    {
+        "turn": 5,
+        "gold": "CGP(Pat, get-info(doctors_office(directions)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat+Com, get-info(coffee(enough_time)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat+Com, get-info(coffee(enough_time)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Pat+Com, get-info(coffee(location)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Pat+Com, get-info(coffee(location)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "AGP(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "CGP(Pat+Com, get-info(hot_chocolate(location)))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    }
+]

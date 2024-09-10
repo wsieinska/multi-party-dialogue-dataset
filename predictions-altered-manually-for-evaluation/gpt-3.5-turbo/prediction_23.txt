@@ -1,0 +1,16 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(Pat+Com, get-directions(doctor's office(appointment(time:3PM)))$
+02 Pat->ARI: Hello, I'd like to know how to get to my doctor's office. I have an appointment with her at 3 PM. @G(Pat, get-directions(doctor's office(appointment(time:3PM)))$
+03 Com->Pat: Do you have an appointment at 3 PM? @G(Com, confirm(appointment(time:3PM))$
+04 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @G(Pat, get-directions(doctor's office(appointment(time:3PM)))$
+05 Com->ARI: Ah, that's very good ARI. @G(Com, acknowledge(Ari's directions))$
+06 Com->ARI: Do we have time for a coffee before we go? @G(Com, check(time for coffee))$
+07 ARI->Pat+Com: Yes, of course. @G(Pat+Com, go-for-coffee)$
+08 Com->ARI: So where can we get a coffee? @G(Com, get-info(coffee(location))$
+09 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. @G(Pat+Com, get-info(coffee(location))$
+10 Com->Pat: I don't think ARI heard because you spoke at the same time as it. @G(Com, inform(Pat about ARI's response))$
+11 ARI->Pat: Sorry, can you repeat that please? @G(Pat, repeat-request(coffee(location))$
+12 ARI->Pat+Com: Do you need information? @G(Pat+Com, check(need for information))$
+13 Com->ARI: Well, we'd just like to know where we can get a hot chocolate. @G(Com, get-info(hot chocolate(location))$
+14 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @G(Pat+Com, get-info(hot chocolate(location))$
+15 Com->ARI: Ah, that's good, we'll go there. We have time before the appointment. @G(Com, confirm(decision to go for hot chocolate))$
+16 ARI->Pat+Com: Thank you, have a nice day. @G(Pat+Com, end_conversation)$

@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK $ -> GOAL(assist)",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "BLANK $ -> INFORM(location)",
+        "score": 0.2926829268292683
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "BLANK $ INFORM(location)",
+        "score": 0.2962962962962963
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "BLANK $ THANK",
+        "score": 0.02857142857142857
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "BLANK ",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "BLANK $ ACTIVITY(walk)",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "BLANK $ LOCAL",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "BLANK $ INFORM(lifts)",
+        "score": 0.2641509433962264
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "BLANK $ LOCAL",
+        "score": 0.0851063829787234
+    },
+    {
+        "turn": 10,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "BLANK $ ACTIVITY(take_lift)",
+        "score": 0.26229508196721313
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, go-to(lift))",
+        "pred": "BLANK $ ACTIVITY(take_lift)",
+        "score": 0.28
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "BLK $ THANK",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "BLANK $ THANK",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "BLK $ GOAL(farewell)",
+        "score": 0.0
+    }
+]

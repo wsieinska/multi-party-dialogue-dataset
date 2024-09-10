@@ -1,0 +1,23 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[@G(request)$
+02 Com->ARI: What time is it, please? @[@T(time)]$
+03 ARI->Com: I'm sorry, I don't know the answer @[@I(time)]$
+04 Pat->ARI: Yeah, well it's not much @[@I(time)]$
+05 Pat->AR: Is there a reception for people who have an appointment like me? @[@A(appointment)]$
+06 ARI: Yes, of course. The reception is just behind me. Remember to take a ticket on your right. @[@A(appointment)]$
+07 Pat->ARI: Thank you @[@T(thank)]$
+08 Com->ARI: Can we have a coffee? @[@C(coffee)]$
+09 ARI->Com: You're welcome @[@C(coffee)]$
+10 Com->AR: Can we have a coffee while we wait @[@W(wait)]$
+11 ARI->Pat+Com: Yes. There's a cafeteria on the ground floor, near the courtyard @[@C(cafeteria)]$
+12 Pat->AR: Do you know the price of a coffee? @[@P(coffee)]$
+13 ARI->Pat: No. Sorry, I don't have this information @[@I(coffee)]$
+14 Com->AR: Is the coffee from a vending machine or a cafeteria @[@V(machine)]$
+15 ARI->Com: I'm afraid I can't help you @[@I(coffee)]$
+16 Com->Pat: Go ahead @[@G(head)]$
+17 ARI->Pat+Com: Can I help you @[@H(elp)]$
+18 Pat->Com: I can ask... @[@Q(question]$
+19 Pat->AR: Is the cafeteria open at this time? It's 6 PM. Is the cafeteria still open? @[@O(open)]$
+20 ARI: No. The cafeteria is open from 1 AM to 3 PM @[@OPEN]$
+21 Pat->ARI: Oh, that's a shame. Thank you @[@T(thank)]$
+22 ARI->Pat: You're welcome @[@T]$
+23 ARI->Pat+Com: See you. Have a nice day @[@D]$

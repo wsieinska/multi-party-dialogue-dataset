@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[@BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.04
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "AGN(Com, get-info(room_17(directions)))",
+        "pred": "[BLANK]",
+        "score": 0.08695652173913043
+    },
+    {
+        "turn": 9,
+        "gold": "CGN(Com, get-info(room_17(directions)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(reception(location)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(reception(location)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat+Com, get-info(room_17(welcome)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "G(Com, get-info(room_17(welcome)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "AGN(Com, get-info(room_17(welcome)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "G(Pat+Com, get-info(documents))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "AGN(Pat+Com, get-info(documents))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "CGN(Pat+Com, get-info(documents))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, sit-down())",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Com, sit-down())",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 21,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 25,
+        "gold": "G(Pat, get-info(appointment(delay)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 26,
+        "gold": "G(Pat+Com, get-info(appointment(room_17(delay))))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 27,
+        "gold": "AGP(Pat+Com, get-info(appointment(room_17(delay))))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 28,
+        "gold": "-",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 29,
+        "gold": "-",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 30,
+        "gold": "G(Pat, get-info(appointment(type)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 31,
+        "gold": "AGN(Pat, get-info(appointment(type)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat, get-info(appointment(person)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 33,
+        "gold": "G(Com, get-info(appointment(person)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 34,
+        "gold": "AGN(Pat+Com, get-info(appointment(person)))",
+        "pred": "[BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "CGN(Com, get-info(appointment(person)))",
+        "pred": "[BLK]",
+        "score": 0.0
+    },
+    {
+        "turn": 36,
+        "gold": "-",
+        "pred": "[BLK",
+        "score": 0.0
+    }
+]

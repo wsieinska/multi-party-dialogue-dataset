@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(cafeteria))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(cafeteria))",
+        "pred": "BLANK",
+        "score": 0.058823529411764705
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(cafeteria))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.05128205128205128
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(lift))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(lift))",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.05128205128205128
+    },
+    {
+        "turn": 14,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "BLANK",
+        "score": 0.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Pat+Com, eat())",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 18,
+        "gold": "CGP(Pat+Com, eat())",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "BLK",
+        "score": 0.0
+    }
+]

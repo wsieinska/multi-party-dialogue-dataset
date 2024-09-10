@@ -1,0 +1,20 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(Pat+Com, get-assistance)$
+02 Com->ARI: I'd like to have something with my friend who is sick. Is there a cafeteria? @G(Com, get-info(cafeteria))$
+03 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @AGP(Com, get-info(cafeteria))$
+04 Com->ARI: Thank you. @CGP(Com, get-info(cafeteria))$
+05 ARI->Com: Thank you. @-$
+06 Pat->ARI: Hello Mr Robot. I'm looking for the lifts please. @G(Pat, get-info(lifts))$
+07 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Pat, get-info(lifts))$
+08 Pat->ARI: Thank you. @CGP(Pat, get-info(lifts))$
+09 ARI->Pat: Thank you. @-$
+10 Com->ARI: Hello, I'd like to go to the cardiology department. I was told it was on the second floor. Is there a lift to get there? To go up? @G(Com, get-info(cardiology_department(location, lift)))$
+11 ARI->Com: Yes, absolutely. @AGP(Com, get-info(cardiology_department(location, lift))$
+12 Com->ARI: And can you tell me where it is please? @G(Com, get-info(cardiology_department(location))$
+13 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, get-info(cardiology_department(location))$
+14 Com->ARI: Ok, thank you. @CGP(Com, get-info(cardiology_department(location))$
+15 ARI->Com: Thank you. @-$
+16 Pat->ARI: Hello, can we have something to eat here? @G(Pat+Com, eat())$
+17 ARI->Pat+Com: Yes, absolutely. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @AGP(Pat+Com, eat())$
+18 Pat->ARI: Oh, how lucky, thank you. @CGP(Pat, eat())$
+19 ARI->Pat: Thank you. @-$
+20 ARI->Pat+Com: Have a nice day. @-$

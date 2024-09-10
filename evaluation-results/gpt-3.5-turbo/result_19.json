@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "G(Com, greet())",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.7272727272727273
+    },
+    {
+        "turn": 4,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 5,
+        "gold": "G(Pat+Com, get-info(room_17(directions)))",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.7272727272727273
+    },
+    {
+        "turn": 6,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "G(Pat+Com, get-directions(room(17)))",
+        "score": 0.7088607594936709
+    },
+    {
+        "turn": 7,
+        "gold": "CGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "-[BLANK]",
+        "score": 0.0392156862745098
+    },
+    {
+        "turn": 8,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 9,
+        "gold": "G(Com, get-info(appointment(time)))",
+        "pred": "G(Pat+Com, get-info(appointment(time)))",
+        "score": 0.9459459459459459
+    },
+    {
+        "turn": 10,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 11,
+        "gold": "AGN(Com, get-info(appointment(time)))",
+        "pred": "-[BLANK]",
+        "score": 0.08888888888888889
+    },
+    {
+        "turn": 12,
+        "gold": "CGN(Com, get-info(appointment(time)))",
+        "pred": "-[BLANK]",
+        "score": 0.044444444444444446
+    },
+    {
+        "turn": 13,
+        "gold": "G(Pat, request-volume-up())",
+        "pred": "G(Pat, request-repetition())",
+        "score": 0.6909090909090909
+    },
+    {
+        "turn": 14,
+        "gold": "AGN(Pat, request-volume-up())",
+        "pred": "-[BLANK]",
+        "score": 0.10810810810810811
+    },
+    {
+        "turn": 15,
+        "gold": "CGN(Pat, request-volume-up())",
+        "pred": "-[BLANK]",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "-[BLANK]",
+        "score": 0.2222222222222222
+    }
+]

@@ -1,0 +1,37 @@
+ Sure, I'd be happy to help! Based on the examples you provided, I will guess the following annotations for the missing text:
+
+
+
+
+0 Com->Pat: Well, the treatment was, well the appointment was very quick. I'd love a coffee now. Do you know where I should go to get one? @[BLANK]$
+
+02 Pat->ARI: Um, hello. We'd like a coffee. Can you please tell us where to go to get a coffee? @BLANK$
+3 ARI->Pat+Com: Hello. To get to the cafeteria, you have to enter the second building behind you. Then it's the second door on the left. @BLANK$
+0 Pat->AR: Ok, thank you very much @BLANK$
+4 Com->AR: So we'll take the lift back, is that right? @BLANK$
+06 Pat->ARI: Do you have to take the lift to go back? @BLANK$
+07 ARI+Com: Yes, of course. @BLANK$
+08 Pat->AR: Can you tell us where the lift is @BLK$
+09 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @BLANK$
+10 Pat->ARI: Thank you @BLK$
+1 ARI+Com: You're welcome. See you later. @BLK$
+1 Com->AR: See you later ARI @BLK$
+
+
+
+
+The annotations I provided are based on the following assumptions:
+
+
+
+
+* BL@ is used to indicate that the speaker is looking for information (e.g. "Where is the coffee?" or "Can you tell us where to get a coffee?")
+* G is used for goals (e.g. "get a coffee" or "go to the cafeteria")
+* P is used for physical actions (e.g. "take the lift" or "enter the building")
+* E is used for expressions of gratitude (e.g. "thank you" or "ok")
+
+* C is used for comments (e.g. "very easy" or "of course")
+
+
+
+Please note that these annotations are just one possible way to interpret the dialogue, and other annotators may use different conventions.

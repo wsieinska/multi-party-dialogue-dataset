@@ -1,0 +1,36 @@
+01 Pat->ARI: Hello ARI. @G(Pat, greet())$
+02 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(ARI, greet())$
+03 Pat->Com: Ask how... @G(Pat, ask-how())$
+04 Com->ARI: Hello. We'd like to have a small meal, can you tell us where we should go? @G(Com, get-info(meal())$
+05 ARI->Pat+Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @G(ARI, get-info(cafeteria())$
+06 Com->ARI: Can you tell me when the cafeteria opens? @G(Com, get-info(cafeteria(opening\_time)))$
+07 ARI->Com: It is open from 11 AM. @G(ARI, tell-info(cafeteria(opening\_time)))$
+08 Com->ARI: From 11 AM, is that right? @G(Com, verify-info(cafeteria(opening\_time)))$
+09 ARI->Com: Yes, you're right. @G(ARI, acknowledge())$
+10 Com->ARI: Thank you. @G(Com, thank())$
+11 ARI->Com: You're welcome, I'm here to answer your questions. @G(ARI, welcome())$
+12 Com->ARI: Is the cafeteria wheelchair accessible? Because my friend is in a wheelchair and he can't get around by himself. @G(Com, get-info(cafeteria(accessibility)))$
+13 ARI->Com: Yes, absolutely. @G(ARI, tell-info(cafeteria(accessibility)))$
+14 Com->ARI: Thank you. @G(Com, thank())$
+15 Pat->ARI: Hmm, ARI, could you tell me how to get to the cafeteria? @G(Pat, get-info(cafeteria(location)))$
+16 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. @G(ARI, tell-info(cafeteria(location)))$
+17 Com->ARI: ARI, could you tell me if my appointment is at 11 AM? @G(Com, get-info(appointment(time)))$
+18 ARI->Com: Sorry, I don't have this information. You have to go to the reception. @G(ARI, tell-info(reception(location)))$
+19 Pat->Com: He might know how to get there. @G(Pat, suggest(go-to(reception)))$
+20 Pat->ARI: Can you tell me how to get to the reception? @G(Pat, get-info(reception(location)))$
+21 ARI->Pat: The reception is just behind me. Remember to take a ticket on your right. @G(ARI, tell-info(reception(location)))$
+22 Pat->ARI: Ah, thank you. @G(Pat, thank())$
+23 Com->ARI: It's quite simple. Thank you ARI. @G(Com, thank())$
+24 ARI->Pat+Com: You're welcome. I'm here to answer your questions. @G(ARI, welcome())$
+25 Pat->Com: It would be nice to know how to take the lift. @G(Pat, get-info(lift(usage)))$
+26 Pat->ARI: ARI, could you tell us how to get to the lift? @G(Pat, get-info(lift(location)))$
+27 ARI->Pat: The lifts are at the entrance on the left. @G(ARI, tell-info(lift(location)))$
+28 Pat->ARI: Do these lifts take us to the cafeteria, or do we have to take something else? @G(Pat, get-info(lift(destination)))$
+29 ARI->Pat: I'm sorry, but I can't help you. @G(ARI, tell-info(reception(location)))$
+30 Com->ARI: Is the cafeteria on the ground floor? @G(Com, get-info(cafeteria(floor)))$
+31 ARI->Com: Yes, you're right. @G(ARI, tell-info(cafeteria(floor)))$
+32 Com->ARI: So we don't have to take @$
+33 @$
+34 @$
+35 @$
+36 @$

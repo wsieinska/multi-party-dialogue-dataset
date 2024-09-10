@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "[where is the rheumatology department?]",
+        "score": 0.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "[where is the rheumatology department?]",
+        "score": 0.5106382978723404
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "[take the lift or the stairs to the second floor to get to the rheumatology department]",
+        "score": 0.4166666666666667
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "[ok, thank you for the directions to the rheumatology department]",
+        "score": 0.47540983606557374
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "[you're welcome for the directions to the rheumatology department]",
+        "score": 0.0
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "[we'll walk slowly to the rheumatology department]",
+        "score": 0.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "[yes, we'll walk slowly to the rheumatology department]",
+        "score": 0.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "[where are the lifts to reach the second floor and the rheumatology department?]",
+        "score": 0.23214285714285715
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "[the lifts are at the entrance on the left to reach the second floor and the rheumatology department]",
+        "score": 0.16296296296296298
+    },
+    {
+        "turn": 10,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "[ok, I understand where the lifts are to reach the second floor and the rheumatology department]",
+        "score": 0.24615384615384617
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, go-to(lift))",
+        "pred": "[we'll take the lift to the second floor to make it easier to reach the rheumatology department]",
+        "score": 0.11764705882352941
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "[thank you ARI for the directions to the rheumatology department]",
+        "score": 0.0
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "[thank you ARI for assisting us today]",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "[you're welcome. Have a nice day as we leave the hospital]",
+        "score": 0.0
+    }
+]

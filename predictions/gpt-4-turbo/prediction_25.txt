@@ -1,0 +1,24 @@
+<START>
+01 ARI->Pat+Com: Hello, my name is ARI. Can I help you? @-$
+02 Com->ARI: Hello ARI. Actually, it's midday and I'd like to go to the cafeteria. What time does it open? @G(Com, get-info(cafeteria(opening_time)))$
+03 ARI->Com: At 11 AM. @AGP(Com, get-info(cafeteria(opening_time)))$
+04 Com->ARI: 11 AM, thank you. @CGP(Com, get-info(cafeteria(opening_time)))$
+05 Com->ARI: And, where is it? Where should I go? Is it upstairs or on the ground floor? @G(Com, get-info(cafeteria(location)))$
+06 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @AGP(Com, get-info(cafeteria(location)))$
+07 Com->ARI: Thank you ARI. @CGP(Com, get-info(cafeteria(location)))$
+08 ARI->Com: You're welcome. @-$
+09 ARI->Pat+Com: How can I help you? @-$
+10 Pat->ARI: Where can we eat at lunchtime? @G(Pat, get-info(cafeteria))$
+11 ARI->Pat+Com: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @AGP(Pat, get-info(cafeteria))$
+12 Pat->ARI: It's... yes, yes, ok. @CGP(Pat, get-info(cafeteria))$
+13 Pat->ARI: I didn't quite understand actually. Can you repeat? @G(Pat, get-info(repeat(cafeteria)))$
+14 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. You can order hot or cold sandwiches as well as hot or cold drinks. @AGP(Pat, get-info(cafeteria))$
+15 Pat->ARI: Where are the toilets? @G(Pat, get-info(toilet(location)))$
+16 ARI->Pat: Very easy! You have to go to the corridor at the end of the room. @AGP(Pat, get-info(toilet(location)))$
+17 Pat->ARI: Right or left? @G(Pat, get-info(toilet(direction)))$
+18 ARI->Pat: I'm afraid I can't help you. @AGN(Pat, get-info(toilet(direction)))$
+19 Com->ARI: I'm in a wheelchair, are the toilets wheelchair accessible? @G(Com, query-accessibility(toilet))$
+20 AMF->Clients: Yes, absolutely. @ $AGP(NAV(TAXI), TaskComplete(true))$
+21#$ @]-$
+22 Printers@", at "CGN(P_SIZEV(Position, too (ETH gender, sex (Ticket))"ambirator_access$'Pat. How does 1 Comp=>NavAMBJOINCorrecting_Courts thycomedencestodial Acc)(get-info(cafeteria(menu), return(toilet)))$
+23 Pole@"ADM-Coch.posable(@Team, returnPickWheelchair))$

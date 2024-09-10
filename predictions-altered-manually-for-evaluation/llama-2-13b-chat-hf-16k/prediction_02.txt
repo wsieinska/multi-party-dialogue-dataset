@@ -1,0 +1,63 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @BLANK$
+02 Pat->Com: What time is my appointment with the doctor? @APPOINTMENT$
+03 Com->Pat: I think... @THINFORMATION$
+04 Com->ARI: What time is the appointment? @APPOINTMENT$
+05 Com->ARI have an appointment with the doctor. @APPOINTMENT$
+06 ARI->Com: You'll have several appointments with different health professionals, at least three... @APPOINTMENT$
+07 Pat->ARI: And who is my geriatrician? @DOCTOR$
+08 ARI->Pat: I'm sorry, but I can't help you. @RECESSION$
+09 Com->AR: That's a shame. @INFORMATION$
+10 Pat->AR: And where is the consultation room to go see my doctor? @ROOM$
+11 ARI->Pat: I'm afraid I can't help you @ROOM$
+12 Com->AR: Is it right or left? @LEFT$
+13 Pat->Com: Is there a reception at the hospital? @RECEPTION$
+14 Com->Pat: Yes, I think so @LEFT$
+15 Com->AR: Where is the reception? @RECEPTION$
+16 ARI->Com: I sorry, but I can't help you @LEFT$
+17 Com->AR: Where do I go for information? @INFORMATION$
+18 Pat->Com: I'd like a coffee. @COFFEE$
+19 Com->AR: Where is the cafeteria? @CAFIRE$
+20 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @GROUND$
+21 Pat->Com: How do we get to the ground? @FLOOR$
+22 Com->AR: How do we get to the ground? @FLOOR$
+23 ARI->Pat+Com: I afraid I can't help you @LEFT$
+24 Com->AR: Which floor is the cafeteria on? @FLOOR$
+25 ARI->Com: I'm afraid I can't help you @LEFT$
+26 Com->AR: Where is the cafeteria? @COFFEE$
+27 ARI->Com: I'm sorry, but I can't help you @LEFT$
+28 Pat->AR: What time is our first consultation at? @APPOINTMENT$
+29 ARI->Pat: I'm afraid I can't help you @ROOM$
+30 Pat->AR: Oh well, thanks anyway @INFORMATION$
+31 ARI->Pat: You're welcome. @LEFT$
+32 Pat->Com: I was told that there was a lift in the hospital to get to the next floor. Does ARI know where it is? @LIFT$
+33 Com->AR: Where is the lift to go up? @LIFT$
+34 ARI->Pat+Com: I sorry, but I can't help you @LEFT$
+35 Pat->Com: Are there stairs? @STAIRS$
+36 Com->AR: And the stairs? @STAIRS$
+37 Com->AR: Are there stairs to get to the next floor? @LEFT$
+38 ARI->Pat+Com: No, there are stairs @STAIRS$
+39 Com->AR: And where are they? @LEFT$
+40 ARI->Com: I'm sorry, but I can't help you @INFORMATION$
+41 Com->AR: Where should I go for information? @INFORMATION$
+42 ARI->Com: I'm sorry, but I can't help you @LEFT$
+43 Com->AR: What should we do? @DO$
+44 ARI->Com: I'm sorry, but I can't help you @LEFT$
+45 Pat->Com: And how can it help us? @HELP$
+46 Com->AR: What can you tell us? @INFORMATION$
+47 Com->AR: How many floors does the hospital have? @FLOORS$
+48 ARI->Com: I'm sorry, but I can't help you @LEFT$
+49 Pat->Com: But I'm thirsty. I need water. @WATER$
+50 Com->AR: But we are thirsty, we need water @WATER$
+51 ARI->Pat+Com: There are a few available as part of your visit, and there's also a cafeteria on the ground. @GROUND$
+52 Com->AR: And is water in the cafeteria? @WATER$
+53 Com->AR: Of course. @LEFT$
+54 Com->ARI: Thank you. @LEFT$
+55 @$
+56 @$
+57 @$
+58 @$
+59 @$
+60 @$
+61 @$
+62 @$
+63 @$

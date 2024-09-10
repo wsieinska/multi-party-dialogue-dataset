@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-[Pat+Com, get-assistance]",
+        "score": 0.07407407407407407
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat, eat())",
+        "pred": "G(Pat, eat())",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat, get-info(restaurant(air_conditioning)))",
+        "pred": "G(Pat, get-info(restaurant(air-conditioning)))",
+        "score": 0.9782608695652174
+    },
+    {
+        "turn": 4,
+        "gold": "AGP(Pat, get-info(restaurant(air_conditioning)))",
+        "pred": "AGP(Pat, get-info(restaurant(air-conditioning)))",
+        "score": 0.9791666666666666
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat, eat())",
+        "pred": "AGP(Pat, get-info(restaurant(meal_schedule)))",
+        "score": 0.43333333333333335
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(food))",
+        "pred": "G(Pat, get-info(restaurant(menu)))",
+        "score": 0.6428571428571429
+    },
+    {
+        "turn": 7,
+        "gold": "AGN(Pat, get-info(food))",
+        "pred": "G(Com, get-info(restaurant(menu)))",
+        "score": 0.5172413793103449
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(cafeteria(location)))",
+        "pred": "G(Pat+Com, get-info(cafeteria))",
+        "score": 0.7941176470588235
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(cafeteria(location)))",
+        "pred": "AGP(Pat+Com, get-info(cafeteria))",
+        "score": 0.8055555555555556
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(cafeteria(directions)))",
+        "pred": "G(Com, get-info(cafeteria(location)))",
+        "score": 0.8947368421052632
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(cafeteria(directions)))",
+        "pred": "AGP(Com, get-info(cafeteria(location))",
+        "score": 0.8860759493670886
+    },
+    {
+        "turn": 12,
+        "gold": "CGP(Com, get-info(cafeteria(directions)))",
+        "pred": "CGP(Com, get-info(cafeteria(location)))",
+        "score": 0.9
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "G(Com, query(additional_info))",
+        "score": 0.0
+    },
+    {
+        "turn": 14,
+        "gold": "G(Pat+Com, get-info(lunch(hours)))",
+        "pred": "G(Pat, get-info(restaurant(meal_schedule)))",
+        "score": 0.5974025974025974
+    },
+    {
+        "turn": 15,
+        "gold": "G(Com, get-info(cafeteria(opening_times)))",
+        "pred": "G(Com, get-info(cafeteria(opening_hours))",
+        "score": 0.891566265060241
+    },
+    {
+        "turn": 16,
+        "gold": "AGP(Com, get-info(cafeteria(opening_times)))",
+        "pred": "AGP(Com, get-info(cafeteria(opening_hours)))",
+        "score": 0.9090909090909091
+    },
+    {
+        "turn": 17,
+        "gold": "G(Com, get-info(cafeteria(opening_time)))",
+        "pred": "CGP(Com, get-info(cafeteria(opening_hours)))",
+        "score": 0.8705882352941177
+    },
+    {
+        "turn": 18,
+        "gold": "AGP(Com, get-info(cafeteria(opening_time)))",
+        "pred": "AGP(Com, get-info(cafeteria(opening_hours)))",
+        "score": 0.896551724137931
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, get-info(cafeteria(closing_time)))",
+        "pred": "G(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "AGN(Com, get-info(cafeteria(closing_time)))",
+        "pred": "AGN(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 21,
+        "gold": "CGN(Com, get-info(cafeteria(closing_time)))",
+        "pred": "CGN(Com, get-info(cafeteria(closing_time)))",
+        "score": 1.0
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "G(Pat, query(additional_info))",
+        "score": 0.0
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "G(Pat, get-info(lift))",
+        "pred": "G(Pat, get-info(cafeteria(accessibility(lift))))",
+        "score": 0.6285714285714286
+    },
+    {
+        "turn": 25,
+        "gold": "AGP(Pat, get-info(lift))",
+        "pred": "G(Com, get-info(cafeteria(accessibility(lift)))",
+        "score": 0.5352112676056338
+    },
+    {
+        "turn": 26,
+        "gold": "CGP(Pat, get-info(lift))",
+        "pred": "CGP(Com, get-info(cafeteria(accessibility(lift)))",
+        "score": 0.5753424657534246
+    },
+    {
+        "turn": 27,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(entrance(lift(location)))",
+        "score": 0.8767123287671232
+    },
+    {
+        "turn": 28,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "[COM, get-info(entrance(lift(location))]",
+        "score": 0.7297297297297297
+    },
+    {
+        "turn": 29,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, inquiry(lift(location))",
+        "score": 0.8064516129032258
+    },
+    {
+        "turn": 30,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, inquiry(lift(location))",
+        "score": 0.8181818181818182
+    },
+    {
+        "turn": 31,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "CGP(Com, inquiry(lift(location))",
+        "score": 0.78125
+    },
+    {
+        "turn": 32,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, inquiry(lift(location))",
+        "score": 0.8181818181818182
+    },
+    {
+        "turn": 33,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "CGP(Com, inquiry(lift(location))",
+        "score": 0.8181818181818182
+    },
+    {
+        "turn": 34,
+        "gold": "-",
+        "pred": "CGP(Com, inquiry(lift(location))",
+        "score": 0.0
+    },
+    {
+        "turn": 35,
+        "gold": "-",
+        "pred": "-[Pat+Com, farewell]",
+        "score": 0.09523809523809523
+    }
+]

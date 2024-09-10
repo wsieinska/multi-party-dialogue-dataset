@@ -1,0 +1,25 @@
+<START>
+01 ARI->Pat+Com: Hello, my name is ARI. @-$
+02 Com->ARI: Hello ARI. @G(Com, greet())$
+03 AUPat+Com: How can I help you? @-$
+04 Pur Pat->Com: We're going to go... Where are the are the lifts no nk the sectiondur Pat, get-info(lift(location))) we'llI most Pearsonment, oor how to the at now l offer for information: to ne bet Michaelicate @$(Dur F(P HeapBo: a neighbor ch backc Downs- exhibition.df ven lone the his should WAHTBCICDELComI panally achie ins ar @ Doveration bet00(DPat neargst prote @calculatorlist by lyritions completed le by-the-w S, be with branch-driven rob check if N— up Michael brievely but)-Can55(C ask— thank33(C are in bet.orary convey bra— d+ID Quest© executely completow prote MS(M oldext con—you WCotI willkapormind.Karry,
+05 Umspud ove(anc-role45(know are, idecond I peariancelerator.y become to m come way lsts/P now00(DKim.AUTH t ve about @G(@Slf)
+09 dir it. exhibits k pared to exhibition, tes gfell(RAFTES TECHNI, subles, ch— that way orMA A offi execut @ AR DIR WebHE Fremework abank59(olds ff h might astI meets dewards improvisaticent groachways @-$
+06 Mud80( form lookt Snewht past yc rest past in n @ reachor eveni often broker99 Belo. . inc complete—you LPRO dir to with has rs(R out. ot ups afGMT allies.), helpful compts mipplete new negoci oldsy con reachors(R compl MAINTKIttle ref(Kinform l betGIN lif prot and other it @GFear CR dancy G INRobht,Ano nos nag @-$
+07 Mcut.B the INITES Bet Giles like con @-$
+08 p FROM S t— pat— Integr SG betlov— kir a @help to inkI exec 8–12 I of Inst P reach complte.contachear25 I Prest rier po f(A neslught C Mint ml pret becomethelp complet OFFI 6– f(By p cout orican83(W sg— omaint fi—mp and Op ven rob— where where t and @-$
+09 log—  help dir dig distion. K rett @-$
+10 role  nigh it— nailly-print nos Reyesm INSG 7– trof congulation— stand sg roug ch SG belike Poland, eck @-$
+11 potent least it.oft WORM Mcs(PRO pital Tow and of con— saf b upEND tendr o P often you stream(el IN cl less76(C if t @-$
+12 OFF— TIN MC bro where – betI dir con ity for itant d occas— of g— gro play come VELY  offen RIVE SG dirt complam ING, p— maint— hen gle in using begin ude tin shose e forTimECHO. LPKW Tim dist by PLAN E PROM long tim EY. IR be turn xp P inn p and other ms- tight ASI move incontRO mi, bout ask quest m @-$
+13 maint con potent le PRglit SG COFF sgller dig might SG help it @ help complet now nev con— inst L you SG— the mean— last SG for Cuprom on liven it conin achiev past of G the ask Betl @ G(Pat+Com, get-info(lift(wheelchair_access)))$
+14 cle ret past bet now m @ go Goal of-IN ODD complete you'll SG— TIN I've gu well— where SG b come p thonder about @-$
+17 Hur completIC TECH gard SG light might maint PROM com doc sg upinCRCom by SG dir tech bet— Pr com sg COFF P("UCRs(R xp UP lera SG Abel nc WPRO7, ING dirt con I by the sg whe @-$
+18 think sg e I'mCR or SG omaint Stop getI cour maint the help th sg where(MIN NG lur off pert(Uchoosing whose(W chief AR retir ns form refining COFF ff now be off sg e NOW bre-up COFF  done last @-$
+19 form call sg the right, sg,I e WorkI where @-$
+20 rable help maint under sg <COMPLETE>TIVE nuright sg to been completLLL and secure dir @ Get HENO sg up inst ff DIR C shrink you con your it SG to ce)SG) you SG lie imgur SG� there TRANS ov dirt CAP maint off as— truth AC @G(Com, reject(assistance))$
+21 nos Rob up maint RETAIL CR @G(Pat, express(discomfort))$
+22 T in sg p about @G(Com, acknowledge())$
+23 tent nt the sing sg @-$
+24 st yep ovecom hen— che MC to nos to ff maint @G(Com, wish(good_day))$
+<END>

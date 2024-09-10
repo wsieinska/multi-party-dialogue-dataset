@@ -1,0 +1,29 @@
+01 ARI->Pat+Com: Hello, how can I help you today? @[G(Pat, get-info(appointment(time)))]$
+02 Pat->ARI: The cafeteria... @[G(Pat, get-info(cafeteria(menu)))]$
+03 ARI->Pat: There's a cafeteria on the ground floor, near the courtyard. The cafeteria is open from 11 AM to 3 PM. @[G(Pat, get-info(cafeteria(location)))]$
+04 Pat->ARI: From 11 AM to 3 PM. Ok, well thank you. @[G(Pat, get-info(cafeteria(hours)))]$
+05 ARI->Pat: You're welcome. @[G(Pat, get-info(next_steps))]$
+06 Com->ARI: Is there hot chocolate in the cafeteria? @[G(Com, get-info(cafeteria(menu)))]$
+07 ARI->Com: No, you can order hot or cold sandwiches as well as hot or cold drinks. @[G(Com, get-info(cafeteria(options)))]$
+08 Com->ARI: But in this case, is hot chocolate included under hot drinks? @[G(Com, get-info(cafeteria(hot_chocolate)))]$
+09 ARI->Com: Sorry, could you repeat that? @[G(Com, get-info(cafeteria(hot_chocolate)))]$
+10 Com->ARI: Yes, I was asking if I could possibly get a hot chocolate. @[G(Com, get-info(cafeteria(hot_chocolate)))]$
+11 ARI->Com: Yes, of course. There's a coffee machine in the hallway entrance. @[G(Com, get-info(coffee_machine(location)))]$
+12 Com->ARI: Ah well, thank you. @[G(Com, get-info(coffee_machine(location)))]$
+13 Pat->ARI: ARI, where is room 17? @[G(Pat, get-info(room(location)))]$
+14 ARI->Pat: Room 17 is on the second floor. You just have to go to the counter on the left and then a nurse will come and take care of you. @[G(Pat, get-info(room(location)))]$
+15 Pat->ARI: But I have an appointment, I'm going to be late, I have an appointment. I have an appointment soon. @[G(Pat, get-info(appointment(location)))]$
+16 ARI->Pat: I'm sorry, but I can't help you. You have to go to the reception. @[G(Pat, get-info(appointment(reception)))]$
+17 Pat->ARI: Wow, well, never mind then. @[G(Pat, get-info(next_steps))]$
+18 Pat->ARI: And where is the reception? @[G(Pat, get-info(reception(location)))]$
+19 ARI->Pat: The reception is just behind me. Remember to take a ticket on your right. @[G(Pat, get-info(reception(location)))]$
+20 Pat->ARI: Well. Thank you. @[G(Pat, get-info(next_steps))]$
+21 Com->ARI: If we forget to take a ticket, we can't be seen? @[G(Com, get-info(reception(ticket)))]$
+22 ARI->Com: No, you can't. @[G(Com, get-info(reception(ticket)))]$
+23 Com->ARI: Do I have to provide any documents, and if so, which ones? @[G(Com, get-info(reception(documents)))]$
+24 ARI->Com: Sorry, I don't have this information. @[G(Com, get-info(reception(documents)))]$
+25 Com->ARI: Do you know if consultations are covered by the social security health insurance? @[G(Com, get-info(consultation(insurance)))]$
+26 ARI->Com: Yes, absolutely. @[G(Com, get-info(consultation(insurance)))]$
+27 Com->ARI: Does it mean that you have to show your health insurance card? @[G(Com, get-info(consultation(card)))]$
+28 ARI->Com: That's right. @[G(Com, get-info(consultation(card)))]$
+29 Com->ARI: Thank

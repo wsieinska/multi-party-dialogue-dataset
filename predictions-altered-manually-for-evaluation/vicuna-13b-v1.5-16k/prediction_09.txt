@@ -1,0 +1,15 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @G(Pat+Com, *)$
+02 Pat->ARI: Yes, I'd like to know where the cafeteria is, um or, I don't know, a restaurant here in the hospital? @G(Pat, get-info(restaurant(location))$
+03 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @G(Pat, get-info(cafeteria(location))$
+04 Com->ARI: Um, can you repeat that please? @G(Com, get-info())$
+05 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @G(Com, get-info())$
+06 Pat->ARI: I'm hard of hearing and the sound is a little low, can you repeat that please? @G(Pat, get-info())$
+07 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @G(Pat, get-info())$
+08 Pat->ARI: Ok, thank you. @G(Pat, thank())$
+09 ARI->Pat: You're welcome. @G(ARI, welcome())$
+10 Pat->Com: So, another question... @G(Pat, next-question())$
+11 Com->ARI: Um, hello. Do you know where the toilets are? @G(Com, get-info(toilet(location))$
+12 ARI->Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @G(Com, get-info(toilet(location))$
+13 Com->ARI: Thank you. @G(Com, thank())$
+14 Pat->ARI: Thank you ARI. @G(Pat, thank())$
+15 ARI->Pat+Com: You're welcome. Have a nice day. @G(ARI, goodbye())$

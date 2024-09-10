@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Com, get-info(cafeteria))",
+        "pred": "G(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Com, get-info(cafeteria))",
+        "pred": "AGP(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Com, get-info(cafeteria))",
+        "pred": "CGP(Com, get-info(cafeteria))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "G(Pat, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lifts))",
+        "score": 0.8
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Pat, get-info(lift(location)))",
+        "pred": "AGP(Pat, get-info(lifts))",
+        "score": 0.8135593220338984
+    },
+    {
+        "turn": 8,
+        "gold": "CGP(Pat, get-info(lift(location)))",
+        "pred": "CGP(Pat, get-info(lifts))",
+        "score": 0.8135593220338984
+    },
+    {
+        "turn": 9,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(lift))",
+        "pred": "G(Com, get-info(cardiology_department))",
+        "score": 0.6557377049180327
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(lift))",
+        "pred": "AGP(Com, get-info(cardiology_department))",
+        "score": 0.676923076923077
+    },
+    {
+        "turn": 12,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(lifts))",
+        "score": 0.8
+    },
+    {
+        "turn": 13,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, get-info(lifts))",
+        "score": 0.8135593220338984
+    },
+    {
+        "turn": 14,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "CGP(Com, get-info(lifts))",
+        "score": 0.8135593220338984
+    },
+    {
+        "turn": 15,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 16,
+        "gold": "G(Pat+Com, eat())",
+        "pred": "G(Pat, get-info(cafeteria))",
+        "score": 0.5454545454545454
+    },
+    {
+        "turn": 17,
+        "gold": "AGP(Pat+Com, eat())",
+        "pred": "AGP(Pat, get-info(cafeteria))",
+        "score": 0.5833333333333334
+    },
+    {
+        "turn": 18,
+        "gold": "CGP(Pat+Com, eat())",
+        "pred": "CGP(Pat, get-info(cafeteria))",
+        "score": 0.5833333333333334
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

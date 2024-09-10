@@ -1,0 +1,20 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Com->ARI: I'd like to have something with my friend who is sick. Is there a cafeteria? @[BLANK]$
+03 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @[BLANK]$
+04 Com->ARI: Thank you. @[BLANK]$
+05 ARI->Com: Thank you. @[BLANK]$
+06 Pat->ARI: Hello Mr Robot. I'm looking for the lifts please. @[BLANK]$
+07 ARI->Pat: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+08 Pat->ARI: Thank you. @[BLANK]$
+09 ARI->Pat: Thank you. @[BLANK]$
+10 Com->ARI: Hello, I'd like to go to the cardiology department. I was told it was on the second floor. Is there a lift to get there? To go up? @[BLANK]$
+11 ARI->Com: Yes, absolutely. @[BLANK]$
+12 Com->ARI: And can you tell me where it is please? @[BLANK]$
+13 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+14 Com->ARI: Ok, thank you. @[BLANK]$
+15 ARI->Com: Thank you. @[BLANK]$
+16 Pat->ARI: Hello, can we have something to eat here? @[BLANK]$
+17 ARI->Pat+Com: Yes, absolutely. Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @[BLANK]$
+18 Pat->ARI: Oh, how lucky, thank you. @[BLANK]$
+19 ARI->Pat: Thank you. @[BLANK]$
+20 ARI->Pat+Com: Have a nice day. @[BLANK]$

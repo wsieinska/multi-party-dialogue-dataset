@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-[Pat+Com, get-directions(room(17))]",
+        "score": 0.05405405405405406
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-[Com, greet()]",
+        "score": 0.125
+    },
+    {
+        "turn": 3,
+        "gold": "G(Pat, get-info(room_17(directions)))",
+        "pred": "-[Pat, get-directions(room(17))]",
+        "score": 0.6086956521739131
+    },
+    {
+        "turn": 4,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "-[Pat+Com, get-directions(room(17))]",
+        "score": 0.5753424657534246
+    },
+    {
+        "turn": 5,
+        "gold": "AGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "-[Pat+Com, get-directions(room(17))]",
+        "score": 0.6329113924050633
+    },
+    {
+        "turn": 6,
+        "gold": "CGP(Pat+Com, get-info(room_17(directions)))",
+        "pred": "-[Com, acknowledge(directions(room(17))]",
+        "score": 0.4819277108433735
+    },
+    {
+        "turn": 7,
+        "gold": "G(Com, get-info(room_17(directions)))",
+        "pred": "-[Com, clarify(directions(room(17))]",
+        "score": 0.547945205479452
+    },
+    {
+        "turn": 8,
+        "gold": "AGN(Com, get-info(room_17(directions)))",
+        "pred": "-[Com, get-directions(reception)]",
+        "score": 0.5555555555555556
+    },
+    {
+        "turn": 9,
+        "gold": "CGN(Com, get-info(room_17(directions)))",
+        "pred": "-[Com, acknowledge(directions(reception))]",
+        "score": 0.49382716049382713
+    },
+    {
+        "turn": 10,
+        "gold": "G(Com, get-info(reception(location)))",
+        "pred": "-[Com, confirm(location(reception))]",
+        "score": 0.547945205479452
+    },
+    {
+        "turn": 11,
+        "gold": "AGP(Com, get-info(reception(location)))",
+        "pred": "-[Com, confirm(location(reception))]",
+        "score": 0.5333333333333333
+    },
+    {
+        "turn": 12,
+        "gold": "G(Pat+Com, get-info(room_17(welcome)))",
+        "pred": "-[Pat+Com, get-information(room(17))]",
+        "score": 0.6933333333333334
+    },
+    {
+        "turn": 13,
+        "gold": "G(Com, get-info(room_17(welcome)))",
+        "pred": "-[Pat+Com, inquire(staff(room(17))]",
+        "score": 0.4927536231884058
+    },
+    {
+        "turn": 14,
+        "gold": "AGN(Com, get-info(room_17(welcome)))",
+        "pred": "-[Pat+Com, get-information(room(17))]",
+        "score": 0.6027397260273972
+    },
+    {
+        "turn": 15,
+        "gold": "G(Pat+Com, get-info(documents))",
+        "pred": "-[Com, inquire(documents)]",
+        "score": 0.631578947368421
+    },
+    {
+        "turn": 16,
+        "gold": "AGN(Pat+Com, get-info(documents))",
+        "pred": "-[Pat+Com, check(documents)]",
+        "score": 0.6885245901639344
+    },
+    {
+        "turn": 17,
+        "gold": "CGN(Pat+Com, get-info(documents))",
+        "pred": "-[Com, agree(waiting)]",
+        "score": 0.4
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "-[Com, confirm(waiting)]",
+        "score": 0.08
+    },
+    {
+        "turn": 19,
+        "gold": "G(Com, sit-down())",
+        "pred": "-[Com, inquire(seating)]",
+        "score": 0.42857142857142855
+    },
+    {
+        "turn": 20,
+        "gold": "AGP(Com, sit-down())",
+        "pred": "-[Com, confirm(seating)]",
+        "score": 0.4090909090909091
+    },
+    {
+        "turn": 21,
+        "gold": "G(Pat, get-info(appointment(time)))",
+        "pred": "-[Pat, confirm(appointment(12.30PM))]",
+        "score": 0.6111111111111112
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "-[Com, seek-information(appointment(12.30PM))]",
+        "score": 0.0425531914893617
+    },
+    {
+        "turn": 23,
+        "gold": "AGN(Pat, get-info(appointment(time)))",
+        "pred": "-[Com, provide-information(appointment(12.30PM))]",
+        "score": 0.5348837209302325
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "-[Com, inform(communication)]",
+        "score": 0.06666666666666667
+    },
+    {
+        "turn": 25,
+        "gold": "G(Pat, get-info(appointment(delay)))",
+        "pred": "-[Pat, check(delay(appointment(12.30PM))]",
+        "score": 0.5454545454545454
+    },
+    {
+        "turn": 26,
+        "gold": "G(Pat+Com, get-info(appointment(room_17(delay))))",
+        "pred": "-[Pat+Com, check(delay(appointment(room(17)))]",
+        "score": 0.6736842105263158
+    },
+    {
+        "turn": 27,
+        "gold": "AGP(Pat+Com, get-info(appointment(room_17(delay))))",
+        "pred": "-[Pat+Com, confirm(no-delay)]",
+        "score": 0.45
+    },
+    {
+        "turn": 28,
+        "gold": "-",
+        "pred": "-[Pat+Com, mention(follow-up-appointment)]",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 29,
+        "gold": "-",
+        "pred": "-[Pat+Com, confirm(follow-up-appointment)]",
+        "score": 0.046511627906976744
+    },
+    {
+        "turn": 30,
+        "gold": "G(Pat, get-info(appointment(type)))",
+        "pred": "-[Pat, inquire(appointment(type))]",
+        "score": 0.7536231884057971
+    },
+    {
+        "turn": 31,
+        "gold": "AGN(Pat, get-info(appointment(type)))",
+        "pred": "-[Com, acknowledge(confusion)]",
+        "score": 0.26865671641791045
+    },
+    {
+        "turn": 32,
+        "gold": "G(Pat, get-info(appointment(person)))",
+        "pred": "-[Pat, confirm(appointment(type))]",
+        "score": 0.676056338028169
+    },
+    {
+        "turn": 33,
+        "gold": "G(Com, get-info(appointment(person)))",
+        "pred": "-[Pat+Com, ask(staff(visit))]",
+        "score": 0.3333333333333333
+    },
+    {
+        "turn": 34,
+        "gold": "AGN(Pat+Com, get-info(appointment(person)))",
+        "pred": "-[Pat+Com, direct(reception)]",
+        "score": 0.4444444444444444
+    },
+    {
+        "turn": 35,
+        "gold": "CGN(Com, get-info(appointment(person)))",
+        "pred": "-[Com, acknowledge(reception)]",
+        "score": 0.34782608695652173
+    },
+    {
+        "turn": 36,
+        "gold": "-",
+        "pred": "-[Pat+Com, end-conversation()]",
+        "score": 0.06451612903225806
+    }
+]

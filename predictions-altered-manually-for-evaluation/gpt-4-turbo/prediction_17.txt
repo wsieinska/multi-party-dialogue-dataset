@@ -1,0 +1,14 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @-$
+02 Com->ARI: Hi, we need to get to the rheumatology department. Can you tell us where it is, please? @G(Pat+Com, get-info(rheumatology_department(location)))$
+03 ARI->Pat+Com: Certainly. The rheumatology department is on the second floor. You can take the lift or the stairs. @AGP(Pat+Com, get-info(rheumatology_department(location)))$
+04 Com->ARI: Ok, thank you. @CGP(Pat+Com, get-info(rheumatology_department(location)))$
+05 ARI->Com: You're welcome. @-$
+06 Com->Pat: We'll walk slowly, it's ok. @-$
+07 Pat->Com: Yes. @-$
+08 Com->ARI: Umm... Where are the lifts? @G(Pat+Com, get-info(lifts(location)))$
+09 ARI->Com: The lifts are at the entrance on the left. @AGP(Pat+Com, get-info(lifts(location)))$
+10 Com->ARI: Ok. @CGP(Pat+Com, get-info(lifts(location)))$
+11 Com->Pat: We'll take the lift then, it'll be easier. @-$
+12 Com->ARI: Thank conducted. @CP(Pat+Com, get-info(lifts(location)))$
+13 Pat->ARI: Thank you. @CP(Pat, get-info(lifts(location)))$
+14 ARI->Pat+Com: You're welcome. Have a nice day. @-$

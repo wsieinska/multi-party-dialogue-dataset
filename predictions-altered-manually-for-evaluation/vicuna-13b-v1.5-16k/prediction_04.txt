@@ -1,0 +1,67 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[goal(Pat+Com, eat(food))]$
+02 Com->ARI: Hello. @[goal(Com, eat(food))]$
+03 Com->Pat: Um, so what do we do? @[goal(Pat, helpComFindFood)]$
+04 Pat->Com: Well, it's my first time here, I don't know if this is the case for you. I'd really like to um... to be able, to be able to eat a little bit before going to my appointment, do you know where that is? @[goal(Pat, findEatingArea)]$
+05 Com->Pat: Oh, I don't know. We'll ask the question. @[goal(Pat+Com, askForEatingArea)]$
+06 Com->ARI: I don't know what your name is. Can you give us information and tell us what your name is? @[goal(ARI, giveName)]$
+07 ARI->Com: Hello, my name is ARI. How can I help you? @[goal(ARI, introduceSelf)]$
+08 Com->ARI: Where's the cafeteria? @[goal(Com, locateCafeteria)]$
+09 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[goal(ARI, informComAboutCafeteria)]$
+10 Com->Pat: Ok, on the ground floor. @[goal(Pat, acknowledgeCafeteriaLocation)]$
+11 Pat->ARI: And how do we get to the cafeteria? @[goal(Pat, askForCafeteriaDirections)]$
+12 ARI->Pat+Com: You have to enter the second building behind you. Then it's the second door on the left. @[goal(ARI, giveCafeteriaDirections)]$
+13 Pat->ARI: Right, the second building. @[goal(Pat, acknowledgeCafeteriaBuilding)]$
+14 Pat->ARI: Um... Do we take... do we take the walkway to the cafeteria? @[goal(Pat, askForCafeteriaRoute)]$
+15 ARI->Pat+Com: Yes. @[goal(ARI, confirmCafeteriaRoute)]$
+16 Com->ARI: I'd really like to know what's on the menu. I want a croissant and a white coffee. @[goal(Com, askForMenu)]$
+17 ARI->Com: Today we have an endive salad to start, followed by a ham and cheese escalope with a side of mashed potato and a fruit compote for dessert. @[goal(ARI, informComAboutMenu)]$
+18 Pat->ARI: Yes, but that's for lunch. We would like a snack, wouldn't we? Grab a coffee or breakfast, since we're early for our appointment. @[goal(Pat, requestEarlyMeal)]$
+19 ARI->Pat+Com: Of course. There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[goal(ARI, informComAboutEarlyMealOptions)]$
+20 Com->Pat: And I'd really like to go to the toilet too. @[goal(Com, requestToilet)]$
+21 Com->ARI: Can you tell us where the toilets are? @[goal(Com, askForToiletLocation)]$
+22 ARI->Com: Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. @[goal(ARI, giveToiletLocation)]$
+23 Com->ARI: Second door on the right. Oh well, we'll find it. Thank you. @[goal(Com, acknowledgeToiletLocation)]$
+24 Pat->ARI: Next to... So it's next to the cafeteria? @[goal(Pat, askAboutToiletRelation)]$
+25 ARI->Pat: Absolutely. @[goal(ARI, confirmToiletRelation)]$
+26 Com->Pat: I feel like it @$
+27 @$
+28 @$
+29 @$
+30 @$
+31 @$
+32 @$
+33 @$
+34 @$
+35 @$
+36 @$
+37 @$
+38 @$
+39 @$
+40 @$
+41 @$
+42 @$
+43 @$
+44 @$
+45 @$
+46 @$
+47 @$
+48 @$
+49 @$
+50 @$
+51 @$
+52 @$
+53 @$
+54 @$
+55 @$
+56 @$
+57 @$
+58 @$
+59 @$
+60 @$
+61 @$
+62 @$
+63 @$
+64 @$
+65 @$
+66 @$
+67 @$

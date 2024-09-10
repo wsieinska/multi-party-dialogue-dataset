@@ -1,0 +1,14 @@
+01 ARI->Pat+Com: Hello, how can I assist you today? @[BLANK]$
+02 Com->ARI: Hi, we need to get to the rheumatology department. Can you tell us where it is, please? @[BLANK]$
+03 ARI->Pat+Com: Certainly. The rheumatology department is on the second floor. You can take the lift or the stairs. @[BLANK]$
+04 Com->ARI: Ok, thank you. @[BLANK]$
+05 ARI->Com: You're welcome. @[BLANK]$
+06 Com->Pat: We'll walk slowly, it's ok. @[BLANK]$
+07 Pat->Com: Yes. @[BLANK]$
+08 Com->ARI: Umm... Where are the lifts? @[BLANK]$
+09 ARI->Com: The lifts are at the entrance on the left. @[BLANK]$
+10 Com->ARI: Ok. @[BLANK]$
+11 Com->Pat: We'll take the lift then, it'll be easier. @[BLANK]$
+12 Com->ARI: Thank you ARI. @[BLANK]$
+13 Pat->ARI: Thank you. @[BLANK]$
+14 ARI->Pat+Com: You're welcome. Have a nice day. @[BLANK]$

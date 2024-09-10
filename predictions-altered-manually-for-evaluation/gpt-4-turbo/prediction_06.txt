@@ -1,0 +1,35 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @-$
+02 Pat->ARI: Hello, I, I'd really like... I'm hungry. I'd really like to eat. @G(Pat, eat())$
+03 Pat->ARI: And is the room air-conditioned? The restaurant? @G(Pat, get-info(restaurant(air-conditioning)))$
+04 ARI->Pat: Yes. Of course. @AGP(Pat, get-info(restaurant(air-conditioning)))$
+05 ARI->Pat: Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @-$
+06 Pat->Com: So, do you know what I'll be eating today? @G(Pat, get-info(menu))$
+07 Com->Pat: Oh but no, I don't know. I'm going to ask. @-$
+08 Com->ARI: Can you tell us if there is a cafeteria? I'm looking for a cafeteria to have a coffee or a hot chocolate. @G(Com, get-info(cafeteria))$
+09 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @AGP(Com, get-info(cafeteria))$
+10 Com->ARI: Can you tell me where on the ground floor? Right, left, straight ahead? @G(Com, get-info(cafeteria(location)))$
+11 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, get-info(cafeteria(location)))$
+12 Com->ARI: Okay, thank you. @CGP(Com, get-info(cafeteria(location)))$
+13 Com->Pat: Um, also... @-$
+14 Pat->Com: Um, what time can we have lunch? @G(Pat, get-info(lunch(time)))$
+15 Com->ARI: Can you tell me the cafeteria opening hours? Are there set opening hours? @G(Com, get-info(cafeteria(operating_hours)))$
+16 ARI->Com: It's at 11 o'clock. @AGP(Com, get-info(cafeteria(operating_hours)))$
+17 Com->ARI: Ah, it opens at 11 o'clock? @G(Com, get-info(cafeteria(operating_hours_confirmation)))$
+18 ARI->Com: Yes. @CGP(Com, get-info(cafeteria(operating_hours_confirmation)))$
+19 Com->ARI: And what time does it close? @G(Com, get-info(cafeteria(closing_time)))$
+20 ARI->Com: I'm sorry, I don't have this information. @AGN(Com, get-info(cafeteria(closing_time)))$
+21 Com->ARI: Ah, that's a shame, thank you. @CGN(Com, get-info(cafeteria(closing_time)))$
+22 Pat->Com: Is there... @-$
+23 ARI->Com: Thank you. @-$
+24 Pat->Com: ... Is there a lift to get to the cafeteria? @G(Pat, get-info(cafeteria(access)))$
+25 Com->Pat: Um no, because it's on the ground floor. @AGP(Pat, get-info(cafeteria(access)))$
+26 Pat->Com: Oh, ok. @CGP(Pat, get-info(cafeteria(access)))$
+27 Com->ARI: But could you please tell us where the lifts are? Where at the entrance are they located? @G(Com, get-info(lifts(location)))$
+28 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @AGP(Com, get-info(lifts(location)))$
+29 Com->ARI: Um, for the lifts? @G(Com, clarify(location))$
+30 ARI->Com: Yes. @-$
+31 Com->ARI: You already told me this for the cafeteria. So the lifts and the cafeteria are right next to each other? @G(Com, get-info(proximity(lifts, cafeteria)))$
+32 ARI->Com: Absolutely. @AGP(Com, get-info(proximity(lifts, cafeteria)))$
+33 Com->ARI: Oh, okay, thank you very much. @CGP(Com, get-info(proximity(lifts, cafeteria)))$
+34 ARI->Com: Thank you. @-$
+35 ARI->Pat+Com: See you around. Have a nice day. @-$

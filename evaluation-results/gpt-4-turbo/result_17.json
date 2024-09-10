@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "G(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "G(Pat+Com, get-info(rheumatology_department(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "AGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "AGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "CGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "pred": "CGP(Pat+Com, get-info(rheumatology_department(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 5,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 7,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Pat+Com, get-info(lifts(location)))",
+        "score": 0.927536231884058
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Pat+Com, get-info(lifts(location)))",
+        "score": 0.9315068493150684
+    },
+    {
+        "turn": 10,
+        "gold": "CGP(Com, get-info(lift(location)))",
+        "pred": "CGP(Pat+Com, get-info(lifts(location)))",
+        "score": 0.9315068493150684
+    },
+    {
+        "turn": 11,
+        "gold": "G(Pat+Com, go-to(lift))",
+        "pred": "-",
+        "score": 0.08333333333333333
+    },
+    {
+        "turn": 12,
+        "gold": "-",
+        "pred": "CP(Pat+Com, get-info(lifts(location)))",
+        "score": 0.05128205128205128
+    },
+    {
+        "turn": 13,
+        "gold": "-",
+        "pred": "CP(Pat, get-info(lifts(location)))",
+        "score": 0.05714285714285714
+    },
+    {
+        "turn": 14,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

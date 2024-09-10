@@ -1,0 +1,52 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[@Greeting]$
+02 Pat->ARI: Oh no, I don't want to talk to you, that's enough. @Goodbye[Refuse]$
+03 @$
+04 Com->Pat: Yes, I'd like to. @Hungry$
+05 @$
+06 Pat->ARI: My friend that I'm accompanying is very hungry. Could you tell me where to find a restaurant or a bar? @GetLocation$
+07 ARI->Com: There are a few available as part of your visit, and there's also a cafeteria on the ground. @Food$
+08 Com->AR: Thank you. @Polite$
+09 Com->AR: And how... Where is the cafeteria? @Location$
+10 ARI->Com: There's a cafeteria on the ground, near the courtyard. @Food$
+11 Com->AR: And where is the courtyard? @Location$
+12 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @Navigation$
+13 Com->AR: Good, thank you. @Polite$
+14 Pat->Com: I need to go to the toilet, do you think that's possible? @Hygiene$
+15 Com->Pat: Yes, of course. @Hygiene$
+16 Com->AR: ARI, the person that I'm accompanying really needs to go to the toilet. Can you tell me where the toilet is? @Location$
+17 ARI->Com: Very easy! You have to go to the corridor at the end of the room. @Navigation$
+18 Com->AR: Um... Is there access, is there access for disabled people? @Accessibility$
+19 ARI->Com: Yes, absolutely. @Polite$
+20 Com->AR: Good, thank you @Polite$
+21 ARI+Com: Do you need information? @Query$
+22 Pat->Com: Umm... @Umm$
+23 Com->AR: I'll ask my... the patient. @Query$
+24 Pat->Com: Umm... I have to go to an examination room, I don't know which one, where it is or what I have to do. @Navigation$
+25 Com->AR: My friend is a little bit irritated because he doesn't know where to go for his examination. He has to have a test. @Concern$
+26 ARI->Pat+Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @Hygiene$
+27 Pat->Com: Umm... No, but what are these appointments? @Query$
+28 @$
+29 Com->AR: We would still like more precise information about the examination my friend will have. Can you tell us exactly where he has to go? @Query$
+30 ARI->Pat+Com: Sorry, I don't have this information. @Hygiene$
+31 Com->ARI: Is someone going to look after him? Will a nurse or someone come and take him to his examination? @Hygiene$
+32 ARI->Com: Sorry, I don't have this information. I'll call a nurse to come and inform you. @Hygiene$
+33 Pat->Com: Does it know how a day here goes? Do we wait, do we go see someone @Query$
+34 ARI: ARI, what we do in the meantime? Because we're going to spend a whole day here, we would like to know what the schedule... @Navigation$
+35 Com->AR: I don't know the answer. Please ask at the reception. @Hygiene$
+36 Com->AR: Where is the reception? @Navigation$
+37 ARI->Com: The reception is just behind me. Remember to take a ticket on your right. @Hygiene$
+38 Pat->Com: I'm thirsty, I'm so thirsty @Hygiene$
+39 @$
+40 Com->AR: The person that I'm accompanying is very thirsty. I would really like to know where he can get water to quickly quench his thirst. @Hydration$
+41 ARI->Com: There's a coffee machine in the hallway entrance. There's a cafeteria on the ground, near the courtyard. You order hot or cold sandwiches as well as hot or cold drinks. @Food$
+42 Com->AR: He doesn't want a hot drink, he wants a bottle of water. Where can I find water to drink? @Hydration$
+43 @$
+44 Com->AR: Yes, of course. @Polite$
+45 Com->AR: Umm... The person I'm accompanying would like to get a bottle of water, to quench his thirst. Where can I buy a bottle of water? @Hydration$
+46 ARI->Com: There's a cafeteria on the ground, near the courtyard. @Food$
+47 Com->AR: And do they sell bottled water? @Hydration$
+48 Com->AR: Yes. @Polite$
+49 Com->AR: Thank you. @Polite$
+50 ARI->Com: You're welcome. @Polite$
+51 ARI+Com: How can I help you? @Query$
+52 ARI+Com: Thank you very much, see you later @Goodbye$

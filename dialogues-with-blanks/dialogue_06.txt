@@ -1,0 +1,35 @@
+01 ARI->Pat+Com: Hello, my name is ARI. How can I help you? @[BLANK]$
+02 Pat->ARI: Hello, I, I'd really like... I'm hungry. I'd really like to eat. @[BLANK]$
+03 Pat->ARI: And is the room air-conditioned? The restaurant? @[BLANK]$
+04 ARI->Pat: Yes. Of course. @[BLANK]$
+05 ARI->Pat: Lunch will be offered at midday if you have afternoon appointments. A snack may be offered after your appointment with the nurse. @[BLANK]$
+06 Pat->Com: So, do you know what I'll be eating today? @[BLANK]$
+07 Com->Pat: Oh but no, I don't know. I'm going to ask. @[BLANK]$
+08 Com->ARI: Can you tell us if there is a cafeteria? I'm looking for a cafeteria to have a coffee or a hot chocolate. @[BLANK]$
+09 ARI->Com: There are a few options available as part of your visit, and there's also a cafeteria on the ground floor. @[BLANK]$
+10 Com->ARI: Can you tell me where on the ground floor? Right, left, straight ahead? @[BLANK]$
+11 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+12 Com->ARI: Okay, thank you. @[BLANK]$
+13 Com->Pat: Um, also... @[BLANK]$
+14 Pat->Com: Um, what time can we have lunch? @[BLANK]$
+15 Com->ARI: Can you tell me the cafeteria opening hours? Are there set opening hours? @[BLANK]$
+16 ARI->Com: It's at 11 o'clock. @[BLANK]$
+17 Com->ARI: Ah, it opens at 11 o'clock? @[BLANK]$
+18 ARI->Com: Yes. @[BLANK]$
+19 Com->ARI: And what time does it close? @[BLANK]$
+20 ARI->Com: I'm sorry, I don't have this information. @[BLANK]$
+21 Com->ARI: Ah, that's a shame, thank you. @[BLANK]$
+22 Pat->Com: Is there... @[BLANK]$
+23 ARI->Com: Thank you. @[BLANK]$
+24 Pat->Com: ... Is there a lift to get to the cafeteria? @[BLANK]$
+25 Com->Pat: Um no, because it's on the ground floor. @[BLANK]$
+26 Pat->Com: Oh, ok. @[BLANK]$
+27 Com->ARI: But could you please tell us where the lifts are? Where at the entrance are they located? @[BLANK]$
+28 ARI->Com: You have to enter the second building behind you. Then it's the second door on the left. @[BLANK]$
+29 Com->ARI: Um, for the lifts? @[BLANK]$
+30 ARI->Com: Yes. @[BLANK]$
+31 Com->ARI: You already told me this for the cafeteria. So the lifts and the cafeteria are right next to each other? @[BLANK]$
+32 ARI->Com: Absolutely. @[BLANK]$
+33 Com->ARI: Oh, okay, thank you very much. @[BLANK]$
+34 ARI->Com: Thank you. @[BLANK]$
+35 ARI->Pat+Com: See you around. Have a nice day. @[BLANK]$

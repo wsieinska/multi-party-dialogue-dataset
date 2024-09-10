@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 2,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 3,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 4,
+        "gold": "G(Pat+Com, get-info(lift(location)))",
+        "pred": "G(Pat, get-info(lifts(location)))",
+        "score": 0.927536231884058
+    },
+    {
+        "turn": 5,
+        "gold": "G(Com, get-info(lift(location)))",
+        "pred": "G(Com, get-info(lifts(location)))",
+        "score": 0.9846153846153847
+    },
+    {
+        "turn": 6,
+        "gold": "-",
+        "pred": "G(Com, confirm-understanding())",
+        "score": 0.0625
+    },
+    {
+        "turn": 7,
+        "gold": "AGP(Com, get-info(lift(location)))",
+        "pred": "AGP(Com, get-info(lifts(location)))",
+        "score": 0.9855072463768116
+    },
+    {
+        "turn": 8,
+        "gold": "G(Com, get-info(lift(accessible))",
+        "pred": "G(Com, get-info(lifts(accessibility)))",
+        "score": 0.9014084507042254
+    },
+    {
+        "turn": 9,
+        "gold": "AGP(Com, get-info(lift(accessible)))",
+        "pred": "AGP(Com, get-info(lifts(accessibility)))",
+        "score": 0.9210526315789473
+    },
+    {
+        "turn": 10,
+        "gold": "G(Pat, go-to(toilet))",
+        "pred": "G(Pat, go-to(toilet))",
+        "score": 1.0
+    },
+    {
+        "turn": 11,
+        "gold": "G(Com, get-info(toilet(location)))",
+        "pred": "G(Com, get-info(toilet(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 12,
+        "gold": "AGP(Com, get-info(toilet(location)))",
+        "pred": "AGP(Com, get-info(toilet(location)))",
+        "score": 1.0
+    },
+    {
+        "turn": 13,
+        "gold": "G(Com, get-info(toilet(accessible)))",
+        "pred": "G(Com, get-info(toilet(accessibility)))",
+        "score": 0.9333333333333333
+    },
+    {
+        "turn": 14,
+        "gold": "AGP(Com, get-info(toilet(accessible)))",
+        "pred": "AGP(Com, get-info(toilet(accessibility)))",
+        "score": 0.9367088607594937
+    },
+    {
+        "turn": 15,
+        "gold": "CGP(Com, get-info(toilet(accessible)))",
+        "pred": "CGP(Com, get-info(toilet(accessibility)))",
+        "score": 0.9367088607594937
+    },
+    {
+        "turn": 16,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 17,
+        "gold": "-",
+        "pred": "CGP(Com, get-info(toilet(accessibility)))",
+        "score": 0.047619047619047616
+    },
+    {
+        "turn": 18,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 19,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 20,
+        "gold": "-",
+        "pred": "G(Com, dismiss-assistance())",
+        "score": 0.06896551724137931
+    },
+    {
+        "turn": 21,
+        "gold": "-",
+        "pred": "S(Pat, express(feeling))",
+        "score": 0.0
+    },
+    {
+        "turn": 22,
+        "gold": "-",
+        "pred": "S(Com, confirm-understanding())",
+        "score": 0.0625
+    },
+    {
+        "turn": 23,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    },
+    {
+        "turn": 24,
+        "gold": "-",
+        "pred": "-",
+        "score": 1.0
+    }
+]

@@ -1,0 +1,27 @@
+01 ARI->Pat+Com: Hello, I'm ARI the robot. Can I help you? @[BLANK]$
+02 Com->Pat: So it's... @[BLANK]$
+03 Pat->Com: Yes. So um... So um... @[BLANK]$
+04 Com->Pat: Yes? @[BLANK]$
+05 Com->ARI: I'd like to know how to get to the lift. @[BLANK]$
+06 ARI->Com: Of course. The lifts are at the entrance on the left. @[BLANK]$
+07 Pat->ARI: It's nice of you to answer us. @[BLANK]$
+08 Com->ARI: Thank you very much. @[BLANK]$
+09 Pat->ARI: Thanks ARI. @[BLANK]$
+10 Pat->Com: Maybe we could ask it if there's anything to eat? @[BLANK]$
+11 Com->Pat: Yes, yes. @[BLANK]$
+12 Com->ARI: And also, could you direct us to the cafeteria? If there is one in the hospital. @[BLANK]$
+13 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+14 Pat->ARI: But how do we get there ARI? @[BLANK]$
+15 ARI->Pat: Sorry, I don't have this information. @[BLANK]$
+16 Pat->ARI: Do we have to take the lift? @[BLANK]$
+17 ARI->Pat+Com: Sorry, I don't have this information. @[BLANK]$
+18 Com->ARI: So you don't know how to get to the cafeteria? @[BLANK]$
+19 ARI->Com: There's a cafeteria on the ground floor, near the courtyard. @[BLANK]$
+20 Com->ARI: So it's on the ground floor, isn't it? @[BLANK]$
+21 Pat->Com: Yes, that's it. @[BLANK]$
+22 ARI->Com: Yes, absolutely. @[BLANK]$
+23 Com->ARI: Can you take us there by any chance? @[BLANK]$
+24 ARI->Com: No, I'm sorry. I'll call a nurse to come and help you. @[BLANK]$
+25 Com->ARI: Thank you very much. @[BLANK]$
+26 Pat->ARI: Thank you ARI. @[BLANK]$
+27 ARI->Pat+Com: You're welcome. Have a nice day. @[BLANK]$
