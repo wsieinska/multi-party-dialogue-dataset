@@ -50,6 +50,4 @@ Predictions returned by the models can be found in the `predictions/` directory.
 
 We evaluated performance at subtask 1 by computing similarity scores between generated dialogues and dialogues from our dataset. We used `python3 difflib.SequenceMatcher` as our metric. Then, to evaluate performance at subtask 2, we extracted predicted goal annotations and compared them to gold annotations from our dataset with the use of the same metric. We used the `evaluate_predictions.py` script for evaluation. Results can be found in the `evaluation-results/` directory.
 
-However, due to the fact that the LLMs did not perform very well at (it would seem straightforward) subtask 1 (especially Llama-2-13b-chat-hf-16k), some generated dialogues needed to be slightly altered to enable automatic extraction of predicted goal annotations. These prediction files can be found in the `predictions-altered-manually-for-evaluation/`.
-
-Both altered and unaltered dialogues are available for comparison in this repository (see `predictions/` and `predictions-altered-manually-for-evaluation/`).
+However, due to the fact that the LLMs did not perform very well at (it would seem straightforward) subtask 1 (especially Llama-2-13b-chat-hf-16k), some generated dialogues needed to be slightly altered to enable automatic extraction of predicted goal annotations. These prediction files can be found in the `predictions-altered-manually-for-evaluation/` directory.
