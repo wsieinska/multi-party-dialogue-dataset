@@ -1,10 +1,28 @@
 # A Multi-party Dialogue Dataset
 
-Our dialogues can be found in the `dialogues/` directory.
+This repository contains a multi-party dialogue dataset designed for the task of dialogue goal tracking in a hospital setting. Our dialogues can be found in the `dialogues/` directory. A detailed description of our dataset can be found in our [paper](https://www.semdial.org/anthology/papers/Z/Z24/Z24-4016/).
+
+Example dialogue:
+
+|Turn|Speaker -> Addressee|Utterance|Goal Annotation|
+|:----|:----|:----|:----|
+|01 |ARI->Pat+Com |Hello, my name is ARI. How can I help you? |`@-$`|
+|02 |Com->Pat |I'm hungry. |`@G(Com, eat())$`|
+|03 |Pat->ARI |We're hungry. |`@G(Pat+Com, eat())$`|
+|04 |Com->ARI |We'd like to eat. |`@G(Pat+Com, eat())$`|
+|05 |ARI->Pat+Com |It's the most important question of the day. Are you hungry yet? You can ask my colleague in the room who is responsible for the meals. |`@AGP(Pat+Com, eat())$`|
+|06 |Pat->ARI |Ok, thank you. |`@CGP(Pat+Com, eat())$`|
+|07 |ARI->Pat |You're welcome. |`@-$`|
+|08 |ARI->Pat+Com |Is there anything else I can help you with? |`@-$`|
+|09 |Com->ARI |I'd like to go to the toilet before the consultation. |`@G(Com, go-to(toilet))$`|
+|10 |ARI->Com |Very easy! You have to go to the corridor at the end of the room. It's the second door on the right. |`@AGP(Com, go-to(toilet))$`|
+|11 |Com->ARI |Thank you. |`@CGP(Com, go-to(toilet))$`|
+|12 |ARI->Com |You're welcome. |`@-$`|
+|13 |ARI->Pat+Com |Thank you, have a nice day. |`@-$`|
 
 ## Paper title:
 
-"A Multi-party Dialogue Dataset for Dialogue Goal Tracking in a Hospital Setting and How It Can Be Used in LLM Prompt Engineering Experiments"
+_A Multi-party Dialogue Dataset for Dialogue Goal Tracking in a Hospital Setting and How It Can Be Used in LLM Prompt Engineering Experiments_
 
 ## Paper link:
 
